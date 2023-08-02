@@ -38,7 +38,13 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
     // -----------------------------------
     
     // MARK: UIViewController overrides
-    public override var prefersStatusBarHidden: Bool { return true }
+    public override var prefersStatusBarHidden: Bool {
+        return false
+    }
+    
+    public override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
     
     public override var preferredStatusBarUpdateAnimation: UIStatusBarAnimation { return .fade }
     
@@ -742,6 +748,7 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
             guard let p = self.playerView else {return}
             
             p.player = player
+            p.playerLayer.videoGravity = .resizeAspectFill
             p.play()
         }
       
@@ -773,9 +780,9 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
         lblError.alpha = 0
         lblError.translatesAutoresizingMaskIntoConstraints = false
         lblError.numberOfLines = 0
-        lblError.font = UIFont(name: "Brown-Regular", size: 16)
+        lblError.font = UIFont.systemFont(ofSize: 16)
         lblError.textColor = .white
-        lblError.text = "Bu içeriğe şu anda ulaşılamıyor, lütfen daha sonra tekrar deneyiniz."
+        lblError.text = "This content is not available now. Please try again later"
         lblError.textAlignment = .center
         
         

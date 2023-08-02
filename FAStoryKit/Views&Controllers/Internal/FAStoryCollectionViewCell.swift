@@ -37,9 +37,6 @@ internal class FAStoryCollectionViewCell: UICollectionViewCell {
     /// imageView for the defaultImage
     internal var imageView: UIImageView!
     
-    /// label for the name
-    internal var lblDisplayName: UILabel!
-    
     /// story ident
     internal var storyIdent = ""
     
@@ -88,13 +85,6 @@ internal class FAStoryCollectionViewCell: UICollectionViewCell {
     // -----------------------------------
     // Public methods
     // -----------------------------------
-    /// Sets the display name
-    public func setName(_ name: String, font: UIFont, color: UIColor) {
-        guard isUiSetupDone else {return}
-        lblDisplayName.font = font
-        lblDisplayName.textColor = color
-        lblDisplayName.text = name
-    }
     
     /// Sets the preview image
     public func setImage(_ image: UIImage) {
@@ -144,26 +134,7 @@ internal class FAStoryCollectionViewCell: UICollectionViewCell {
         imageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 1).isActive = true
         imageView.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
         
-        
-        //
-        // label setup
-        //
-        lblDisplayName = UILabel()
-        lblDisplayName.translatesAutoresizingMaskIntoConstraints = false
-        lblDisplayName.numberOfLines = 2
-        lblDisplayName.textAlignment = .center
-        lblDisplayName.backgroundColor = .clear
-        
-        contentView.addSubview(lblDisplayName)
-        
-        lblDisplayName.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: 4).isActive = true
-        lblDisplayName.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -1).isActive = true
-        lblDisplayName.centerXAnchor.constraint(equalTo: imageView.centerXAnchor).isActive = true
-        
         isUiSetupDone = true
-        
     }
-    
-    // -----------------------------------
     
 }

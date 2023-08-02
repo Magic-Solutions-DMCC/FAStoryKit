@@ -7,61 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E34101821D9BBEB0E3EEC42C1E9132E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		62D621AE2FB9FEC2C84803313B52BBD4 /* Pods-FAStoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 418A8665884BA338D7BE3D7058BA654A /* Pods-FAStoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C71980015334217553E4764779D4CA79 /* Pods-FAStoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E336DB33C9481BD7841B8D854C8964 /* Pods-FAStoryKit-dummy.m */; };
+		0C09632BE93260238BBFE419E28D3AEB /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCFCAE91058A328F217CDD3D67F0F8 /* TransitionAnimator.swift */; };
+		173330A48D318F21DAD439694ED47C96 /* FAStoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74FDCAE5E243E0335674B6791DA2FB91 /* FAStoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EAF382C1441297610FE1C88BA034190 /* FAStoryView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 04A459DCBCCAF3F382AC0202AE212872 /* FAStoryView.xib */; };
+		1FCFC57E58BD9D876AF68EB1BDB9DAC0 /* FAStoryContentNature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041AE0546DADF48BBB258149B538B85 /* FAStoryContentNature.swift */; };
+		260EFE28E94F08803228F5B2F18C1797 /* SwipeDismissInteractible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372F0CBD119D7A763806BB57E5C95CB /* SwipeDismissInteractible.swift */; };
+		2A3BDA1A55A0B1E9A44652C0172FD254 /* _UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A22022B1CE599400992FFECE80A7AB /* _UINavigationController.swift */; };
+		2A59EDD695EF27D828985F2F0ABCCF1C /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5108A037F74EAC18A9522B23440A02 /* DefaultValues.swift */; };
+		33C9860EAB89C4C1C0914017F0CF007A /* FAStoryVideoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5B45C30F6C98B85932480D2819804E /* FAStoryVideoContent.swift */; };
+		366B05E8E551A1DF16EE565AB8CA1381 /* FAStoryVcStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFA4CA45F233AA6037503B5DB8D01A3 /* FAStoryVcStack.swift */; };
+		37D756894E9431352263692806D23486 /* FAStoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C9FDDC0FDE8C64A3ADA94E1E7D218E /* FAStoryController.swift */; };
+		3B022610B55A47F4AB413DBF05AD1AC1 /* StoryIndicatorContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFFEF36839C29159655AD3010D0DE48 /* StoryIndicatorContainerView.swift */; };
+		3BDD1F0D1A706242A7654CD3FC7D1FBE /* _String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E8C3E88923E83DE5E8831A03BD9442 /* _String.swift */; };
+		3D02376FF3846B9BC43210C3D4BCB923 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718BA5E0B6B0C34C035612D77D95FECD /* DownloadService.swift */; };
+		408776225B85BD9578525A036DA295F0 /* Pods-FAStoryExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7237383331443FF6F66C3D14004028 /* Pods-FAStoryExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42EA2AFAACD699632433AD5EC93B39C6 /* FAStoryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E6DD0655079FAEDA430754ECC7B115FD /* FAStoryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44AD6457C95F4C367538C2DFB7134147 /* _CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC325A549DBFB5736A07B10E85F2E964 /* _CGFloat.swift */; };
+		44F245BC8EDDE0E1CBA136C378DE7E5B /* FAStoryContainer+TransitionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60320D34F31B5444B10C88E58BE77EE /* FAStoryContainer+TransitionCoordinator.swift */; };
+		4AD0462317832FEAE082DE86D1490A2D /* _NSNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3FF0F2CE30CE1831DD61823CC7AB98 /* _NSNotification.swift */; };
+		54B2EFF341B462B741996D79BD5E053D /* FAStoryAddible.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEEE7BC1A6E6CE5E95E04DEC2AED110 /* FAStoryAddible.swift */; };
+		5B8C7D50B4756A09A9CCEDC2DF6E9057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5C2D1707F076D0526B61CA5308491318 /* FAStoryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7CC7C0BA2ACA01B4C1642F70BE3149 /* FAStoryDelegate.swift */; };
+		602FA3A2E8C0432B7D740A2DBB04A801 /* FAPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD8BE89ADDE5EB8BDEB4F91EF311E5 /* FAPlayerView.swift */; };
+		64D472C3F89B145329F05E1FF632870D /* FAStoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE7051BE7B8416633C2B48D24CDD9B2 /* FAStoryVC.swift */; };
+		6B4FE8258F8278341E96BBBE214F3765 /* SessionDownloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1B50A9A7506664BA2FCB9B4F47FF9E /* SessionDownloadable.swift */; };
+		743F1C9A968AD5E4C8B63166C45FDA1E /* TouchProgressCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7B9B1AECBB7666F3FADEFD43C74246 /* TouchProgressCalculator.swift */; };
+		8256C3010A4ECFA30D53A33681A513B6 /* Pods-FAStoryExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 011F6366852265D0BC4B2F261695CB1E /* Pods-FAStoryExample-dummy.m */; };
+		8EDB8C5866D6CE57A75825C96548CB15 /* StoryIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CC22BF6DD2ECB552F2FD826ED4E742 /* StoryIndicatorView.swift */; };
+		9014CF1096CE9CD6F6680039112E2B28 /* _Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D5C6C72D3423A8F38B3292A29CE36 /* _Double.swift */; };
+		94F9E2A5EE0B33F7457F743423504B16 /* FAStoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90614742FBAA3D422AA35FEF4FFFB2E0 /* FAStoryDataSource.swift */; };
+		994F9DF0A0D989228F1E89C9BC517E8F /* FAStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8090960E7F8A70DF27B86D60BBA0064 /* FAStory.swift */; };
+		A0FC81E77E55A8E0065C62E91E0BFF63 /* FAStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED74DB57F69A5ABC3D37B64C06304B4E /* FAStoryView.swift */; };
+		A1879267026136665E705F2B43B11B9A /* Pods-FAStoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E3B453A3730DAF5E5045878C6E2310 /* Pods-FAStoryKit-dummy.m */; };
+		A1F8D231A8AFBE2583DA90E593A615D2 /* Pods-FAStoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78365559767000D7222E739DE90D73F8 /* Pods-FAStoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE04669516A45C5183AE48BB7F58FF33 /* FAStoryContentTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEAB9F313965F9B42717CA4BFD4A93B /* FAStoryContentTemplate.swift */; };
+		C390BEDF4EC1BBFC781D9DE3B88C1791 /* FAStoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6999A454901B9A83BD23A8E6696B186B /* FAStoryKit-dummy.m */; };
+		C41237289CFB3A2E3E11A4CCD95D3D54 /* FAStoryContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2BEDFA332F1BFA4104F1F7D577488D /* FAStoryContainerVC.swift */; };
+		CA96D6F4720BC7CCC04209527A03D332 /* FAStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33D39569F7212349B39C8C7CA265569 /* FAStoryCollectionViewCell.swift */; };
+		CDA730401B8BF415A8958E72F9EB2B7D /* FAStoryImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A8395F6A0867B7FC511D74DA093E16 /* FAStoryImageContent.swift */; };
+		CED3AD5D411EA90520A964FDD4D7D577 /* FAStoryContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B416BAA2CFF8D1C8D4D5EEE98E450A3 /* FAStoryContentType.swift */; };
+		D6C14D86029397567B9B83DDC20B4466 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D6E02D0D6ABD2401ADD4B663C103EA75 /* ExternalLinkControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364056705E5820B59268A1360BF4441 /* ExternalLinkControllerView.swift */; };
+		E7DD0E8B0323B9327407789B3A446758 /* FAStoryContentCacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924FEAC779B6C1A9AD9B24CC69EF4A0 /* FAStoryContentCacher.swift */; };
+		ECB4F9C4371F4BCD5C835D5FB1FFA958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EF88F41D120050D5CCED0E0609053B73 /* StoryContentWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FA2C74D17F1A9641FF6F9083FDBA6 /* StoryContentWrapper.swift */; };
+		F2146BCEF1F50D56946D67F32FC7BDF6 /* FAStoryTeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DFC44AD02ABBD51F3D75F8F31C87BA /* FAStoryTeller.swift */; };
+		F67E512AA6EBD589AA05D894120CFDB7 /* _FAStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730EDCF860706492D1C180C4B0DDEF47 /* _FAStory.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		ED95FA1906D79B0BFD4122402CC036D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D18C2F0609CB9EB960525D501428931E;
+			remoteInfo = FAStoryKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		038D05A82E25A234AEB9505055156764 /* Pods-FAStoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStoryKit-Info.plist"; sourceTree = "<group>"; };
-		36E336DB33C9481BD7841B8D854C8964 /* Pods-FAStoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAStoryKit-dummy.m"; sourceTree = "<group>"; };
-		418A8665884BA338D7BE3D7058BA654A /* Pods-FAStoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAStoryKit-umbrella.h"; sourceTree = "<group>"; };
-		628A56DFB9F1B98E0AE816D24DCB64F4 /* Pods_FAStoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FAStoryKit.framework; path = "Pods-FAStoryKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		011F6366852265D0BC4B2F261695CB1E /* Pods-FAStoryExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAStoryExample-dummy.m"; sourceTree = "<group>"; };
+		042D5C6C72D3423A8F38B3292A29CE36 /* _Double.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _Double.swift; path = FAStoryKit/Extensions/Internal/_Double.swift; sourceTree = "<group>"; };
+		04A459DCBCCAF3F382AC0202AE212872 /* FAStoryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FAStoryView.xib; path = FAStoryKit/NibFiles/FAStoryView.xib; sourceTree = "<group>"; };
+		0B5B45C30F6C98B85932480D2819804E /* FAStoryVideoContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryVideoContent.swift; path = "FAStoryKit/Models/Story Content Models/SupportedContents/FAStoryVideoContent.swift"; sourceTree = "<group>"; };
+		0C7CC7C0BA2ACA01B4C1642F70BE3149 /* FAStoryDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryDelegate.swift; path = FAStoryKit/Protocols/FAStoryDelegate.swift; sourceTree = "<group>"; };
+		127C0A06E5727FFB53D3F5345A2B3C17 /* FAStoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAStoryKit-prefix.pch"; sourceTree = "<group>"; };
+		18DD23BFA2B1B79C730D9EECBDBB80AA /* FAStoryKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAStoryKit.release.xcconfig; sourceTree = "<group>"; };
+		1B5645AED382D0F1EC955859484C3EC0 /* Pods-FAStoryExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAStoryExample.release.xcconfig"; sourceTree = "<group>"; };
+		1DEAB9F313965F9B42717CA4BFD4A93B /* FAStoryContentTemplate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContentTemplate.swift; path = "FAStoryKit/Models/Story Content Models/FAStoryContentTemplate.swift"; sourceTree = "<group>"; };
+		25AB6941EA770B542911647D3F1309FD /* Pods-FAStoryKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStoryKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		25DA6E295736E9958FB2BCA83FEA804D /* Pods-FAStoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FAStoryKit.modulemap"; sourceTree = "<group>"; };
+		2B416BAA2CFF8D1C8D4D5EEE98E450A3 /* FAStoryContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContentType.swift; path = "FAStoryKit/Models/Type Definitions/FAStoryContentType.swift"; sourceTree = "<group>"; };
+		2B7B9B1AECBB7666F3FADEFD43C74246 /* TouchProgressCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TouchProgressCalculator.swift; path = FAStoryKit/Models/Internal/TouchProgressCalculator.swift; sourceTree = "<group>"; };
+		30690429427849670E9E552EAC1C1A9B /* Pods-FAStoryExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAStoryExample-frameworks.sh"; sourceTree = "<group>"; };
+		34A8395F6A0867B7FC511D74DA093E16 /* FAStoryImageContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryImageContent.swift; path = "FAStoryKit/Models/Story Content Models/SupportedContents/FAStoryImageContent.swift"; sourceTree = "<group>"; };
+		35C9B85C4535558F4C7EFFFDA3A83EBC /* Pods-FAStoryExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAStoryExample.debug.xcconfig"; sourceTree = "<group>"; };
+		3D0FA2C74D17F1A9641FF6F9083FDBA6 /* StoryContentWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryContentWrapper.swift; path = FAStoryKit/Models/Internal/StoryContentWrapper.swift; sourceTree = "<group>"; };
+		40E5C41B72BBD6EDF3E9FD9AC42A2ECE /* FAStoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FAStoryKit-Info.plist"; sourceTree = "<group>"; };
+		436E8BF03B8A82DD85CC97BCD7364D9C /* Pods-FAStoryKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAStoryKit.debug.xcconfig"; sourceTree = "<group>"; };
+		443DC700993C335F193218DB1DE2B65F /* Pods-FAStoryKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAStoryKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C5108A037F74EAC18A9522B23440A02 /* DefaultValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValues.swift; path = FAStoryKit/Models/Internal/DefaultValues.swift; sourceTree = "<group>"; };
+		5B7237383331443FF6F66C3D14004028 /* Pods-FAStoryExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAStoryExample-umbrella.h"; sourceTree = "<group>"; };
+		5C2BEDFA332F1BFA4104F1F7D577488D /* FAStoryContainerVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContainerVC.swift; path = "FAStoryKit/Views&Controllers/FAStoryContainerVC.swift"; sourceTree = "<group>"; };
+		5EE7051BE7B8416633C2B48D24CDD9B2 /* FAStoryVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryVC.swift; path = "FAStoryKit/Views&Controllers/FAStoryVC.swift"; sourceTree = "<group>"; };
+		628A56DFB9F1B98E0AE816D24DCB64F4 /* Pods-FAStoryKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FAStoryKit"; path = Pods_FAStoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6542898B9B54036AFB0AC5ED4F1CF9D8 /* Pods-FAStoryExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStoryExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		6999A454901B9A83BD23A8E6696B186B /* FAStoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FAStoryKit-dummy.m"; sourceTree = "<group>"; };
+		6CCCFCAE91058A328F217CDD3D67F0F8 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = "FAStoryKit/Views&Controllers/CustomTransition/TransitionAnimator.swift"; sourceTree = "<group>"; };
+		6CFA4CA45F233AA6037503B5DB8D01A3 /* FAStoryVcStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryVcStack.swift; path = FAStoryKit/Models/FAStoryVcStack.swift; sourceTree = "<group>"; };
+		71802B1C61E01CF8C09D46E4AABCAB80 /* FAStoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FAStoryKit.modulemap; sourceTree = "<group>"; };
+		718BA5E0B6B0C34C035612D77D95FECD /* DownloadService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadService.swift; path = FAStoryKit/DownloadService/DownloadService.swift; sourceTree = "<group>"; };
+		71E3B453A3730DAF5E5045878C6E2310 /* Pods-FAStoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAStoryKit-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8C14F0B7A20415D4C2C1453BC3C5386C /* Pods-FAStoryKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAStoryKit.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9ECA719AD253E7FCAF6BE77521AB8520 /* Pods-FAStoryKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAStoryKit-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A65604C40906F52BB3A673D1D667D02F /* Pods-FAStoryKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAStoryKit.release.xcconfig"; sourceTree = "<group>"; };
-		E6E5EB73EDB204A9D87A5329B9B60724 /* Pods-FAStoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FAStoryKit.modulemap"; sourceTree = "<group>"; };
-		F5C72919420476D1C370F4A9B056A93E /* Pods-FAStoryKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStoryKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		730EDCF860706492D1C180C4B0DDEF47 /* _FAStory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _FAStory.swift; path = FAStoryKit/Extensions/_FAStory.swift; sourceTree = "<group>"; };
+		74FDCAE5E243E0335674B6791DA2FB91 /* FAStoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAStoryKit-umbrella.h"; sourceTree = "<group>"; };
+		78365559767000D7222E739DE90D73F8 /* Pods-FAStoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAStoryKit-umbrella.h"; sourceTree = "<group>"; };
+		8041AE0546DADF48BBB258149B538B85 /* FAStoryContentNature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContentNature.swift; path = "FAStoryKit/Models/Type Definitions/FAStoryContentNature.swift"; sourceTree = "<group>"; };
+		8364056705E5820B59268A1360BF4441 /* ExternalLinkControllerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExternalLinkControllerView.swift; path = "FAStoryKit/Views&Controllers/Internal/ExternalLinkControllerView.swift"; sourceTree = "<group>"; };
+		8372F0CBD119D7A763806BB57E5C95CB /* SwipeDismissInteractible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDismissInteractible.swift; path = FAStoryKit/Protocols/SwipeDismissInteractible.swift; sourceTree = "<group>"; };
+		90614742FBAA3D422AA35FEF4FFFB2E0 /* FAStoryDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryDataSource.swift; path = FAStoryKit/Protocols/FAStoryDataSource.swift; sourceTree = "<group>"; };
+		92DFC44AD02ABBD51F3D75F8F31C87BA /* FAStoryTeller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryTeller.swift; path = FAStoryKit/Protocols/FAStoryTeller.swift; sourceTree = "<group>"; };
+		9BFFEF36839C29159655AD3010D0DE48 /* StoryIndicatorContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryIndicatorContainerView.swift; path = "FAStoryKit/Views&Controllers/Internal/StoryIndicatorContainerView.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4DF49627375693D8D997DDDD7C3F20C /* FAStoryKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAStoryKit.debug.xcconfig; sourceTree = "<group>"; };
+		AC3CA298F27B37CA12603A26ED0A4F00 /* Pods-FAStoryExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FAStoryExample.modulemap"; sourceTree = "<group>"; };
+		B6A22022B1CE599400992FFECE80A7AB /* _UINavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _UINavigationController.swift; path = FAStoryKit/Extensions/Internal/_UINavigationController.swift; sourceTree = "<group>"; };
+		C2757FCBC1B1BE30E7FA0023E0EBE28A /* Pods-FAStoryExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAStoryExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4C9FDDC0FDE8C64A3ADA94E1E7D218E /* FAStoryController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryController.swift; path = FAStoryKit/Models/Internal/FAStoryController.swift; sourceTree = "<group>"; };
+		C60320D34F31B5444B10C88E58BE77EE /* FAStoryContainer+TransitionCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FAStoryContainer+TransitionCoordinator.swift"; path = "FAStoryKit/Views&Controllers/CustomTransition/FAStoryContainer+TransitionCoordinator.swift"; sourceTree = "<group>"; };
+		C8CC22BF6DD2ECB552F2FD826ED4E742 /* StoryIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryIndicatorView.swift; path = "FAStoryKit/Views&Controllers/Internal/StoryIndicatorView.swift"; sourceTree = "<group>"; };
+		CAEEE7BC1A6E6CE5E95E04DEC2AED110 /* FAStoryAddible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryAddible.swift; path = FAStoryKit/Protocols/FAStoryAddible.swift; sourceTree = "<group>"; };
+		CB1B50A9A7506664BA2FCB9B4F47FF9E /* SessionDownloadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDownloadable.swift; path = FAStoryKit/Protocols/SessionDownloadable.swift; sourceTree = "<group>"; };
+		CF48E6E8BD11DC3E39018A1A121A12E5 /* Pods-FAStoryExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FAStoryExample"; path = Pods_FAStoryExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3FF0F2CE30CE1831DD61823CC7AB98 /* _NSNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _NSNotification.swift; path = FAStoryKit/Extensions/Internal/_NSNotification.swift; sourceTree = "<group>"; };
+		DFF579BD17164C313219C9C12FC781F8 /* Pods-FAStoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStoryKit-Info.plist"; sourceTree = "<group>"; };
+		E1AD8BE89ADDE5EB8BDEB4F91EF311E5 /* FAPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAPlayerView.swift; path = "FAStoryKit/Views&Controllers/Internal/FAPlayerView.swift"; sourceTree = "<group>"; };
+		E6DD0655079FAEDA430754ECC7B115FD /* FAStoryKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAStoryKit.h; path = FAStoryKit/FAStoryKit.h; sourceTree = "<group>"; };
+		E706EA2145A897D80A88A2F5FB1768BE /* Pods-FAStoryKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAStoryKit.release.xcconfig"; sourceTree = "<group>"; };
+		E924FEAC779B6C1A9AD9B24CC69EF4A0 /* FAStoryContentCacher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContentCacher.swift; path = FAStoryKit/Protocols/FAStoryContentCacher.swift; sourceTree = "<group>"; };
+		ED74DB57F69A5ABC3D37B64C06304B4E /* FAStoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryView.swift; path = "FAStoryKit/Views&Controllers/FAStoryView.swift"; sourceTree = "<group>"; };
+		F33D39569F7212349B39C8C7CA265569 /* FAStoryCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryCollectionViewCell.swift; path = "FAStoryKit/Views&Controllers/Internal/FAStoryCollectionViewCell.swift"; sourceTree = "<group>"; };
+		F6E8C3E88923E83DE5E8831A03BD9442 /* _String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _String.swift; path = FAStoryKit/Extensions/Internal/_String.swift; sourceTree = "<group>"; };
+		F8090960E7F8A70DF27B86D60BBA0064 /* FAStory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStory.swift; path = FAStoryKit/Models/FAStory.swift; sourceTree = "<group>"; };
+		F8D6D638D57BBB3C2113F24887BA6CE8 /* Pods-FAStoryExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStoryExample-Info.plist"; sourceTree = "<group>"; };
+		FC325A549DBFB5736A07B10E85F2E964 /* _CGFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _CGFloat.swift; path = FAStoryKit/Extensions/Internal/_CGFloat.swift; sourceTree = "<group>"; };
+		FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FAStoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2459E823F0270E697240E0C955ED4FF5 /* Frameworks */ = {
+		04398E3C2D6C4A6379943CDF7FD5D39E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E34101821D9BBEB0E3EEC42C1E9132E /* Foundation.framework in Frameworks */,
+				5B8C7D50B4756A09A9CCEDC2DF6E9057 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10FFFBC3DF9962F9B1A90AF2E1B1FC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C14D86029397567B9B83DDC20B4466 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59AC82AAC5CE89D6CE0EE945F232D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB4F9C4371F4BCD5C835D5FB1FFA958 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		011F1ED92D18234F61E89B058C459134 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				628A56DFB9F1B98E0AE816D24DCB64F4 /* Pods_FAStoryKit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3A52B4B0938A819E70D811CDB44C1CC9 /* Pods-FAStoryKit */ = {
-			isa = PBXGroup;
-			children = (
-				E6E5EB73EDB204A9D87A5329B9B60724 /* Pods-FAStoryKit.modulemap */,
-				9ECA719AD253E7FCAF6BE77521AB8520 /* Pods-FAStoryKit-acknowledgements.markdown */,
-				F5C72919420476D1C370F4A9B056A93E /* Pods-FAStoryKit-acknowledgements.plist */,
-				36E336DB33C9481BD7841B8D854C8964 /* Pods-FAStoryKit-dummy.m */,
-				038D05A82E25A234AEB9505055156764 /* Pods-FAStoryKit-Info.plist */,
-				418A8665884BA338D7BE3D7058BA654A /* Pods-FAStoryKit-umbrella.h */,
-				8C14F0B7A20415D4C2C1453BC3C5386C /* Pods-FAStoryKit.debug.xcconfig */,
-				A65604C40906F52BB3A673D1D667D02F /* Pods-FAStoryKit.release.xcconfig */,
-			);
-			name = "Pods-FAStoryKit";
-			path = "Target Support Files/Pods-FAStoryKit";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,12 +170,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8ECA8D3ACC5CEC9388F2AE1DACB53B8D /* Targets Support Files */ = {
+		747DF9A58467AC3AB19390FF26D39DDB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3A52B4B0938A819E70D811CDB44C1CC9 /* Pods-FAStoryKit */,
+				F6C9404A41727F1988C724E2464DBCCB /* FAStoryKit */,
 			);
-			name = "Targets Support Files";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B61EBD914FB9EEE692F023C00EA1C077 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71802B1C61E01CF8C09D46E4AABCAB80 /* FAStoryKit.modulemap */,
+				6999A454901B9A83BD23A8E6696B186B /* FAStoryKit-dummy.m */,
+				40E5C41B72BBD6EDF3E9FD9AC42A2ECE /* FAStoryKit-Info.plist */,
+				127C0A06E5727FFB53D3F5345A2B3C17 /* FAStoryKit-prefix.pch */,
+				74FDCAE5E243E0335674B6791DA2FB91 /* FAStoryKit-umbrella.h */,
+				A4DF49627375693D8D997DDDD7C3F20C /* FAStoryKit.debug.xcconfig */,
+				18DD23BFA2B1B79C730D9EECBDBB80AA /* FAStoryKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FAStoryKit";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -83,8 +198,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				011F1ED92D18234F61E89B058C459134 /* Products */,
-				8ECA8D3ACC5CEC9388F2AE1DACB53B8D /* Targets Support Files */,
+				747DF9A58467AC3AB19390FF26D39DDB /* Pods */,
+				DCF3841F424C2B8FBF383657AB4A5CB5 /* Products */,
+				E25FA798CD5004D675D683EC5799D9A0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,36 +212,187 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DCF3841F424C2B8FBF383657AB4A5CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit.framework */,
+				CF48E6E8BD11DC3E39018A1A121A12E5 /* Pods-FAStoryExample */,
+				628A56DFB9F1B98E0AE816D24DCB64F4 /* Pods-FAStoryKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE2ADB8D2A3EEA6F6E54A494BD2E94F1 /* Pods-FAStoryExample */ = {
+			isa = PBXGroup;
+			children = (
+				AC3CA298F27B37CA12603A26ED0A4F00 /* Pods-FAStoryExample.modulemap */,
+				C2757FCBC1B1BE30E7FA0023E0EBE28A /* Pods-FAStoryExample-acknowledgements.markdown */,
+				6542898B9B54036AFB0AC5ED4F1CF9D8 /* Pods-FAStoryExample-acknowledgements.plist */,
+				011F6366852265D0BC4B2F261695CB1E /* Pods-FAStoryExample-dummy.m */,
+				30690429427849670E9E552EAC1C1A9B /* Pods-FAStoryExample-frameworks.sh */,
+				F8D6D638D57BBB3C2113F24887BA6CE8 /* Pods-FAStoryExample-Info.plist */,
+				5B7237383331443FF6F66C3D14004028 /* Pods-FAStoryExample-umbrella.h */,
+				35C9B85C4535558F4C7EFFFDA3A83EBC /* Pods-FAStoryExample.debug.xcconfig */,
+				1B5645AED382D0F1EC955859484C3EC0 /* Pods-FAStoryExample.release.xcconfig */,
+			);
+			name = "Pods-FAStoryExample";
+			path = "Target Support Files/Pods-FAStoryExample";
+			sourceTree = "<group>";
+		};
+		E25FA798CD5004D675D683EC5799D9A0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE2ADB8D2A3EEA6F6E54A494BD2E94F1 /* Pods-FAStoryExample */,
+				E7E06DE131F43864D1699FDEBC1CD945 /* Pods-FAStoryKit */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E7E06DE131F43864D1699FDEBC1CD945 /* Pods-FAStoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				25DA6E295736E9958FB2BCA83FEA804D /* Pods-FAStoryKit.modulemap */,
+				443DC700993C335F193218DB1DE2B65F /* Pods-FAStoryKit-acknowledgements.markdown */,
+				25AB6941EA770B542911647D3F1309FD /* Pods-FAStoryKit-acknowledgements.plist */,
+				71E3B453A3730DAF5E5045878C6E2310 /* Pods-FAStoryKit-dummy.m */,
+				DFF579BD17164C313219C9C12FC781F8 /* Pods-FAStoryKit-Info.plist */,
+				78365559767000D7222E739DE90D73F8 /* Pods-FAStoryKit-umbrella.h */,
+				436E8BF03B8A82DD85CC97BCD7364D9C /* Pods-FAStoryKit.debug.xcconfig */,
+				E706EA2145A897D80A88A2F5FB1768BE /* Pods-FAStoryKit.release.xcconfig */,
+			);
+			name = "Pods-FAStoryKit";
+			path = "Target Support Files/Pods-FAStoryKit";
+			sourceTree = "<group>";
+		};
+		F6C9404A41727F1988C724E2464DBCCB /* FAStoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				FC325A549DBFB5736A07B10E85F2E964 /* _CGFloat.swift */,
+				042D5C6C72D3423A8F38B3292A29CE36 /* _Double.swift */,
+				730EDCF860706492D1C180C4B0DDEF47 /* _FAStory.swift */,
+				DE3FF0F2CE30CE1831DD61823CC7AB98 /* _NSNotification.swift */,
+				F6E8C3E88923E83DE5E8831A03BD9442 /* _String.swift */,
+				B6A22022B1CE599400992FFECE80A7AB /* _UINavigationController.swift */,
+				4C5108A037F74EAC18A9522B23440A02 /* DefaultValues.swift */,
+				718BA5E0B6B0C34C035612D77D95FECD /* DownloadService.swift */,
+				8364056705E5820B59268A1360BF4441 /* ExternalLinkControllerView.swift */,
+				E1AD8BE89ADDE5EB8BDEB4F91EF311E5 /* FAPlayerView.swift */,
+				F8090960E7F8A70DF27B86D60BBA0064 /* FAStory.swift */,
+				CAEEE7BC1A6E6CE5E95E04DEC2AED110 /* FAStoryAddible.swift */,
+				F33D39569F7212349B39C8C7CA265569 /* FAStoryCollectionViewCell.swift */,
+				C60320D34F31B5444B10C88E58BE77EE /* FAStoryContainer+TransitionCoordinator.swift */,
+				5C2BEDFA332F1BFA4104F1F7D577488D /* FAStoryContainerVC.swift */,
+				E924FEAC779B6C1A9AD9B24CC69EF4A0 /* FAStoryContentCacher.swift */,
+				8041AE0546DADF48BBB258149B538B85 /* FAStoryContentNature.swift */,
+				1DEAB9F313965F9B42717CA4BFD4A93B /* FAStoryContentTemplate.swift */,
+				2B416BAA2CFF8D1C8D4D5EEE98E450A3 /* FAStoryContentType.swift */,
+				C4C9FDDC0FDE8C64A3ADA94E1E7D218E /* FAStoryController.swift */,
+				90614742FBAA3D422AA35FEF4FFFB2E0 /* FAStoryDataSource.swift */,
+				0C7CC7C0BA2ACA01B4C1642F70BE3149 /* FAStoryDelegate.swift */,
+				34A8395F6A0867B7FC511D74DA093E16 /* FAStoryImageContent.swift */,
+				E6DD0655079FAEDA430754ECC7B115FD /* FAStoryKit.h */,
+				92DFC44AD02ABBD51F3D75F8F31C87BA /* FAStoryTeller.swift */,
+				5EE7051BE7B8416633C2B48D24CDD9B2 /* FAStoryVC.swift */,
+				6CFA4CA45F233AA6037503B5DB8D01A3 /* FAStoryVcStack.swift */,
+				0B5B45C30F6C98B85932480D2819804E /* FAStoryVideoContent.swift */,
+				ED74DB57F69A5ABC3D37B64C06304B4E /* FAStoryView.swift */,
+				04A459DCBCCAF3F382AC0202AE212872 /* FAStoryView.xib */,
+				CB1B50A9A7506664BA2FCB9B4F47FF9E /* SessionDownloadable.swift */,
+				3D0FA2C74D17F1A9641FF6F9083FDBA6 /* StoryContentWrapper.swift */,
+				9BFFEF36839C29159655AD3010D0DE48 /* StoryIndicatorContainerView.swift */,
+				C8CC22BF6DD2ECB552F2FD826ED4E742 /* StoryIndicatorView.swift */,
+				8372F0CBD119D7A763806BB57E5C95CB /* SwipeDismissInteractible.swift */,
+				2B7B9B1AECBB7666F3FADEFD43C74246 /* TouchProgressCalculator.swift */,
+				6CCCFCAE91058A328F217CDD3D67F0F8 /* TransitionAnimator.swift */,
+				B61EBD914FB9EEE692F023C00EA1C077 /* Support Files */,
+			);
+			path = FAStoryKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		580ABE01B05B900AACE4FC044045AAD2 /* Headers */ = {
+		31619B247F12BFEC0F81C9818A5A524C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62D621AE2FB9FEC2C84803313B52BBD4 /* Pods-FAStoryKit-umbrella.h in Headers */,
+				A1F8D231A8AFBE2583DA90E593A615D2 /* Pods-FAStoryKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2565DD3CABCF0A9A5C20C5CA2977126 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EA2AFAACD699632433AD5EC93B39C6 /* FAStoryKit.h in Headers */,
+				173330A48D318F21DAD439694ED47C96 /* FAStoryKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EF51C6B287A2D48458DD64B258BB1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408776225B85BD9578525A036DA295F0 /* Pods-FAStoryExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2B6E58E2C05D9FB1FA9A75F73FE19064 /* Pods-FAStoryExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBB7019BE4CFADFF51ED7E8DCC6D39D /* Build configuration list for PBXNativeTarget "Pods-FAStoryExample" */;
+			buildPhases = (
+				F9EF51C6B287A2D48458DD64B258BB1A /* Headers */,
+				98DDA196B30D6B5F1A526429CCB1B566 /* Sources */,
+				A10FFFBC3DF9962F9B1A90AF2E1B1FC7 /* Frameworks */,
+				39626E11E16B658490AFD2AF56F49A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8FA2A38C88A78F2022EAE046A025668 /* PBXTargetDependency */,
+			);
+			name = "Pods-FAStoryExample";
+			productName = Pods_FAStoryExample;
+			productReference = CF48E6E8BD11DC3E39018A1A121A12E5 /* Pods-FAStoryExample */;
+			productType = "com.apple.product-type.framework";
+		};
 		7735E48EF834089268CD58823A031D13 /* Pods-FAStoryKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37F6B31BCCAEAA2A627A7E807B32D650 /* Build configuration list for PBXNativeTarget "Pods-FAStoryKit" */;
+			buildConfigurationList = 170445C2B8801D65B81A086C7376F79E /* Build configuration list for PBXNativeTarget "Pods-FAStoryKit" */;
 			buildPhases = (
-				580ABE01B05B900AACE4FC044045AAD2 /* Headers */,
-				3A892E2E318995002F053751FBE453FA /* Sources */,
-				2459E823F0270E697240E0C955ED4FF5 /* Frameworks */,
-				EC6FDC01F58BFC48D461A654AB75A7AA /* Resources */,
+				31619B247F12BFEC0F81C9818A5A524C /* Headers */,
+				A0B9F7B979708CEB63C2FD81F71E4B32 /* Sources */,
+				A59AC82AAC5CE89D6CE0EE945F232D1B /* Frameworks */,
+				4B9F5D1E2D2E05450717977878B899A0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Pods-FAStoryKit";
-			productName = "Pods-FAStoryKit";
-			productReference = 628A56DFB9F1B98E0AE816D24DCB64F4 /* Pods_FAStoryKit.framework */;
+			productName = Pods_FAStoryKit;
+			productReference = 628A56DFB9F1B98E0AE816D24DCB64F4 /* Pods-FAStoryKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		D18C2F0609CB9EB960525D501428931E /* FAStoryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D82CC13E7B9470DFAF96F735BCB9A5 /* Build configuration list for PBXNativeTarget "FAStoryKit" */;
+			buildPhases = (
+				B2565DD3CABCF0A9A5C20C5CA2977126 /* Headers */,
+				2865338782CCE424BE4B9C1EB9113016 /* Sources */,
+				04398E3C2D6C4A6379943CDF7FD5D39E /* Frameworks */,
+				2B5FEF4BDC67DD4FF540CFA1F6A9A66E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FAStoryKit;
+			productName = FAStoryKit;
+			productReference = FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -134,29 +401,45 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 011F1ED92D18234F61E89B058C459134 /* Products */;
+			productRefGroup = DCF3841F424C2B8FBF383657AB4A5CB5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				D18C2F0609CB9EB960525D501428931E /* FAStoryKit */,
+				2B6E58E2C05D9FB1FA9A75F73FE19064 /* Pods-FAStoryExample */,
 				7735E48EF834089268CD58823A031D13 /* Pods-FAStoryKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EC6FDC01F58BFC48D461A654AB75A7AA /* Resources */ = {
+		2B5FEF4BDC67DD4FF540CFA1F6A9A66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39626E11E16B658490AFD2AF56F49A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9F5D1E2D2E05450717977878B899A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,17 +449,186 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3A892E2E318995002F053751FBE453FA /* Sources */ = {
+		2865338782CCE424BE4B9C1EB9113016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C71980015334217553E4764779D4CA79 /* Pods-FAStoryKit-dummy.m in Sources */,
+				44AD6457C95F4C367538C2DFB7134147 /* _CGFloat.swift in Sources */,
+				9014CF1096CE9CD6F6680039112E2B28 /* _Double.swift in Sources */,
+				F67E512AA6EBD589AA05D894120CFDB7 /* _FAStory.swift in Sources */,
+				4AD0462317832FEAE082DE86D1490A2D /* _NSNotification.swift in Sources */,
+				3BDD1F0D1A706242A7654CD3FC7D1FBE /* _String.swift in Sources */,
+				2A3BDA1A55A0B1E9A44652C0172FD254 /* _UINavigationController.swift in Sources */,
+				2A59EDD695EF27D828985F2F0ABCCF1C /* DefaultValues.swift in Sources */,
+				3D02376FF3846B9BC43210C3D4BCB923 /* DownloadService.swift in Sources */,
+				D6E02D0D6ABD2401ADD4B663C103EA75 /* ExternalLinkControllerView.swift in Sources */,
+				602FA3A2E8C0432B7D740A2DBB04A801 /* FAPlayerView.swift in Sources */,
+				994F9DF0A0D989228F1E89C9BC517E8F /* FAStory.swift in Sources */,
+				54B2EFF341B462B741996D79BD5E053D /* FAStoryAddible.swift in Sources */,
+				CA96D6F4720BC7CCC04209527A03D332 /* FAStoryCollectionViewCell.swift in Sources */,
+				44F245BC8EDDE0E1CBA136C378DE7E5B /* FAStoryContainer+TransitionCoordinator.swift in Sources */,
+				C41237289CFB3A2E3E11A4CCD95D3D54 /* FAStoryContainerVC.swift in Sources */,
+				E7DD0E8B0323B9327407789B3A446758 /* FAStoryContentCacher.swift in Sources */,
+				1FCFC57E58BD9D876AF68EB1BDB9DAC0 /* FAStoryContentNature.swift in Sources */,
+				BE04669516A45C5183AE48BB7F58FF33 /* FAStoryContentTemplate.swift in Sources */,
+				CED3AD5D411EA90520A964FDD4D7D577 /* FAStoryContentType.swift in Sources */,
+				37D756894E9431352263692806D23486 /* FAStoryController.swift in Sources */,
+				94F9E2A5EE0B33F7457F743423504B16 /* FAStoryDataSource.swift in Sources */,
+				5C2D1707F076D0526B61CA5308491318 /* FAStoryDelegate.swift in Sources */,
+				CDA730401B8BF415A8958E72F9EB2B7D /* FAStoryImageContent.swift in Sources */,
+				C390BEDF4EC1BBFC781D9DE3B88C1791 /* FAStoryKit-dummy.m in Sources */,
+				F2146BCEF1F50D56946D67F32FC7BDF6 /* FAStoryTeller.swift in Sources */,
+				64D472C3F89B145329F05E1FF632870D /* FAStoryVC.swift in Sources */,
+				366B05E8E551A1DF16EE565AB8CA1381 /* FAStoryVcStack.swift in Sources */,
+				33C9860EAB89C4C1C0914017F0CF007A /* FAStoryVideoContent.swift in Sources */,
+				A0FC81E77E55A8E0065C62E91E0BFF63 /* FAStoryView.swift in Sources */,
+				1EAF382C1441297610FE1C88BA034190 /* FAStoryView.xib in Sources */,
+				6B4FE8258F8278341E96BBBE214F3765 /* SessionDownloadable.swift in Sources */,
+				EF88F41D120050D5CCED0E0609053B73 /* StoryContentWrapper.swift in Sources */,
+				3B022610B55A47F4AB413DBF05AD1AC1 /* StoryIndicatorContainerView.swift in Sources */,
+				8EDB8C5866D6CE57A75825C96548CB15 /* StoryIndicatorView.swift in Sources */,
+				260EFE28E94F08803228F5B2F18C1797 /* SwipeDismissInteractible.swift in Sources */,
+				743F1C9A968AD5E4C8B63166C45FDA1E /* TouchProgressCalculator.swift in Sources */,
+				0C09632BE93260238BBFE419E28D3AEB /* TransitionAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DDA196B30D6B5F1A526429CCB1B566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8256C3010A4ECFA30D53A33681A513B6 /* Pods-FAStoryExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B9F7B979708CEB63C2FD81F71E4B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1879267026136665E705F2B43B11B9A /* Pods-FAStoryKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F8FA2A38C88A78F2022EAE046A025668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FAStoryKit;
+			target = D18C2F0609CB9EB960525D501428931E /* FAStoryKit */;
+			targetProxy = ED95FA1906D79B0BFD4122402CC036D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		27D16A295EB0E4632D19737C54D7C8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436E8BF03B8A82DD85CC97BCD7364D9C /* Pods-FAStoryKit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FAStoryKit/Pods-FAStoryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAStoryKit/Pods-FAStoryKit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D33FE70171C67D0B57715C9161AAADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4DF49627375693D8D997DDDD7C3F20C /* FAStoryKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FAStoryKit/FAStoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FAStoryKit/FAStoryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FAStoryKit/FAStoryKit.modulemap";
+				PRODUCT_MODULE_NAME = FAStoryKit;
+				PRODUCT_NAME = FAStoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D4C5ABAC6A694154073D25A36B843DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18DD23BFA2B1B79C730D9EECBDBB80AA /* FAStoryKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FAStoryKit/FAStoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FAStoryKit/FAStoryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FAStoryKit/FAStoryKit.modulemap";
+				PRODUCT_MODULE_NAME = FAStoryKit;
+				PRODUCT_NAME = FAStoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -239,46 +691,9 @@
 			};
 			name = Release;
 		};
-		8F1C2533E190D106DA2AF33933A45C01 /* Debug */ = {
+		9C609547C1966C59D2795E1B4A3043DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C14F0B7A20415D4C2C1453BC3C5386C /* Pods-FAStoryKit.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FAStoryKit/Pods-FAStoryKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FAStoryKit/Pods-FAStoryKit.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BE64760ABB7848EF78FF531D095F5F06 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A65604C40906F52BB3A673D1D667D02F /* Pods-FAStoryKit.release.xcconfig */;
+			baseConfigurationReference = E706EA2145A897D80A88A2F5FB1768BE /* Pods-FAStoryKit.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -313,6 +728,43 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		C5D1A2F32DFA32742616D0C17F7E254F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C9B85C4535558F4C7EFFFDA3A83EBC /* Pods-FAStoryExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FAStoryExample/Pods-FAStoryExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAStoryExample/Pods-FAStoryExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -380,14 +832,61 @@
 			};
 			name = Debug;
 		};
+		F7C6B5071DE8CA98594538CEF176C62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5645AED382D0F1EC955859484C3EC0 /* Pods-FAStoryExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FAStoryExample/Pods-FAStoryExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAStoryExample/Pods-FAStoryExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37F6B31BCCAEAA2A627A7E807B32D650 /* Build configuration list for PBXNativeTarget "Pods-FAStoryKit" */ = {
+		170445C2B8801D65B81A086C7376F79E /* Build configuration list for PBXNativeTarget "Pods-FAStoryKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F1C2533E190D106DA2AF33933A45C01 /* Debug */,
-				BE64760ABB7848EF78FF531D095F5F06 /* Release */,
+				27D16A295EB0E4632D19737C54D7C8B3 /* Debug */,
+				9C609547C1966C59D2795E1B4A3043DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37D82CC13E7B9470DFAF96F735BCB9A5 /* Build configuration list for PBXNativeTarget "FAStoryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D33FE70171C67D0B57715C9161AAADA /* Debug */,
+				4D4C5ABAC6A694154073D25A36B843DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -397,6 +896,15 @@
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBB7019BE4CFADFF51ED7E8DCC6D39D /* Build configuration list for PBXNativeTarget "Pods-FAStoryExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D1A2F32DFA32742616D0C17F7E254F /* Debug */,
+				F7C6B5071DE8CA98594538CEF176C62F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
