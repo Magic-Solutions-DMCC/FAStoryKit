@@ -143,6 +143,10 @@ extension StoryVC: FAStoryDelegate, FAStoryViewControllerDelegate {
         return 16
     }
     
+    var frameImage: UIImage? {
+        return UIImage(named: "Frame")
+    }
+    
 }
 
 

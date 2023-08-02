@@ -357,6 +357,7 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
        
         imgViewPreview.image = story.previewImage
         lblTitle.title = story.name
+        btnDismiss.setImage(delegate?.dismissButtonImage(), for: .normal)
         
         // indicators
         // configure the indicators with a new set
@@ -514,32 +515,14 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
         btnDismiss.backgroundColor = .clear
         btnDismiss.tintColor = .white
         btnDismiss.contentMode = .scaleAspectFit
-        if let image = delegate?.dismissButtonImage() {
-            let imgView = UIImageView()
-            imgView.translatesAutoresizingMaskIntoConstraints = false
-            imgView.backgroundColor = .clear
-            imgView.tintColor = .white
-            imgView.image = image
-            imgView.contentMode = .scaleAspectFill
-            //
-            btnDismiss.addSubview(imgView)
-            //
-            imgView.widthAnchor.constraint(equalTo: btnDismiss.widthAnchor, multiplier: 0.5).isActive = true
-            imgView.heightAnchor.constraint(equalTo: btnDismiss.heightAnchor, multiplier: 0.5).isActive = true
-            imgView.centerXAnchor.constraint(equalTo: btnDismiss.centerXAnchor).isActive = true
-            imgView.centerYAnchor.constraint(equalTo: btnDismiss.centerYAnchor).isActive = true
-        }
-        
         
         headerView.addSubview(btnDismiss)
-        
+
         btnDismiss.widthAnchor.constraint(equalToConstant: 40).isActive = true
         btnDismiss.heightAnchor.constraint(equalToConstant: 40).isActive = true
         btnDismiss.trailingAnchor.constraint(equalTo: headerView.trailingAnchor).isActive = true
         btnDismiss.centerYAnchor.constraint(equalTo: imgViewPreview.centerYAnchor).isActive = true
         btnDismiss.addTarget(self, action: #selector(_dismiss), for: .touchUpInside)
-        
-        containerView.bringSubviewToFront(btnDismiss)
         
         overlayView = UIView()
         overlayView.translatesAutoresizingMaskIntoConstraints = false
