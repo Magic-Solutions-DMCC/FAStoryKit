@@ -24,9 +24,6 @@ public protocol FAStoryDelegate: AnyObject {
     /// cornerRadius
     var cornerRadius: CGFloat {get}
     
-    /// close image
-    var closeImage: UIImage? { get }
-    
     /// frame image
     var frameImage: UIImage? { get }
     
@@ -62,10 +59,6 @@ public extension FAStoryDelegate {
     /// cornerRadius
     var cornerRadius: CGFloat {
         return DefaultValues.shared.cornerRadius
-    }
-    
-    var closeImage: UIImage? {
-        return DefaultValues.shared.closeImage
     }
     
     var frameImage: UIImage? {

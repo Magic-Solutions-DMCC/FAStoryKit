@@ -130,44 +130,17 @@ class StoryVC: UIViewController, TransitionTransparencyProxy {
 // MARK: FAStoryDelegate, FAStoryViewControllerDelegate
 // ==================================================== //
 extension StoryVC: FAStoryDelegate, FAStoryViewControllerDelegate {
-    var borderColorUnseen: UIColor? {
-        UIColor.blue.withAlphaComponent(0.5)
-    }
-    
-    var borderColorSeen: UIColor? {
-        .clear
-    }
-    
-    var cellHeight: CGFloat {
-        return 147
-    }
-    
-    var cellAspectRatio: CGFloat {
-        return 0.75
-    }
-    
-    var displayNameColor: UIColor {
-        return .black
-    }
-    
+
     func didSelect(row: Int) {
         _presentStoryVc(at: row)
     }
     
     func dismissButtonImage() -> UIImage? {
-        return UIImage(named: "dk_close")?.withRenderingMode(.alwaysTemplate)
+        return UIImage(named: "Close")?.withRenderingMode(.alwaysTemplate)
     }
-    
-    var borderColor: UIColor? {
-        return nil
-    }
-    
-    var borderWidth: CGFloat? {
-        return 0
-    }
-    
+
     var cellHorizontalSpacing: CGFloat {
-        return 20
+        return 16
     }
     
 }

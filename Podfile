@@ -6,7 +6,7 @@ target 'FAStoryExample' do
   use_frameworks!
 
   # Pods for FAStoryExample
-  pod 'FAStoryKit', :git => 'https://github.com/Magic-Solutions-DMCC/FAStoryKit', :commit => '5eb0a7db98a8c562e0cb7e56ec479ada8347e37e'
+  pod 'FAStoryKit', :git => 'https://github.com/Magic-Solutions-DMCC/FAStoryKit', :commit => '844afa1d7e73832bcae62fa92b176dd3aedcdb9c'
 
 end
 

@@ -36,10 +36,6 @@ internal class DefaultValues: FAStoryDelegate {
         return cellWidth * 0.16
     }
     
-    var closeImage: UIImage? {
-        return UIImage()
-    }
-    
     func didSelect(row: Int) {  }
     
     func verticalCellPadding() -> CGFloat {

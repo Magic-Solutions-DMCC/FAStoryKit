@@ -183,7 +183,6 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
         super.viewDidLoad()
         _init()
         _configUI()
-        _gradSetup()
         
         //
         // Prepeare the dismiss interactor in case
@@ -470,26 +469,6 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
         return [0.4,  0.9]
     }
     
-     /// Gradient setup
-    private func _gradSetup() {
-        headerGradientLayer.startPoint = CGPoint(x: 0.6, y: 0)
-        headerGradientLayer.endPoint = CGPoint(x: 0.6, y: 1)
-        
-        let colors = _getColors()
-        headerGradientLayer.colors = colors
-        headerGradientLayer.isOpaque = false
-        headerGradientLayer.locations = nil//_getLocations() as [NSNumber]?
-    }
-    
-   
-    /// Method to add the gradient layer
-    private func _addGradientLayer(){
-        if headerGradientLayer.superlayer == nil {
-            headerGradientLayer.frame = overlayView.layer.bounds
-            overlayView.layer.addSublayer(headerGradientLayer)
-        }
-    }
-    
     /// preview header setup
     private func _header() {
         // header container
@@ -546,23 +525,18 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
             //
             btnDismiss.addSubview(imgView)
             //
-            imgView.widthAnchor.constraint(equalTo: btnDismiss.widthAnchor, multiplier: 0.4).isActive = true
-            imgView.heightAnchor.constraint(equalTo: btnDismiss.heightAnchor, multiplier: 0.4).isActive = true
+            imgView.widthAnchor.constraint(equalTo: btnDismiss.widthAnchor, multiplier: 0.5).isActive = true
+            imgView.heightAnchor.constraint(equalTo: btnDismiss.heightAnchor, multiplier: 0.5).isActive = true
             imgView.centerXAnchor.constraint(equalTo: btnDismiss.centerXAnchor).isActive = true
             imgView.centerYAnchor.constraint(equalTo: btnDismiss.centerYAnchor).isActive = true
-    
-        } else {
-            btnDismiss.setTitle("X", for: .normal)
         }
-        btnDismiss.titleLabel?.font = UIFont.systemFont(ofSize: 24)
-        btnDismiss.titleLabel?.textAlignment = .center
         
         
         headerView.addSubview(btnDismiss)
         
         btnDismiss.widthAnchor.constraint(equalToConstant: 40).isActive = true
         btnDismiss.heightAnchor.constraint(equalToConstant: 40).isActive = true
-        btnDismiss.trailingAnchor.constraint(equalTo: headerView.trailingAnchor, constant: -4).isActive = true
+        btnDismiss.trailingAnchor.constraint(equalTo: headerView.trailingAnchor).isActive = true
         btnDismiss.centerYAnchor.constraint(equalTo: imgViewPreview.centerYAnchor).isActive = true
         btnDismiss.addTarget(self, action: #selector(_dismiss), for: .touchUpInside)
         
