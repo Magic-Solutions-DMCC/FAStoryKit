@@ -108,7 +108,7 @@
 		90614742FBAA3D422AA35FEF4FFFB2E0 /* FAStoryDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryDataSource.swift; path = FAStoryKit/Protocols/FAStoryDataSource.swift; sourceTree = "<group>"; };
 		92DFC44AD02ABBD51F3D75F8F31C87BA /* FAStoryTeller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryTeller.swift; path = FAStoryKit/Protocols/FAStoryTeller.swift; sourceTree = "<group>"; };
 		9BFFEF36839C29159655AD3010D0DE48 /* StoryIndicatorContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryIndicatorContainerView.swift; path = "FAStoryKit/Views&Controllers/Internal/StoryIndicatorContainerView.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4DF49627375693D8D997DDDD7C3F20C /* FAStoryKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAStoryKit.debug.xcconfig; sourceTree = "<group>"; };
 		AC3CA298F27B37CA12603A26ED0A4F00 /* Pods-FAStoryExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FAStoryExample.modulemap"; sourceTree = "<group>"; };
 		B6A22022B1CE599400992FFECE80A7AB /* _UINavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _UINavigationController.swift; path = FAStoryKit/Extensions/Internal/_UINavigationController.swift; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 		F8090960E7F8A70DF27B86D60BBA0064 /* FAStory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStory.swift; path = FAStoryKit/Models/FAStory.swift; sourceTree = "<group>"; };
 		F8D6D638D57BBB3C2113F24887BA6CE8 /* Pods-FAStoryExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStoryExample-Info.plist"; sourceTree = "<group>"; };
 		FC325A549DBFB5736A07B10E85F2E964 /* _CGFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _CGFloat.swift; path = FAStoryKit/Extensions/Internal/_CGFloat.swift; sourceTree = "<group>"; };
-		FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FAStoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FAStoryKit; path = FAStoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,7 +215,7 @@
 		DCF3841F424C2B8FBF383657AB4A5CB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit.framework */,
+				FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit */,
 				CF48E6E8BD11DC3E39018A1A121A12E5 /* Pods-FAStoryExample */,
 				628A56DFB9F1B98E0AE816D24DCB64F4 /* Pods-FAStoryKit */,
 			);
@@ -306,6 +306,7 @@
 				6CCCFCAE91058A328F217CDD3D67F0F8 /* TransitionAnimator.swift */,
 				B61EBD914FB9EEE692F023C00EA1C077 /* Support Files */,
 			);
+			name = FAStoryKit;
 			path = FAStoryKit;
 			sourceTree = "<group>";
 		};
@@ -392,7 +393,7 @@
 			);
 			name = FAStoryKit;
 			productName = FAStoryKit;
-			productReference = FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit.framework */;
+			productReference = FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -574,7 +575,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FAStoryKit/FAStoryKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FAStoryKit/FAStoryKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -609,7 +610,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FAStoryKit/FAStoryKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FAStoryKit/FAStoryKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
