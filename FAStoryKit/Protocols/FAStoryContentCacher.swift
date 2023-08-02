@@ -126,10 +126,7 @@ public extension FAStoryContentCacher {
     
     func dlProgress(_ progress: Float) {
         self.downloadProgress = progress
-        print("dl progress: \(progress)")
     }
     
-    func dlError(err: Error?, errType: DonwloadServiceErrorsEnum) {
-        print("dl error")
-    }
+    func dlError(err: Error?, errType: DonwloadServiceErrorsEnum) {}
 }

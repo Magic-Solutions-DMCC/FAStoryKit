@@ -93,7 +93,6 @@ public class FAStoryContainer: UINavigationController, SwipeDismissInteractibleN
     }
     
     deinit {
-        print("DeInit: FAStoryContainerVC")
         FAStoryVcStack.shared.clear()
     }
     

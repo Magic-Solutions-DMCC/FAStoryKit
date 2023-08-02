@@ -104,7 +104,6 @@ public class DownloadService: NSObject {
     init?(url: URL, username: String?, password: String?, filename: String?, fileType: String?, middleFolder: String?=nil) {
         if url.absoluteString.isEmpty {
             self.delegate?.dlError(err: nil, errType: .sessionCantBeCreated)
-            print("Download Service: Url is empty")
             return nil
         } else {
             // Check the user credentials info -> both should be empty or both should has information
@@ -116,7 +115,6 @@ public class DownloadService: NSObject {
                 self.logInRequired = true
             } else {
                 self.delegate?.dlError(err: nil, errType: .sessionCantBeCreated)
-                print("Download Service: Invalid credentials - check the parameters")
                 return nil
             }
             //
@@ -166,7 +164,6 @@ public class DownloadService: NSObject {
             do {
                 try fileManager?.removeItem(atPath: tmpPath)
             } catch {
-                print("File cannot be removed!")
                 self.delegate?.dlError(err: error, errType: .fileCantBeRemoved)  // Notify the delegate
                 self.urlSession.invalidateAndCancel()
                 return
@@ -178,7 +175,6 @@ public class DownloadService: NSObject {
             try fileManager.moveItem(atPath: src, toPath: tmpPath)
             self.delegate?.dlComplete(toPath: tmpPath)
         } catch {
-            print(error.localizedDescription)
             self.delegate?.dlError(err: error, errType: .fileCantBeCopied)
             self.urlSession.invalidateAndCancel()
         }
@@ -192,7 +188,6 @@ public class DownloadService: NSObject {
         DispatchQueue.main.async {
             UIApplication.shared.isNetworkActivityIndicatorVisible = false
         }
-        print("DeInit: DownloadService")
     }
     
 } /* DownloadService */
@@ -212,7 +207,6 @@ extension DownloadService: URLSessionDelegate, URLSessionTaskDelegate, URLSessio
     
     public func urlSession(_ session: URLSession, didBecomeInvalidWithError error: Error?) {
         if let err = error?.localizedDescription { // An error has occured
-            print(err)
             self.delegate?.dlError(err: error, errType: .urlSessionError)
             self.urlSession.invalidateAndCancel()
             DispatchQueue.main.async {
@@ -229,7 +223,6 @@ extension DownloadService: URLSessionDelegate, URLSessionTaskDelegate, URLSessio
     
     public func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
         if error != nil { // An error has occurred
-            print(error?.localizedDescription as Any)
             self.delegate?.dlError(err: error, errType: .urlSessionError)
             self.urlSession.invalidateAndCancel()
             DispatchQueue.main.async {

@@ -81,7 +81,7 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
     // Internal properties
     // -----------------------------------
     /// header height
-    internal var headerHeight: CGFloat = 60
+    internal var headerHeight: CGFloat = 40
     
     
     // -----------------------------------
@@ -112,7 +112,7 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
     private var btnDismiss: UIButton!
     
     /// title label
-    private var lblTitle: UILabel!
+    private var lblTitle: FABadgeView!
     
     /// story count indicator
     private var currentStoryIndicator: StoryIndicatorContainerView!
@@ -174,7 +174,6 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
     // ==================================================== //
     deinit {
         storyController?.stop()
-        print("DeInit: FAStoryViewController")
     }
     
     // ==================================================== //
@@ -270,8 +269,6 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
     func storyAssetDownloadCompleted<Asset>(_ asset: FAStoryAsset<Asset>) { }
     
     func storyAssetChanged<Asset>(_ asset: FAStoryAsset<Asset>?) {
-        print("story content changed")
-        
         _hideActivity()
         
         if let a = asset as? FAStoryAsset<UIImage> {
@@ -361,7 +358,7 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
         guard story != nil else {return}
        
         imgViewPreview.image = story.previewImage
-        lblTitle.text = story.name
+        lblTitle.title = story.name
         
         // indicators
         // configure the indicators with a new set
@@ -454,9 +451,9 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
         currentStoryIndicator = StoryIndicatorContainerView()
         containerView.addSubview(currentStoryIndicator)
         currentStoryIndicator.heightAnchor.constraint(equalToConstant: 4).isActive = true
-        currentStoryIndicator.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 2).isActive = true
-        currentStoryIndicator.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -2).isActive = true
-        currentStoryIndicator.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 8).isActive = true
+        currentStoryIndicator.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 12).isActive = true
+        currentStoryIndicator.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -12).isActive = true
+        currentStoryIndicator.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 15).isActive = true
         
     }
     
@@ -502,9 +499,9 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
         
         containerView.addSubview(headerView)
         
-        headerView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor).isActive = true
-        headerView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor).isActive = true
-        headerView.topAnchor.constraint(equalTo: containerView.topAnchor).isActive = true
+        headerView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 15).isActive = true
+        headerView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -15).isActive = true
+        headerView.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 30).isActive = true
         headerView.heightAnchor.constraint(equalToConstant: headerHeight).isActive = true
         
         // imageView
@@ -514,6 +511,8 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
         imgViewPreview.contentMode = .scaleAspectFill
         imgViewPreview.clipsToBounds = true
         imgViewPreview.layer.masksToBounds = true
+        imgViewPreview.layer.borderColor = UIColor.white.cgColor
+        imgViewPreview.layer.borderWidth = 2
         
         headerView.addSubview(imgViewPreview)
         
@@ -523,18 +522,12 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
         imgViewPreview.heightAnchor.constraint(equalTo: imgViewPreview.widthAnchor).isActive = true
         
         // title label
-        lblTitle = UILabel()
+        lblTitle = FABadgeView()
         lblTitle.translatesAutoresizingMaskIntoConstraints = false
-        lblTitle.backgroundColor = .clear
-        lblTitle.textColor = .white
-        lblTitle.font = UIFont(name: "Brown-Regular", size: 16)
-        lblTitle.textAlignment = .left
-        lblTitle.numberOfLines = 1
         
         headerView.addSubview(lblTitle)
         
-        lblTitle.leadingAnchor.constraint(equalTo: imgViewPreview.trailingAnchor, constant: 12).isActive = true
-        lblTitle.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        lblTitle.leadingAnchor.constraint(equalTo: imgViewPreview.trailingAnchor, constant: 9).isActive = true
         lblTitle.centerYAnchor.constraint(equalTo: imgViewPreview.centerYAnchor).isActive = true
         
         // dismiss button
@@ -585,7 +578,6 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
         overlayView.trailingAnchor.constraint(equalTo: headerView.trailingAnchor).isActive = true
         overlayView.topAnchor.constraint(equalTo: headerView.topAnchor).isActive = true
         overlayView.bottomAnchor.constraint(equalTo: headerView.bottomAnchor).isActive = true
-    
     }
     
     

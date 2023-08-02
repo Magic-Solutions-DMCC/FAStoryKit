@@ -15,23 +15,17 @@ public protocol FAStoryDelegate: AnyObject {
     /// cell height
     var cellHeight: CGFloat {get}
     
+    /// cell width
+    var cellWidth: CGFloat {get}
+    
     /// cell aspect ratio
     var cellAspectRatio: CGFloat {get}
     
-    /// display name font
-    var displayNameFont: UIFont {get}
+    /// cornerRadius
+    var cornerRadius: CGFloat {get}
     
-    /// display name color
-    var displayNameColor: UIColor {get}
-    
-    /// borderWidth
-    var borderWidth: CGFloat? {get}
-    
-    /// borderColor for a story that's not seen
-    var borderColorUnseen: UIColor? {get}
-    
-    /// borderColor for a story that's seen
-    var borderColorSeen: UIColor? {get}
+    /// close image
+    var closeImage: UIImage? { get }
     
     /// vertical cell padding
     func verticalCellPadding() -> CGFloat
@@ -49,6 +43,11 @@ public extension FAStoryDelegate {
     
     /// cell width
     var cellHeight: CGFloat {
+        return DefaultValues.shared.cellHeight
+    }
+    
+    /// cell width
+    var cellWidth: CGFloat {
         return DefaultValues.shared.cellWidth
     }
     
@@ -57,16 +56,15 @@ public extension FAStoryDelegate {
         return DefaultValues.shared.cellAspectRatio
     }
     
-    /// display name font
-    var displayNameFont: UIFont {
-        return DefaultValues.shared.displayNameFont
+    /// cornerRadius
+    var cornerRadius: CGFloat {
+        return DefaultValues.shared.cornerRadius
     }
     
-    /// display name color
-    var displayNameColor: UIColor {
-        return .black
+    var closeImage: UIImage? {
+        return DefaultValues.shared.closeImage
     }
     
     /// vertical cell padding
-    func verticalCellPadding() -> CGFloat { return 4 }
+    func verticalCellPadding() -> CGFloat { return DefaultValues.shared.verticalCellPadding() }
 }

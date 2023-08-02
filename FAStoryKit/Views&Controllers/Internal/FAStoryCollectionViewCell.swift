@@ -48,6 +48,12 @@ internal class FAStoryCollectionViewCell: UICollectionViewCell {
     // -----------------------------------
     /// internal ui setup is completed
     private var isUiSetupDone = false
+    private var cornerRadius: CGFloat = .zero {
+        didSet {
+            contentView.setNeedsLayout()
+            contentView.layoutIfNeeded()
+        }
+    }
     // -----------------------------------
     
     
@@ -69,14 +75,12 @@ internal class FAStoryCollectionViewCell: UICollectionViewCell {
         _setupUI()
     }
   
-    
-    override func draw(_ rect: CGRect) {
-        super.draw(rect)
-        if let iv = imageView {
-            iv.layer.cornerRadius = iv.frame.height / 2
-        }
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        contentView.layer.cornerRadius = cornerRadius
+        contentView.clipsToBounds = true
     }
-    
     
     // ==================================================== //
     // MARK: Methods
@@ -92,16 +96,14 @@ internal class FAStoryCollectionViewCell: UICollectionViewCell {
         imageView.image = image 
     }
     
-    /// sets tge border width & color for the image
+    /// sets the radius
     ///
     /// - Parameters:
-    ///   - width: Border width, set 0 to disable
-    ///   - color: Border color
-    public func setBorder(width: CGFloat, color: UIColor?) {
-        guard isUiSetupDone else {return}
-        imageView.layer.borderWidth = width
-        imageView.layer.borderColor = color?.cgColor
+    ///   - cornerRadius: content view corner radius
+    public func setCornerRadius(cornerRadius: CGFloat) {
+        self.cornerRadius = cornerRadius
     }
+    
     // -----------------------------------
     
     

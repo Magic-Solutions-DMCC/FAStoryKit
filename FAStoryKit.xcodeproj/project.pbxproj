@@ -20,7 +20,6 @@
 		50A3DE8522E0837D00E58FBE /* FAStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A3DE6622E0837D00E58FBE /* FAStory.swift */; };
 		50A3DE8622E0837D00E58FBE /* FAStoryContentNature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A3DE6822E0837D00E58FBE /* FAStoryContentNature.swift */; };
 		50A3DE8722E0837D00E58FBE /* FAStoryContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A3DE6922E0837D00E58FBE /* FAStoryContentType.swift */; };
-		50A3DE8822E0837D00E58FBE /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A3DE6B22E0837D00E58FBE /* DefaultValues.swift */; };
 		50A3DE8922E0837D00E58FBE /* FAStoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A3DE6C22E0837D00E58FBE /* FAStoryController.swift */; };
 		50A3DE8A22E0837D00E58FBE /* FAStoryContentTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A3DE6E22E0837D00E58FBE /* FAStoryContentTemplate.swift */; };
 		50A3DE8B22E0837D00E58FBE /* FAStoryImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A3DE7022E0837D00E58FBE /* FAStoryImageContent.swift */; };
@@ -59,6 +58,8 @@
 		7F050F4D2A7A6F8A0085FB7A /* PlainPushPopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F050F462A7A6F8A0085FB7A /* PlainPushPopAnimator.swift */; };
 		7F050F512A7A6F940085FB7A /* ModalPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F050F4F2A7A6F940085FB7A /* ModalPresentationAnimator.swift */; };
 		7F050F522A7A6F940085FB7A /* MainTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F050F502A7A6F940085FB7A /* MainTransitionAnimator.swift */; };
+		7FD6EF8E2A7A849F00F8EA5E /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD6EF8D2A7A849F00F8EA5E /* DefaultValues.swift */; };
+		7FD6EF902A7A889C00F8EA5E /* FABadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD6EF8F2A7A889C00F8EA5E /* FABadgeView.swift */; };
 		9E89014504CF40BF0C5881D4 /* Pods_FAStoryExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECDED20139AA397935B1432 /* Pods_FAStoryExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,7 +80,6 @@
 		50A3DE6622E0837D00E58FBE /* FAStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAStory.swift; sourceTree = "<group>"; };
 		50A3DE6822E0837D00E58FBE /* FAStoryContentNature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAStoryContentNature.swift; sourceTree = "<group>"; };
 		50A3DE6922E0837D00E58FBE /* FAStoryContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAStoryContentType.swift; sourceTree = "<group>"; };
-		50A3DE6B22E0837D00E58FBE /* DefaultValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultValues.swift; sourceTree = "<group>"; };
 		50A3DE6C22E0837D00E58FBE /* FAStoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAStoryController.swift; sourceTree = "<group>"; };
 		50A3DE6E22E0837D00E58FBE /* FAStoryContentTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAStoryContentTemplate.swift; sourceTree = "<group>"; };
 		50A3DE7022E0837D00E58FBE /* FAStoryImageContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAStoryImageContent.swift; sourceTree = "<group>"; };
@@ -123,6 +123,8 @@
 		7F050F462A7A6F8A0085FB7A /* PlainPushPopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlainPushPopAnimator.swift; sourceTree = "<group>"; };
 		7F050F4F2A7A6F940085FB7A /* ModalPresentationAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalPresentationAnimator.swift; sourceTree = "<group>"; };
 		7F050F502A7A6F940085FB7A /* MainTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTransitionAnimator.swift; sourceTree = "<group>"; };
+		7FD6EF8D2A7A849F00F8EA5E /* DefaultValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultValues.swift; sourceTree = "<group>"; };
+		7FD6EF8F2A7A889C00F8EA5E /* FABadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FABadgeView.swift; sourceTree = "<group>"; };
 		989C5089953AA91698BD13DF /* Pods-FAStoryExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAStoryExample.debug.xcconfig"; path = "Target Support Files/Pods-FAStoryExample/Pods-FAStoryExample.debug.xcconfig"; sourceTree = "<group>"; };
 		BB698E3498FB0B6720295060 /* Pods-FAStoryExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAStoryExample.release.xcconfig"; path = "Target Support Files/Pods-FAStoryExample/Pods-FAStoryExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -242,8 +244,8 @@
 		50A3DE6A22E0837D00E58FBE /* Internal */ = {
 			isa = PBXGroup;
 			children = (
+				7FD6EF8D2A7A849F00F8EA5E /* DefaultValues.swift */,
 				50F20A3F2340ED2A0084A9B4 /* TouchProgressCalculator.swift */,
-				50A3DE6B22E0837D00E58FBE /* DefaultValues.swift */,
 				50A3DE6C22E0837D00E58FBE /* FAStoryController.swift */,
 				50E2137C23059839002B9B03 /* StoryContentWrapper.swift */,
 			);
@@ -279,6 +281,7 @@
 		50A3DE7422E0837D00E58FBE /* Views&Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7FD6EF8F2A7A889C00F8EA5E /* FABadgeView.swift */,
 				50F20A362340EC5F0084A9B4 /* FAStoryContainerVC.swift */,
 				50A3DE7B22E0837D00E58FBE /* FAStoryVC.swift */,
 				50A3DE7C22E0837D00E58FBE /* FAStoryView.swift */,
@@ -590,6 +593,7 @@
 				50A3DE7F22E0837D00E58FBE /* _FAStory.swift in Sources */,
 				70F1911D26CD9218003D361D /* SessionDownloadable.swift in Sources */,
 				50A3DE9422E0837D00E58FBE /* FAStoryView.swift in Sources */,
+				7FD6EF8E2A7A849F00F8EA5E /* DefaultValues.swift in Sources */,
 				50A3DE8222E0837D00E58FBE /* FAStoryAddible.swift in Sources */,
 				50A3DE8B22E0837D00E58FBE /* FAStoryImageContent.swift in Sources */,
 				50F20A392340ECA40084A9B4 /* FAStoryVcStack.swift in Sources */,
@@ -603,9 +607,9 @@
 				70F1911826CD910F003D361D /* SwipeDismissInteractible.swift in Sources */,
 				50A3DE8A22E0837D00E58FBE /* FAStoryContentTemplate.swift in Sources */,
 				70F1911F26CD96F4003D361D /* _CGFloat.swift in Sources */,
+				7FD6EF902A7A889C00F8EA5E /* FABadgeView.swift in Sources */,
 				50A3DE9022E0837D00E58FBE /* FAStoryCollectionViewCell.swift in Sources */,
 				50F20A372340EC5F0084A9B4 /* FAStoryContainerVC.swift in Sources */,
-				50A3DE8822E0837D00E58FBE /* DefaultValues.swift in Sources */,
 				50F20A3E2340ECF60084A9B4 /* FAStoryContainer+TransitionCoordinator.swift in Sources */,
 				50A3DE8322E0837D00E58FBE /* FAStoryContentCacher.swift in Sources */,
 				50A3DE8022E0837D00E58FBE /* FAStoryTeller.swift in Sources */,
@@ -792,7 +796,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FAStoryKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -820,7 +824,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FAStoryKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

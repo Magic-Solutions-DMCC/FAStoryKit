@@ -160,7 +160,7 @@ final public class FAStoryView: UIView {
         //
         // content inset for the leading edge
         //
-        collectionView.contentInset = UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 0)
+        collectionView.contentInset = .zero
         
         //
         // delay touches
@@ -169,13 +169,7 @@ final public class FAStoryView: UIView {
         
         collectionView.backgroundColor = .clear
     }
-    
-    /// calculates the cell size based on the current configuration
-    private func _cellSize(height h: CGFloat, aspectRatio r: CGFloat, verticalPadding padding: CGFloat) -> CGSize {
-        let _h = h - 2 * floor(padding)
-        return CGSize(width: _h * r, height: _h)
-    }
-    
+
     /// story seen notirication selector
     @objc
     private func _storySeen(_ notification: Notification) {
@@ -200,18 +194,7 @@ extension FAStoryView: UICollectionViewDataSource {
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: FAStoryCollectionViewCell.ident, for: indexPath) as! FAStoryCollectionViewCell
         cell.backgroundColor = backgroundColor
-        
-        //
-        // check the border settings for the cell
-        //
-        let w = delegate?.borderWidth ?? DefaultValues.shared.borderWidth ?? 0
-        let c = stories![indexPath.row].isSeen ?
-            (delegate?.borderColorSeen ?? DefaultValues.shared.borderColorSeen) :
-            (delegate?.borderColorUnseen ?? DefaultValues.shared.borderColorUnseen)
-            
-        
-        cell.setBorder(width: w, color: c)
-        
+        cell.setCornerRadius(cornerRadius: delegate?.cornerRadius ?? DefaultValues.shared.cornerRadius)
         cell.storyIdent = stories![indexPath.row].ident
         
         if let image = stories?[indexPath.row].previewImage {
@@ -237,10 +220,9 @@ extension FAStoryView: UICollectionViewDelegate, UICollectionViewDelegateFlowLay
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
      
         let h = delegate?.cellHeight ?? DefaultValues.shared.cellHeight
-        let r = delegate?.cellAspectRatio ?? DefaultValues.shared.cellAspectRatio
-        let p = delegate?.verticalCellPadding() ?? DefaultValues.shared.verticalCellPadding()
+        let w = delegate?.cellWidth ?? DefaultValues.shared.cellWidth
         
-        return _cellSize(height: h, aspectRatio: r, verticalPadding: p)
+        return CGSize(width: w, height: h)
     }
     
     /// horizontal spacing between items

@@ -45,7 +45,6 @@ public class FAStoryImageContent: FAStoryContentTemplate<UIImage>, FAStoryConten
         self.contentType = .image
         self.asset = FAStoryAsset(with: UIImage())
         self.asset.externUrl = externUrl
-        print("asset url: \(externUrl?.absoluteString ?? "no urls")")
     }
     
     deinit {
@@ -184,12 +183,10 @@ internal extension FAStoryImageContent {
     func dlProgress(_ progress: Float) {
         self.downloadProgress = progress
         delegate?.contentDownloadProgress(for: asset, progress: progress)
-        print("dl progress: \(progress)")
     }
     
     func dlError(err: Error?, errType: DonwloadServiceErrorsEnum) {
         delegate?.contentDownloadFinished(for: asset, success: false)
-        print("dl error")
     }
     
 }

@@ -15,12 +15,16 @@ internal class DefaultValues: FAStoryDelegate {
     
     /// cell horizontal spacing
     var cellHorizontalSpacing: CGFloat {
-        return 4
+        return cellWidth
     }
     
     /// cell width
     var cellWidth: CGFloat {
-        return 80
+        return UIScreen.main.bounds.width * 0.25
+    }
+    
+    var cellHeight: CGFloat {
+        return cellWidth * 1.47
     }
     
     /// cell aspect ratio
@@ -28,26 +32,17 @@ internal class DefaultValues: FAStoryDelegate {
         return 1
     }
     
-    var borderWidth: CGFloat? {
-        return 2
+    var cornerRadius: CGFloat {
+        return cellWidth * 0.16
     }
     
-    var borderColorSeen: UIColor? {
-        return UIColor.lightGray.withAlphaComponent(0.4)
-    }
-    
-    var borderColorUnseen: UIColor? {
-        return UIColor.lightGray.withAlphaComponent(0.4)
-    }
-    
-    /// display name font
-    var displayNameFont: UIFont {
-        return .systemFont(ofSize: 12)
+    var closeImage: UIImage? {
+        return UIImage(systemName: "close")
     }
     
     func didSelect(row: Int) {  }
     
     func verticalCellPadding() -> CGFloat {
-        return 4
+        return .zero
     }
 }

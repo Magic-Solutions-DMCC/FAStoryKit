@@ -58,7 +58,6 @@ public extension SessionDownloadable {
     // MARK: DownloadServiceDelegate methods
     //
     func dlComplete(toPath: String) {
-        print("dl completed: \(toPath)")
         downloadService = nil
     }
     
@@ -69,7 +68,6 @@ public extension SessionDownloadable {
     }
     
     func dlError(err: Error?, errType: DonwloadServiceErrorsEnum) {
-        print(err?.localizedDescription ?? "no error text")
         downloadService = nil
     }
     
