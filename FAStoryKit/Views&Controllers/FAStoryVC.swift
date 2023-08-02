@@ -32,6 +32,7 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
     // ==================================================== //
     // MARK: Properties
     // ==================================================== //
+    public var closeButtonImage: UIImage?
     
     // -----------------------------------
     // Public properties
@@ -514,7 +515,7 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
         btnDismiss.backgroundColor = .clear
         btnDismiss.tintColor = .white
         btnDismiss.contentMode = .scaleAspectFit
-        btnDismiss.setImage(delegate?.dismissButtonImage(), for: .normal)
+        btnDismiss.setImage(closeButtonImage, for: .normal)
         
         headerView.addSubview(btnDismiss)
 
