@@ -37,7 +37,7 @@ internal class DefaultValues: FAStoryDelegate {
     }
     
     var closeImage: UIImage? {
-        return UIImage(systemName: "close")
+        return UIImage()
     }
     
     func didSelect(row: Int) {  }
