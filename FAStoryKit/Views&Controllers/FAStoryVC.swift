@@ -202,7 +202,6 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
         if let iv = imgViewPreview {
             iv.layer.cornerRadius = iv.frame.height / 2
         }
-        _addGradientLayer()
     }
     
     public override func viewWillAppear(_ animated: Bool) {

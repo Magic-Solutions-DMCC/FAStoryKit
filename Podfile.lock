@@ -2,21 +2,21 @@ PODS:
   - FAStoryKit (1.0.8)
 
 DEPENDENCIES:
-  - FAStoryKit (from `https://github.com/Magic-Solutions-DMCC/FAStoryKit`, commit `844afa1d7e73832bcae62fa92b176dd3aedcdb9c`)
+  - FAStoryKit (from `https://github.com/Magic-Solutions-DMCC/FAStoryKit`, commit `19ae817edc97b7cbaaf7964b0aef8f03c6cdb5e2`)
 
 EXTERNAL SOURCES:
   FAStoryKit:
-    :commit: 844afa1d7e73832bcae62fa92b176dd3aedcdb9c
+    :commit: 19ae817edc97b7cbaaf7964b0aef8f03c6cdb5e2
     :git: https://github.com/Magic-Solutions-DMCC/FAStoryKit
 
 CHECKOUT OPTIONS:
   FAStoryKit:
-    :commit: 844afa1d7e73832bcae62fa92b176dd3aedcdb9c
+    :commit: 19ae817edc97b7cbaaf7964b0aef8f03c6cdb5e2
     :git: https://github.com/Magic-Solutions-DMCC/FAStoryKit
 
 SPEC CHECKSUMS:
   FAStoryKit: 70d4c5550ed172fb1ab2e00f8dbc2ae9c67ab463
 
-PODFILE CHECKSUM: a41e85795a37945ac373ad581c61c0a980fb5aef
+PODFILE CHECKSUM: 7dab2c283163982ac4a1b606ce7f6ae18f6301e4
 
 COCOAPODS: 1.12.1
