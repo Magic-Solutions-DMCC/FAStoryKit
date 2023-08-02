@@ -36,6 +36,7 @@ internal class FAStoryCollectionViewCell: UICollectionViewCell {
     
     /// imageView for the defaultImage
     internal var imageView: UIImageView!
+    internal var frameImageView: UIImageView!
     
     /// story ident
     internal var storyIdent = ""
@@ -96,6 +97,11 @@ internal class FAStoryCollectionViewCell: UICollectionViewCell {
         imageView.image = image 
     }
     
+    public func setFrameImage(_ image: UIImage) {
+        guard isUiSetupDone else {return}
+        frameImageView.image = image
+    }
+    
     /// sets the radius
     ///
     /// - Parameters:
@@ -124,17 +130,29 @@ internal class FAStoryCollectionViewCell: UICollectionViewCell {
         //
         imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.contentMode = .scaleAspectFill
+        imageView.contentMode = .scaleToFill
         imageView.backgroundColor = .clear
-        imageView.clipsToBounds = true
-        imageView.layer.masksToBounds = true
         
         contentView.addSubview(imageView)
         
         imageView.widthAnchor.constraint(equalTo: contentView.widthAnchor).isActive = true
-        imageView.heightAnchor.constraint(equalTo: imageView.widthAnchor).isActive = true
-        imageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 1).isActive = true
+        imageView.heightAnchor.constraint(equalTo: contentView.heightAnchor).isActive = true
+        imageView.topAnchor.constraint(equalTo: contentView.topAnchor).isActive = true
         imageView.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
+        
+        //
+        // frameImageView Setup
+        //
+        frameImageView = UIImageView()
+        frameImageView.translatesAutoresizingMaskIntoConstraints = false
+        frameImageView.contentMode = .scaleAspectFill
+        frameImageView.backgroundColor = .clear
+        contentView.addSubview(frameImageView)
+        
+        frameImageView.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
+        frameImageView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
+        frameImageView.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 0.8).isActive = true
+        frameImageView.heightAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 0.8).isActive = true
         
         isUiSetupDone = true
     }

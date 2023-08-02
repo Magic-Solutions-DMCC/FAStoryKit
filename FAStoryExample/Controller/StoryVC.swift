@@ -17,7 +17,7 @@ class StoryVC: UIViewController, TransitionTransparencyProxy {
     private var storyView: FAStoryView!
     
     /// StoryView height
-    private let kStoryViewHeight: CGFloat = 100
+    private let kStoryViewHeight: CGFloat = UIScreen.main.bounds.width * 0.374
     
     /// ViewController to display the story content
     private var storyVc: FAStoryViewController!

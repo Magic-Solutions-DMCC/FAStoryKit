@@ -27,6 +27,9 @@ public protocol FAStoryDelegate: AnyObject {
     /// close image
     var closeImage: UIImage? { get }
     
+    /// frame image
+    var frameImage: UIImage? { get }
+    
     /// vertical cell padding
     func verticalCellPadding() -> CGFloat
     
@@ -63,6 +66,10 @@ public extension FAStoryDelegate {
     
     var closeImage: UIImage? {
         return DefaultValues.shared.closeImage
+    }
+    
+    var frameImage: UIImage? {
+        return nil
     }
     
     /// vertical cell padding

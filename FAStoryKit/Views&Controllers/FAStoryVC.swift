@@ -640,7 +640,7 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
         
         if externUrlView == nil {
             externUrlView = ExternalLinkControllerView(with: _url)
-            externUrlView.title = "Daha fazlası"
+            externUrlView.title = "More"
             externUrlView.color = .white
             externUrlView.font = UIFont(name: "Brown-Regular", size: 14)
             externUrlView.delegate = self

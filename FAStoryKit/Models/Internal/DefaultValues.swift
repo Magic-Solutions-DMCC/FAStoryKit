@@ -24,7 +24,7 @@ internal class DefaultValues: FAStoryDelegate {
     }
     
     var cellHeight: CGFloat {
-        return cellWidth * 1.47
+        return UIScreen.main.bounds.width * 0.38
     }
     
     /// cell aspect ratio

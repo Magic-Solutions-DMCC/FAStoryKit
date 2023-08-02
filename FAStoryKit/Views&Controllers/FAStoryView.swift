@@ -201,6 +201,10 @@ extension FAStoryView: UICollectionViewDataSource {
             cell.setImage(image)
         }
         
+        if let frameImage = delegate?.frameImage {
+            cell.setFrameImage(frameImage)
+        }
+        
         return cell
         
     }
