@@ -136,7 +136,7 @@ extension StoryVC: FAStoryDelegate, FAStoryViewControllerDelegate {
     }
     
     func dismissButtonImage() -> UIImage? {
-        return UIImage(named: "Close")?.withRenderingMode(.alwaysTemplate)
+        return UIImage(named: "Close")
     }
 
     var cellHorizontalSpacing: CGFloat {

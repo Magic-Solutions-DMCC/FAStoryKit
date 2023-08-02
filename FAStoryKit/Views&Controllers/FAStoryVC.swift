@@ -357,7 +357,6 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
        
         imgViewPreview.image = story.previewImage
         lblTitle.title = story.name
-        btnDismiss.setImage(delegate?.dismissButtonImage(), for: .normal)
         
         // indicators
         // configure the indicators with a new set
@@ -496,7 +495,7 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
         headerView.addSubview(imgViewPreview)
         
         imgViewPreview.topAnchor.constraint(equalTo: currentStoryIndicator.bottomAnchor, constant: 8).isActive = true
-        imgViewPreview.leadingAnchor.constraint(equalTo: headerView.leadingAnchor, constant: 4).isActive = true
+        imgViewPreview.leadingAnchor.constraint(equalTo: headerView.leadingAnchor).isActive = true
         imgViewPreview.widthAnchor.constraint(equalToConstant: 40).isActive = true
         imgViewPreview.heightAnchor.constraint(equalTo: imgViewPreview.widthAnchor).isActive = true
         
@@ -515,6 +514,7 @@ final public class FAStoryViewController: UIViewController, StoryControllerDeleg
         btnDismiss.backgroundColor = .clear
         btnDismiss.tintColor = .white
         btnDismiss.contentMode = .scaleAspectFit
+        btnDismiss.setImage(delegate?.dismissButtonImage(), for: .normal)
         
         headerView.addSubview(btnDismiss)
 
