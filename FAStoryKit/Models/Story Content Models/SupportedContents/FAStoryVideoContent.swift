@@ -254,17 +254,6 @@ public class FAStoryVideoContent: FAStoryContentTemplate<AVPlayer>, FAStoryConte
         //
         if stopped {
             isPaused = true
-            if isObserving {
-                playerItem?.removeObserver(self,
-                                           forKeyPath: #keyPath(AVPlayerItem.status),
-                                           context: &playerStatusObserverContext)
-            }
-            
-            isObserving = false
-            
-            if playerObserverToken != nil, let p = player {
-                p.removeTimeObserver(playerObserverToken!)
-            }
             delegate?.contentDisplayFinished(for: asset)
         }
     }
