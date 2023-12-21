@@ -213,7 +213,17 @@ public class FAStoryContainer: UINavigationController, SwipeDismissInteractibleN
             transitionDecided = true
         }
     }
-      
+
+    public override func present(_ viewControllerToPresent: UIViewController, animated flag: Bool, completion: (() -> Void)? = nil) {
+        guard !viewControllers.contains(viewControllerToPresent) else { return }
+        super.present(viewControllerToPresent, animated: flag, completion: completion)
+    }
+
+    public override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+        guard !viewControllers.contains(viewController) else { return }
+        super.pushViewController(viewController, animated: animated)
+    }
+
 }
 
 // ==================================================== //
