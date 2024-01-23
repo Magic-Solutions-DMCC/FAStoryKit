@@ -14,17 +14,17 @@ class StoryVC: UIViewController, TransitionTransparencyProxy {
     var transparentTopView: UIView!
 
     /// Main highlight container
-    private var storyView: FAStoryView!
-    
+    private var storyView: MSPreviewStoryView!
+
     /// StoryView height
     private let kStoryViewHeight: CGFloat = UIScreen.main.bounds.width * 0.374
     
     /// ViewController to display the story content
-    private var storyVc: FAStoryViewController!
-    
+    //private var storyVc: MSStoryViewController!
+
     /// Story container viewController
-    private weak var storyContainerVc: FAStoryContainer!
-    
+    //private weak var storyContainerVc: MSStoryContainerViewController!
+
     /// Story server
     private var storyHandler = StoryServer()
     // -----------------------------------
@@ -41,8 +41,8 @@ class StoryVC: UIViewController, TransitionTransparencyProxy {
             self.transparentTopView.backgroundColor = .clear
         }, completion: { (_) in
             self.transparentTopView.isHidden = true
-            self.storyVc = nil
-            self.storyContainerVc = nil 
+            //self.storyVc = nil
+            //self.storyContainerVc = nil
         })
     }
 
@@ -56,11 +56,10 @@ class StoryVC: UIViewController, TransitionTransparencyProxy {
         //
         // storyView setup
         //
-        storyView = FAStoryView(frame: .zero)
+        storyView = MSPreviewStoryView(frame: .zero)
         storyView.backgroundColor = .clear
         storyView.isOpaque = false
         storyView.delegate = self
-        storyView.dataSource = self
         storyView.setScrollIndicators(hidden: true)
         storyView.setContentInset(insets: .zero)
         
@@ -108,17 +107,16 @@ class StoryVC: UIViewController, TransitionTransparencyProxy {
         */
         
         /// Alternative to show the container
-        storyVc = FAStoryViewController()
+        let storyVc = MSStoryViewController(storyIndex: idx)
         storyVc.delegate = self
-        storyVc.story = _stories[idx]
-        
-        storyContainerVc = FAStoryContainer(storyController: storyVc)
+
+        let storyContainerVc = MSStoryContainerViewController(storyController: storyVc)
         storyContainerVc.modalPresentationStyle = .overFullScreen
         storyContainerVc.transitioningDelegate  = self
-        
-        
+
+
         present(storyContainerVc, animated: true)
-    
+
     }
 
 
@@ -129,7 +127,7 @@ class StoryVC: UIViewController, TransitionTransparencyProxy {
 // ==================================================== //
 // MARK: FAStoryDelegate, FAStoryViewControllerDelegate
 // ==================================================== //
-extension StoryVC: FAStoryDelegate, FAStoryViewControllerDelegate {
+extension StoryVC: MSPreviewStoryViewDelegate, FAStoryViewControllerDelegate {
 
     func didSelect(row: Int) {
         _presentStoryVc(at: row)
@@ -144,7 +142,7 @@ extension StoryVC: FAStoryDelegate, FAStoryViewControllerDelegate {
     }
     
     var frameImage: UIImage? {
-        return UIImage(named: "Frame")
+        return nil
     }
     
 }
@@ -195,9 +193,9 @@ extension StoryVC: UIViewControllerTransitioningDelegate, ModalPresentationAnima
 
     
     func didComplete(_ completed: Bool, isDismissal: Bool) {
-        if completed && isDismissal, storyVc != nil {
-            storyVc = nil
-        }
+//        if completed && isDismissal, storyVc != nil {
+//            storyVc = nil
+//        }
     }
     
 }

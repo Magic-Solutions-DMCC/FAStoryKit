@@ -7,6 +7,7 @@ target 'FAStoryExample' do
 
   # Pods for FAStoryExample
   pod 'FAStoryKit', :git => 'https://github.com/Magic-Solutions-DMCC/FAStoryKit'
+  pod 'SnapKit', '~> 5.6.0', :inhibit_warnings => true
 
 end
 
@@ -15,5 +16,6 @@ target 'FAStoryKit' do
   use_frameworks!
 
   # Pods for FAStoryKit
+  pod 'SnapKit', '~> 5.6.0', :inhibit_warnings => true
 
 end

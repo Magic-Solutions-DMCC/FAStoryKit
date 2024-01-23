@@ -206,7 +206,7 @@
 		5F5A4CF9B1A463FB8E36BF2C91805199 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		609121DD586FB7566319C8B3568CC90C /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Sources/ConstraintDescription.swift; sourceTree = "<group>"; };
 		62366EF0A02A04C85C46B1DAD4648461 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
-		628A56DFB9F1B98E0AE816D24DCB64F4 /* Pods_FAStoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FAStoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		628A56DFB9F1B98E0AE816D24DCB64F4 /* Pods-FAStoryKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FAStoryKit"; path = Pods_FAStoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BAF51BDCDA5CB44D4D3F70A73C8190 /* SnapKit-iOS14.0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-iOS14.0-Info.plist"; sourceTree = "<group>"; };
 		635E097DD3C6DAEF8BBC44CBBFE9A463 /* FAStoryVideoContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryVideoContent.swift; path = "FAStoryKit/Models/Story Content Models/SupportedContents/FAStoryVideoContent.swift"; sourceTree = "<group>"; };
 		6542898B9B54036AFB0AC5ED4F1CF9D8 /* Pods-FAStoryExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStoryExample-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -228,7 +228,7 @@
 		9B09388D35AF1AB2AAA9425CA722147A /* SnapKit-iOS14.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-iOS14.0-prefix.pch"; sourceTree = "<group>"; };
 		9CD5141590B6C38FBF51306C99C54A96 /* SnapKit-iOS14.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SnapKit-iOS14.0.modulemap"; sourceTree = "<group>"; };
 		9D637D0F3BCB7F6E80FD59A19FA4B5E7 /* SnapKit-iOS16.4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SnapKit-iOS16.4.release.xcconfig"; path = "../SnapKit-iOS16.4/SnapKit-iOS16.4.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E7D5986681E29C790C4E3DDE5DA54A9 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Sources/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		A035CEEFB8F2D7B38286464EF5387AB7 /* SnapKit-iOS16.4-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SnapKit-iOS16.4-umbrella.h"; path = "../SnapKit-iOS16.4/SnapKit-iOS16.4-umbrella.h"; sourceTree = "<group>"; };
 		A0BF50829EF34C891ED2291A08D3D49E /* FABadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FABadgeView.swift; path = "FAStoryKit/Views&Controllers/FABadgeView.swift"; sourceTree = "<group>"; };
@@ -356,7 +356,7 @@
 			children = (
 				FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit */,
 				CF48E6E8BD11DC3E39018A1A121A12E5 /* Pods-FAStoryExample */,
-				628A56DFB9F1B98E0AE816D24DCB64F4 /* Pods_FAStoryKit.framework */,
+				628A56DFB9F1B98E0AE816D24DCB64F4 /* Pods-FAStoryKit */,
 				3F48C9FCB046999FAA3CA093CF7424A7 /* SnapKit-iOS14.0 */,
 				AA2867E8243349DD27D509C58210B8E0 /* SnapKit-iOS16.4 */,
 			);
@@ -413,6 +413,7 @@
 				E7542E7C587CC719238FDA2F4AD49068 /* UILayoutSupport+Extensions.swift */,
 				68EF80DEEA0BAF95697B41869BCA5527 /* Support Files */,
 			);
+			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -481,6 +482,7 @@
 				A32A7F76395FD60C92CB5BB96BC3BCD9 /* TransitionAnimator.swift */,
 				08C3CA9E2623BCB645DD2DC5D8EFB2FE /* Support Files */,
 			);
+			name = FAStoryKit;
 			path = FAStoryKit;
 			sourceTree = "<group>";
 		};

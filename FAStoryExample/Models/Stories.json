@@ -7,8 +7,8 @@
             [
                 {
                     "contentType":1,
-                    "assetName":"https://apps-visor.s3.amazonaws.com/video+/1+price+.mp4",
-                    "externalURL":"",
+                    "assetName":"1",
+                    "externalURL":"https://apps-visor.s3.amazonaws.com/video+/1+price+.mp4",
                     "duration":10
                 }
             ]
@@ -21,8 +21,8 @@
             [
                 {
                     "contentType":1,
-                    "assetName":"https://apps-visor.s3.amazonaws.com/video+/2+plant.mp4",
-                    "externalURL":"fdfd",
+                    "assetName":"1",
+                    "externalURL":"https://apps-visor.s3.amazonaws.com/video+/2+plant.mp4",
                     "duration":10
                 }
             ]
@@ -35,8 +35,8 @@
             [
                 {
                     "contentType":1,
-                    "assetName":"https://apps-visor.s3.amazonaws.com/video+/3+animal.mp4",
-                    "externalURL":"fdfd",
+                    "assetName":"1",
+                    "externalURL":"https://apps-visor.s3.amazonaws.com/video+/3+animal.mp4",
                     "duration":10
                 }
             ]
@@ -49,10 +49,16 @@
             [
                 {
                     "contentType":1,
-                    "assetName":"https://apps-visor.s3.amazonaws.com/video+/4+food+.mp4",
-                    "externalURL":"fdfd",
+                    "assetName":"1",
+                    "externalURL":"https://apps-visor.s3.amazonaws.com/video+/4+food+.mp4",
                     "duration":10
-                }
+                },
+                {
+                    "contentType":1,
+                    "assetName":"1",
+                    "externalURL":"https://apps-visor.s3.amazonaws.com/video+/4+food+.mp4",
+                    "duration":10
+                },
             ]
         },
         {
@@ -63,8 +69,8 @@
             [
                 {
                     "contentType":1,
-                    "assetName":"https://apps-visor.s3.amazonaws.com/video+/5+coin++sec.mp4",
-                    "externalURL":"fdfd",
+                    "assetName":"1",
+                    "externalURL":"https://apps-visor.s3.amazonaws.com/video+/5+coin++sec.mp4",
                     "duration":10
                 }
             ]
@@ -77,8 +83,8 @@
             [
                 {
                     "contentType":1,
-                    "assetName":"https://apps-visor.s3.amazonaws.com/video+/6+insects+.mp4",
-                    "externalURL":"fdfd",
+                    "assetName":"1",
+                    "externalURL":"https://apps-visor.s3.amazonaws.com/video+/6+insects+.mp4",
                     "duration":10
                 }
             ]
@@ -91,8 +97,8 @@
             [
                 {
                     "contentType":1,
-                    "assetName":"https://apps-visor.s3.amazonaws.com/video+/7+shoes.mp4",
-                    "externalURL":"fdfd",
+                    "assetName":"1",
+                    "externalURL":"https://apps-visor.s3.amazonaws.com/video+/7+shoes.mp4",
                     "duration":10
                 }
             ]
@@ -105,8 +111,8 @@
             [
                 {
                     "contentType":1,
-                    "assetName":"https://apps-visor.s3.amazonaws.com/video+/8+clothes+.mp4",
-                    "externalURL":"fdfd",
+                    "assetName":"1",
+                    "externalURL":"https://apps-visor.s3.amazonaws.com/video+/8+clothes+.mp4",
                     "duration":10
                 }
             ]

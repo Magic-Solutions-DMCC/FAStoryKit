@@ -7,14 +7,15 @@
 //
 
 import UIKit
+import FAStoryKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        @MSProviderDependency var storyKitProvider: MSStoryKitProviderProtocol
+        storyKitProvider.prepareStories(storiesJSONFileName: "MSStories", shouldPreload: true)
         return true
     }
 

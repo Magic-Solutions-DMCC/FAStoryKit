@@ -104,7 +104,6 @@ public class FAStoryContainer: UINavigationController, SwipeDismissInteractibleN
         setNavigationBarHidden(true, animated: false)
         addCustomTransitioning()
         dismissInteractionController = SwipeInteractionController(navigationController: self)
-        
     }
     
     
