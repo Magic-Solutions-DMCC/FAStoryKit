@@ -3,7 +3,7 @@
 import Foundation
 import UIKit
 
-public protocol Configurable {
+protocol Configurable {
     init()
 }
 

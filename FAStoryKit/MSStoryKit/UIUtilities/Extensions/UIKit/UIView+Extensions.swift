@@ -2,7 +2,7 @@
 
 import UIKit
 
-public extension UIView {
+extension UIView {
 
     func addSubviews(_ views: UIView..., translatesAutoresizingMaskIntoConstraints: Bool = false) {
         views.forEach {

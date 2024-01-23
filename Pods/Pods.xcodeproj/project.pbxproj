@@ -195,7 +195,7 @@
 		93B8D8A7814CBD642C52A4343147FF63 /* FAStoryVideoContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryVideoContent.swift; path = "FAStoryKit/Models/Story Content Models/SupportedContents/FAStoryVideoContent.swift"; sourceTree = "<group>"; };
 		94D7B43ABAB3F5545179AF19FF6A1B39 /* StoryIndicatorContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryIndicatorContainerView.swift; path = "FAStoryKit/Views&Controllers/Internal/StoryIndicatorContainerView.swift"; sourceTree = "<group>"; };
 		9D87C7F94D7DF9CEF58F63E8AA28A7FC /* FAStoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryView.swift; path = "FAStoryKit/Views&Controllers/FAStoryView.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EBA2E216CCB0DBE8D746E2A47A3442F /* FAPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAPlayerView.swift; path = "FAStoryKit/Views&Controllers/Internal/FAPlayerView.swift"; sourceTree = "<group>"; };
 		A58CA8D1806F5F9196E944D7F2E24082 /* FAStoryContentNature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContentNature.swift; path = "FAStoryKit/Models/Type Definitions/FAStoryContentNature.swift"; sourceTree = "<group>"; };
 		A619EC6846E043BCDCDE604D51E361B1 /* Publisher+Decode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Publisher+Decode.swift"; path = "FAStoryKit/MSStoryKit/Utilities/Extensions/Combine/Publisher+Decode.swift"; sourceTree = "<group>"; };
@@ -237,7 +237,7 @@
 		F8DDD0C34980D2E37441369E32B443AC /* MSCacheStoryServiceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSCacheStoryServiceProtocol.swift; path = FAStoryKit/MSStoryKit/Core/Services/CacheStoryService/MSCacheStoryServiceProtocol.swift; sourceTree = "<group>"; };
 		FBD5B5CBCD57EFFCAB3CC0251B32B000 /* FAStoryImageContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryImageContent.swift; path = "FAStoryKit/Models/Story Content Models/SupportedContents/FAStoryImageContent.swift"; sourceTree = "<group>"; };
 		FC3B8B3451D0D3C4B773A20FF940C03E /* _Double.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _Double.swift; path = FAStoryKit/Extensions/Internal/_Double.swift; sourceTree = "<group>"; };
-		FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FAStoryKit; path = FAStoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FAStoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,7 +371,6 @@
 				01013308552179AA4BD22FD266C4C18B /* URLSession+DownloadTaskPublisher.swift */,
 				CA6A2C6220E7709475E32460E29A2EA8 /* Support Files */,
 			);
-			name = FAStoryKit;
 			path = FAStoryKit;
 			sourceTree = "<group>";
 		};
@@ -412,7 +411,7 @@
 		DCF3841F424C2B8FBF383657AB4A5CB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit */,
+				FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit.framework */,
 				CF48E6E8BD11DC3E39018A1A121A12E5 /* Pods-FAStoryExample */,
 				628A56DFB9F1B98E0AE816D24DCB64F4 /* Pods-FAStoryKit */,
 			);
@@ -552,7 +551,7 @@
 			);
 			name = FAStoryKit;
 			productName = FAStoryKit;
-			productReference = FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit */;
+			productReference = FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -750,7 +749,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FAStoryKit/FAStoryKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FAStoryKit/FAStoryKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1026,7 +1025,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FAStoryKit/FAStoryKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FAStoryKit/FAStoryKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

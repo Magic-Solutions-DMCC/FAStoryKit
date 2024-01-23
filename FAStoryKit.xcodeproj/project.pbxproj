@@ -288,7 +288,6 @@
 		50A3DE5122E0835400E58FBE /* FAStoryKit */ = {
 			isa = PBXGroup;
 			children = (
-				B6A4E32D2B558DB300CB3721 /* Helpers */,
 				B6A4E3102B551DFF00CB3721 /* MSStoryKit */,
 				50A3DE5322E0835400E58FBE /* Info.plist */,
 				50A3DE5222E0835400E58FBE /* FAStoryKit.h */,
@@ -591,13 +590,6 @@
 				B6A4E3722B567B9100CB3721 /* MSCacheFileItem.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		B6A4E32D2B558DB300CB3721 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		B6A4E3342B55A1CA00CB3721 /* DependencyContainer */ = {

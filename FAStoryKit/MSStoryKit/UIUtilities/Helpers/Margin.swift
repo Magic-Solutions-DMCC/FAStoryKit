@@ -2,7 +2,7 @@
 
 import CoreGraphics
 
- public enum Margin {
+enum Margin {
 
      /// 2 points
      public static let x1: CGFloat = 2

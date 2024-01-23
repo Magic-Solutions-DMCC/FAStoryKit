@@ -2,7 +2,7 @@
 
 import Combine
 
-public extension Publisher where Self.Output: OptionalType {
+extension Publisher where Self.Output: OptionalType {
 
     func filterNil() -> AnyPublisher<Self.Output.Wrapped, Self.Failure> {
         return flatMap { element -> AnyPublisher<Self.Output.Wrapped, Self.Failure> in

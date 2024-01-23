@@ -2,7 +2,7 @@
 
 import CoreGraphics
 
-public extension CGFloat {
+extension CGFloat {
 
     static let whole: CGFloat = 1
     static var half = 0.5
