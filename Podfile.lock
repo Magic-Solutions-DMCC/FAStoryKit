@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   FAStoryKit:
-    :commit: f18a9f8065398239d452f4f07162431f5a46c6b7
+    :commit: cd9b9e2a8450aab97ede37dfda5dd85318e33ffa
     :git: https://github.com/Magic-Solutions-DMCC/FAStoryKit
 
 SPEC CHECKSUMS:
