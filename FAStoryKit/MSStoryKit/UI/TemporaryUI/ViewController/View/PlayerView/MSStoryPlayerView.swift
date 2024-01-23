@@ -49,7 +49,6 @@ final class MSStoryPlayerView: UIView {
                  changeHandler: { [weak self] (item, _) in
                      guard let self = self else { return }
                      if item.status == .failed {
-                         self.activityIndicator.stopAnimating()
                          if let item = self.player?.currentItem, let error = item.error, let url = (item.asset as? AVURLAsset)?.url {
                              self.delegate?.didFailed(withError: error.localizedDescription, for: url)
                          } else {

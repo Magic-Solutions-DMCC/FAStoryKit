@@ -7,111 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00696ADB2B9D543859B94711FB85B8ED /* MSStoryKitProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29151B7F17E350FA86478C8C9247C448 /* MSStoryKitProvider.swift */; };
-		0190A6662D1C7D3633F5FFD56F44C38E /* MSServiceLocatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9123F1811690D0FAE4089C4FBB25DDFC /* MSServiceLocatorProtocol.swift */; };
-		03DFC6310A2FFA99BF67974CE8EE1826 /* MSStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AAAC5DFA966EB86910B647D8679C88 /* MSStory.swift */; };
-		05F06AAE7EDD7A6536CD77570977CAF4 /* MSStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2339FCEC6B764E9B16CC5B67DDAA7502 /* MSStories.swift */; };
-		073096019F4B5993706D444F79B114E7 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F6489C366200B204FE9FC7B3FAA30 /* CGFloat+Extensions.swift */; };
-		0F4BC9ECB911C7DAE819858AC0755498 /* FAStoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D81494703E7F87CC8D6F279A9135F9 /* FAStoryDataSource.swift */; };
-		1044BE99909E1A87DEFE5FFB1A1C404F /* FAStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C80B4B135BE0FB0A49337DCC2086CFD /* FAStoryCollectionViewCell.swift */; };
-		116B5CC7AC05807ED9544CEC326CFF73 /* _CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFC25A8898F982E2FE716C59D42D13D /* _CGFloat.swift */; };
-		16EF03F8BAA47CA913FE7996963C9194 /* FAStoryContentNature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9FF61830CF3C5073D1B7FBFE1A627A /* FAStoryContentNature.swift */; };
-		1716D9A4AC6399011B8520A0AE36039B /* MSStoryViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC868312BAE85B2E627AF96C7EE8DCDA /* MSStoryViewControllerDelegate.swift */; };
-		18569C36381AB6C3B2C86A0387C28E74 /* MSProjectFileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085835BE06DEE81526816D64319FEFA0 /* MSProjectFileService.swift */; };
-		188FA1945A0F4D9679A7EA990ECD95D5 /* MSRepositoryLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44F12D79C666860F24A9B8F0E4A083 /* MSRepositoryLocator.swift */; };
-		2339E177F77958AFAEB0B5331E211700 /* SwipeDismissInteractible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2DBD0E867EECB4F049FCC2FE4ABE1 /* SwipeDismissInteractible.swift */; };
-		24F283A21D55F2AD10EDDDC74E78D48F /* Margin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E86BC0372AAD082C8DE9F751EE8A29 /* Margin.swift */; };
-		2EC2F590AFB4944DCA3770FF15904CEF /* UIView+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B508D63DB1EAD393CF20B0450FC22 /* UIView+Anchor.swift */; };
-		32CF8C4F29F36F666B83A39055742DD1 /* _UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D548EAAC6FF7085D0FD35C617ADE5 /* _UINavigationController.swift */; };
-		34F30CFF9C05BED91B864E6973BF75A8 /* MSAnyServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB627219DC117CA81E06491523FE0747 /* MSAnyServiceFactory.swift */; };
-		38C714D94F1A7E0B25E71399752145F6 /* ExternalLinkControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060AC0B1D73CFA6EA2921EA78AF2AF65 /* ExternalLinkControllerView.swift */; };
-		3908A3717FAEC17DF12000EA326BC06A /* MSServiceResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D75CA8FE42B9111982D3B92C3B79032 /* MSServiceResolver.swift */; };
-		393F251775D0590110CEF303E4939DBD /* MSServiceDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB1901BF8D28ED545C225C50249B11 /* MSServiceDependency.swift */; };
-		3B506A90F7836AE031BB5DAF2C7C1872 /* MSBasicServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA345780CE8FA4649744C54A9AAFCC8F /* MSBasicServiceFactory.swift */; };
-		3C4F915764944A5431B74136D4FD1CCF /* UIView+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426461ABEED06C7052DB6D1CA2A894ED /* UIView+SnapKit.swift */; };
+		00EE523B3EB9748DDDE35C0AE1A12546 /* MSAnyServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B46AAF5B0B6BF6FE7CB896042FA66FA /* MSAnyServiceFactory.swift */; };
+		043C16BADA243DA712C58ADDA52DC5EB /* FAStoryContainer+TransitionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD03FDE9162DC54B7A20662B98180C0 /* FAStoryContainer+TransitionCoordinator.swift */; };
+		06E66F8960D864DE2CBAEA80D26B4213 /* MSCacheStoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C302DD7C37A0540F8E3A28D02E3BA /* MSCacheStoryService.swift */; };
+		072E35BED5205432419A32597BC702E8 /* FAStoryContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400AEB3AB62280EADADA328BB7DE6D29 /* FAStoryContainerVC.swift */; };
+		0A7EB4440C9D602B49E0E68E72FD91B1 /* MSRepositoryDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5D55358E3D938B90F419A6538D4A0 /* MSRepositoryDependency.swift */; };
+		0E77B7D19FFEB1434491FF7ED6618CBE /* _CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81410B1F84B18905DF129183F671BF63 /* _CGFloat.swift */; };
+		101E1877A2DD02EB9F99EDA693D6D020 /* MSStoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525CAD3ECC858E7B29F23A778ECED0EF /* MSStoryViewModel.swift */; };
+		10286F2787C96821D9CAE37336011564 /* FAStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D87C7F94D7DF9CEF58F63E8AA28A7FC /* FAStoryView.swift */; };
+		12C2252E15867FE4608BD0273AB3515C /* MSDownloadServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729490B14CDBE051BC5896CFD87505AB /* MSDownloadServiceProtocol.swift */; };
+		144FF8E246FED77A52D72F11C982B1B4 /* FAStoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E185B49B0C9E60B9388D28DA8609C964 /* FAStoryDataSource.swift */; };
+		16E3C5EACA61B8436C7B68FD6597CAC3 /* MSStoryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E743DA994F183DC6ED2B65F6412AF57C /* MSStoryContent.swift */; };
+		1C77142C2ED50C5D698AE54DFC3F05D3 /* MSStoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBFF7A03A5DE0B036809947AE8A8E19 /* MSStoryRepository.swift */; };
+		1CF8834ACA5D441F7C46C0B97F66AEA8 /* MSStoryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59026E5B087B85FDCEF9B1D11DBEEF53 /* MSStoryError.swift */; };
+		21BEA7BDAA8F2386BE0458A59E1EBF4E /* FAStoryView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 75B65538A52492DD38B12AE2689E4BB5 /* FAStoryView.xib */; };
+		245D683D237AB77CE906F71AF9D045FF /* StoryIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73518D648C56B66933BFEBB0B1FD0E5 /* StoryIndicatorView.swift */; };
+		2A0025F45EED9C2AFADD94C85200E797 /* FAPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA2E216CCB0DBE8D746E2A47A3442F /* FAPlayerView.swift */; };
+		2F2CDB48CC65D116DD08AAC16F982459 /* FAStoryImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5B5CBCD57EFFCAB3CC0251B32B000 /* FAStoryImageContent.swift */; };
 		408776225B85BD9578525A036DA295F0 /* Pods-FAStoryExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7237383331443FF6F66C3D14004028 /* Pods-FAStoryExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		417675EE3E3B6C6452C2C6F2BFD77652 /* MSDownloadServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7987D1A37F953F47E237B2A82D47FAF1 /* MSDownloadServiceProtocol.swift */; };
-		42985247DAF1C06461731B09DCA36A7F /* TouchProgressCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A328832A193C4FC75ED0FEB95D85DB /* TouchProgressCalculator.swift */; };
-		44381AE4AD12295ED011F4807F153806 /* FAStoryContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD29CE4D3F2D3DB0E23D60B9A432D70 /* FAStoryContainerVC.swift */; };
-		4AB92F41F2720BBF412D6923D9F7925E /* FAStoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2179A169337BF2186621A0A76E94A /* FAStoryVC.swift */; };
-		4AE938667A26BEC19A93F28D38F9D7B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4C5CD3B1D52BE1C6D2A30352F10CBEA0 /* MSCacheStoryServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998C3C2967E898592404E85397826C6 /* MSCacheStoryServiceProtocol.swift */; };
-		54E4DD50EB363FC70E3CB95085541B52 /* MSStoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41B1B62B8397E1BF4E2FBFF459621F6 /* MSStoryProvider.swift */; };
-		5BB651BE7F60570FE4785681F532ABCE /* MSServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3D860A01ABC1A04FED69867A35C7C0 /* MSServiceFactory.swift */; };
-		5E8027A0DAA77D05B4A32031B2D57EEB /* _String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A565EE4199D633D2C287993E0E700 /* _String.swift */; };
-		636DA55B81196A68461E187F2250F0CE /* FAStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193FF7C7B0549AF9EC9F0A131A88FEF6 /* FAStory.swift */; };
-		69A239C95489EB70653282710885620F /* URL+FileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C576EC1AD4A8AC956E118A72DC9BBBD2 /* URL+FileData.swift */; };
-		6C5769E8A275E420CFC922EB708C8F60 /* UILayoutGuide+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B38E82D545161C545AFC78F9C3ED0 /* UILayoutGuide+SnapKit.swift */; };
-		6C8B05EF394FE0FCCA42366D1A0E95CC /* StoryIndicatorContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82E5114D2B17CC815DA3943E6F3691 /* StoryIndicatorContainerView.swift */; };
-		70D09DEB261C7BE55384CC349297F881 /* FAStoryVcStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD23C8C095EF490DFBED79F0BE15877 /* FAStoryVcStack.swift */; };
-		71DA2BA9DB9EB14CEF5F02A35BFE8684 /* MSStoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267D3C7F03F14996861A58D867BA13EA /* MSStoryViewModel.swift */; };
-		74F418F70DF24D1B29ADDC80A6D52F1A /* MSPreviewStoryViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF3E2267024D0B8CDA54618EA58335 /* MSPreviewStoryViewDelegate.swift */; };
-		76E0ABABCB8BC3018C017938C67043B9 /* MSProjectFileExtensionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEB23029F5B02CD054C7323BC0AF7E9 /* MSProjectFileExtensionType.swift */; };
-		772F1F79B92FF30AA6E1777248E31E24 /* FAStoryAddible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A8AE8187885E22E12A542E06FF60E3 /* FAStoryAddible.swift */; };
-		7BB919152223C11D7EB83431F149770F /* MSStoryProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE96AEB2E8FE06E5EBD04B8F1FED9 /* MSStoryProviderProtocol.swift */; };
-		81A62177FA256E17F314D576B1669A6A /* FAStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6BDB624A6A97F11B9BDB59DC234A7D /* FAStoryView.swift */; };
-		82350C1C427D260AAF9AFF8B6404DECB /* MSProviderDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE36E91AF183DCBD4291B356BBE676A /* MSProviderDependency.swift */; };
+		41257F03320B5F5E7134E35BEC686771 /* MSServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6CBAAA453395BF86FA2EA51F80640 /* MSServiceFactory.swift */; };
+		42B048D11707FD5397328E152792F42C /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3FAB1CA1D77BAFAA4DD598CB94B07D /* UICollectionView+Extensions.swift */; };
+		43402FC6B3C46E059C7A0D3B7EE3ECCB /* MSStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F566FF3948CAD0CE2972D0EEF2532B8 /* MSStories.swift */; };
+		49AEDDFE48A2C778FD2C0EC8592DFE4C /* MSStoryViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BF757F8304BFCDFB6C3632BD928D5 /* MSStoryViewControllerDelegate.swift */; };
+		4A3D83DADE9AAC7B8E4996C84849B839 /* SwipeDismissInteractible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0334AC0F22CC709B7233B3ADFAE7B740 /* SwipeDismissInteractible.swift */; };
+		4C38A265B0AB284CE79B2C2F71164269 /* MSProviderDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAB234CEF35781DAEED38AC9A0622 /* MSProviderDependency.swift */; };
+		511266BF215A2FEDD601C45D2032413F /* Publisher+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A619EC6846E043BCDCDE604D51E361B1 /* Publisher+Decode.swift */; };
+		511670449FAFDA34CAFC7BA1746782E6 /* MSStoryPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52014BC73062CB44F888D8636E869DB2 /* MSStoryPlayerView.swift */; };
+		51B073C5EF2C56ED32872D3623E349E9 /* MSProjectFileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BE20C8E84256586837E3DB794CDC7 /* MSProjectFileService.swift */; };
+		5301669A1202A1C0140693998DEF7D15 /* FAStoryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDAF79D76F52CB4A46338C401399537 /* FAStoryDelegate.swift */; };
+		53A3909ED68CA5A932D7C7FFDCB3BBA7 /* MSExtractFileError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DC26FFDD682BC18DBC950795498171 /* MSExtractFileError.swift */; };
+		555F7ABDA080419A7847EDFC42286E33 /* UIView+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28555EF0486067CAFA7146280952CB2A /* UIView+Anchor.swift */; };
+		56608C6E4F908869EA190128E7FC8A66 /* _FAStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8AE7AC2DCAF96B3897C162364C690 /* _FAStory.swift */; };
+		5C187C924FE19125711AA00093659CE3 /* MSStoryContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E5D98106865345343AE2D4E664383A /* MSStoryContainerViewController.swift */; };
+		5F08E0D5D6835FD62BC69D847009AFA2 /* FABadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD9FB7EAB69998AB37A8944DBB0EC8C /* FABadgeView.swift */; };
+		60AEE87A9C11A550EB8067055F3149F7 /* TouchProgressCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A9AD9EF7D07DDD5EF663C61DC4FBA /* TouchProgressCalculator.swift */; };
+		61436E5F9A196DE5CB4357A51A5F767C /* StoryIndicatorContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7B43ABAB3F5545179AF19FF6A1B39 /* StoryIndicatorContainerView.swift */; };
+		615E5C6DF2640CB6EFED32EA0708BA1E /* MSResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77057C7950C3E2FE825F18D54762206 /* MSResolver.swift */; };
+		61846DDDB0071F4F43E0578DD7F8C9DC /* FAStoryAddible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8864CE9BA6EF2B4FA1262F014D97C2 /* FAStoryAddible.swift */; };
+		642CB5D1998242CCE914539DFDA4CE97 /* FAStoryVideoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B8D8A7814CBD642C52A4343147FF63 /* FAStoryVideoContent.swift */; };
+		6865C5F45665FFBC6C8767B9B0751352 /* MSServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE99924D10B5392AB8BEA2C205F0357 /* MSServiceLocator.swift */; };
+		6AA74BBB38D239604A6ACB72EFBB494B /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AA3F016CBCB244182B9EB14271C031 /* DownloadService.swift */; };
+		6B1CB5B8565F4C3EC4059ECD7F073FDB /* FAStoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE9AA98C8B4DD24C5242A636C6A278 /* FAStoryController.swift */; };
+		6B2D8DB5E6001C9AA8875FE8300A7B07 /* Margin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E34E9242CA1C47647838CF603788D11 /* Margin.swift */; };
+		6D5599889855D37F314CF635A7DB8189 /* MSStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DBDA57D94F4BC972BF790EED6F2371 /* MSStory.swift */; };
+		707DE66785E3E51EF0108D627CF04758 /* MSServiceDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28805938CF59BDAAD37941231EB27872 /* MSServiceDependency.swift */; };
+		726575B676B53754E585563B79504454 /* MSCacheStoryServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDD0C34980D2E37441369E32B443AC /* MSCacheStoryServiceProtocol.swift */; };
+		786AADEAE275D8CC05F3007B68B97FE5 /* MSRepositoryLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5F44F776F49FDB330AE0C8279F8AE4 /* MSRepositoryLocator.swift */; };
+		7892B27CB01BE914E22C9A9CA085CF93 /* MSDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1224B3703A75896F6E26ED4192F147C4 /* MSDownloadService.swift */; };
+		7A7D563D8BBF00866F86A7FE8AF1FAA4 /* FAStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE9C540AB7CD785A68AEB4C5BDA547F /* FAStory.swift */; };
+		7B0FF30DC2BA895B48DF5924DD8FC59F /* MSStoryProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF71518A09CF793680215FC17E7F695 /* MSStoryProviderProtocol.swift */; };
+		7D856A482458C8BBCA8E0C0EAEDB3F14 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBB123FB542688BB18DE2407DF14C6 /* TransitionAnimator.swift */; };
+		7DF73E4C2755C97B14A81B1DDB243DBA /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D39036F6560DC54A27993DCB839158 /* DefaultValues.swift */; };
+		7E9D3E24C775C1C1ABE76F05B1719DEE /* FAStoryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B607338F7A0781506AE5DDB8514555FC /* FAStoryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F51BCD73934E570326BF4B08FD5D8B0 /* MSCacheFileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471503A0806B14265A40AB7186BE76E9 /* MSCacheFileItem.swift */; };
 		8256C3010A4ECFA30D53A33681A513B6 /* Pods-FAStoryExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 011F6366852265D0BC4B2F261695CB1E /* Pods-FAStoryExample-dummy.m */; };
-		880C9934DEACA235F867ED14AD92AD4D /* MSProviderLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BA7DF3696BBB7F93A96746066CCF5F /* MSProviderLocator.swift */; };
-		881DA6991136B8582047F2C0820D5D46 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5624423C8E5F4B515D06C7CD2606E /* UIView+Extensions.swift */; };
-		89B52E621D8A59D96E5D0661A384CAAC /* MSResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299C07108FA1FCE770BD3F841468B7A6 /* MSResolver.swift */; };
-		8B4D8A4C6948BA289FC532F44A93B338 /* URLSession+DownloadTaskPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F6F6CAB7BC24875CC22916707AB3B3 /* URLSession+DownloadTaskPublisher.swift */; };
-		8B8225CFA9E792DCE3A9799D908C02DD /* MSServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E86D4186A5B5C94C18FEE12EFF0B /* MSServiceLocator.swift */; };
-		8C7223A4B317203E6DBB2975D214160C /* _FAStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C71FE0F6ECD32A69EC76396FDDFB7B3 /* _FAStory.swift */; };
-		8CB630703332D5BD32966AE79C7FEF11 /* FAStoryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCBCAC7BE67EE3F23C8652736FF45A5 /* FAStoryDelegate.swift */; };
-		8CC05AEB3369F67025BA6BAED178B36F /* MSStoryKitProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6B92E4629E46234A4E886AEB1671DF /* MSStoryKitProviderProtocol.swift */; };
-		8DF62AAE26563666B96F2A2769130277 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614BA476D26431DFB18809393DC91A3 /* TransitionAnimator.swift */; };
-		8F4A19EE89C36D9146BCFEC883A50080 /* FAStoryTeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC704356B2080E96AE854C961915098 /* FAStoryTeller.swift */; };
-		942EF9CE7FDAD64D1A72F1ACCAFC6873 /* MSPreviewStoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E1F2ACE91DAA5E868AA7BADE92928 /* MSPreviewStoryViewModel.swift */; };
-		967C60A856DDA7C758B3BB05CBEA172A /* MSSFileFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B0E6EC04A0BF31B4C82A290CB87BB /* MSSFileFormat.swift */; };
-		975129E9AD3AE8C843610B0BA8DDEC29 /* FAStoryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C14C0AB19AA5D457D5EF9991FBDD62B /* FAStoryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9ACC40D4D6A83A0B0F30D2170C56899A /* MSStoryPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CF8EC1A48175A20751A602D236DB5 /* MSStoryPlayerView.swift */; };
-		9CA5C3E12A770C5E91741D7465810BB0 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B7D5D57CA3A0547B5FD3F27D8A59C3 /* UICollectionView+Extensions.swift */; };
-		9CADAB2571DFC758D9636D07543153C5 /* FAPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E66EEAA0B3CD777E5FAC38CB092364 /* FAPlayerView.swift */; };
-		9EF4D4C130ADDD33112D54743CB997F5 /* FAStoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D572497F0B3A27CA168C8D512723493E /* FAStoryKit-dummy.m */; };
-		9FE931DE74AF1794FF087E350AA33276 /* MSCacheFileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476D5B75602717D9E59C46C401BE4572 /* MSCacheFileItem.swift */; };
-		A05ACE2EBDA8BBCC84EA6073732E53AC /* FAStoryVideoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE4F95647796AA15C01E03F76E2766 /* FAStoryVideoContent.swift */; };
+		83E99927999A9CD3F1481BE09EE4273E /* StoryContentWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282691BF7A14AF7E3790CDC886CC523E /* StoryContentWrapper.swift */; };
+		882E6C8DD015D2611D35C6CA01557A28 /* SessionDownloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A966ABD07B9B3DBBE9E12D8098C19 /* SessionDownloadable.swift */; };
+		88EA7C07D67C0D462340DC7DD6098FA4 /* FAStoryContentTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCDD4F7A105B441F151B9900AF14DFA /* FAStoryContentTemplate.swift */; };
+		8CCB43987BDC0DE1AC4370088F9FC476 /* FAStoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E003CA20F4934EBE6B762BEC24BF33 /* FAStoryVC.swift */; };
+		91D2E965B3A3A588B02E0997F52BFFDF /* MSPreviewStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0563A22457486CD49D153DC9CA220 /* MSPreviewStoryView.swift */; };
+		9E01D0B52AF6C9E5F269FE674177F590 /* FAStoryTeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496038B9A0A89286DF10892114C81E6 /* FAStoryTeller.swift */; };
+		A13B6E7BC02A6616107A6F35F6EA9942 /* ExternalLinkControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8433CB62C4B9725783ED921147E55A7 /* ExternalLinkControllerView.swift */; };
 		A1879267026136665E705F2B43B11B9A /* Pods-FAStoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E3B453A3730DAF5E5045878C6E2310 /* Pods-FAStoryKit-dummy.m */; };
 		A1F8D231A8AFBE2583DA90E593A615D2 /* Pods-FAStoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78365559767000D7222E739DE90D73F8 /* Pods-FAStoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A32966F599A294BE1123B5ADCFFF826F /* FAStoryContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2B83280764B8ECCB2BC523395E85F2 /* FAStoryContentType.swift */; };
-		A526E7750F44D000D6D47409A6423158 /* MSStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549459077EBFDE05D6BB3C5655176EFF /* MSStoryViewController.swift */; };
-		A68BBEE7BB8E30FC717C8A9246DF0087 /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE8887FD0B9B794CB322898BA81A9E /* DefaultValues.swift */; };
-		A94C9492A52BDF1262CB5678B7060095 /* SessionDownloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435932AC10F2A14DEE5E4C9BAF899703 /* SessionDownloadable.swift */; };
-		ABBDADEFE71BB7792C2CE6DDEDBE04AD /* MSStoryPlayerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3367FCB513B5E985E5EBEC1C4117A5 /* MSStoryPlayerViewDelegate.swift */; };
-		AEF80DBE78EEA8D56CBDC7A256FD9CF9 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3365E5C43C8FB76E9B99F508CCA9B596 /* Configurable.swift */; };
-		AF31FEE3BB438B13DBD794A15EF5C9F9 /* MSExtractFileError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F703995994377F77AE89D5256C2D9C /* MSExtractFileError.swift */; };
-		B3291E2A0531B9DA83615E8E5B99EC3F /* FABadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1C61EA52CF629BE48090102BCC5F4 /* FABadgeView.swift */; };
-		B44FB20BBA9AD058E1A27A3846091115 /* Publisher+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648978F0C99E74C45021E8672ED44A5 /* Publisher+Decode.swift */; };
-		B7A35F5B4B2F929CA6D88A141FA55178 /* MSCacheStoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD7A7AB5FC2B9E3698FA8CD4D14B0F1 /* MSCacheStoryService.swift */; };
-		B854F35B55475CCD833CFAB668D633C1 /* StoryIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923002FA29B731CF5F7FA0A7450DC973 /* StoryIndicatorView.swift */; };
-		B9207CCA1B102461B159BF2BF0EE6E50 /* FAStoryImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34091477E7A3947986DE64998C5D7B /* FAStoryImageContent.swift */; };
-		C91655FCAFCAC456BBD5C2EA82C058D3 /* Publisher+FilterNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0320D56A0F38CC19EECDD0F3DF14FE4 /* Publisher+FilterNil.swift */; };
-		C96ECAE0F4E23672FD7F86B9498D3DE7 /* FAStoryContentCacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362C54C910B0862C4AA514E8D2A71A67 /* FAStoryContentCacher.swift */; };
-		CBC79DA02914DD9538F27E4D3296AEBC /* FAStoryView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8062BE7F38770F1818008CB3218C1685 /* FAStoryView.xib */; };
-		CBD106331C6FB0F40AA15F3648DD0FFA /* MSProjectFileServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E2CF5CD4CFB9821FD315DCD0BFD473 /* MSProjectFileServiceProtocol.swift */; };
-		CFBAB3D163FF8D5DF22D30D93E83EF5C /* MSStoryContainer+TransitionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7721679BF3D38DD1EF2AF680062B5E47 /* MSStoryContainer+TransitionCoordinator.swift */; };
-		D0147658C8232DBFA872F81A9C82CF88 /* MSPreviewStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5649040DFC67522B44117F8FAF490D93 /* MSPreviewStoryView.swift */; };
-		D412E3AE7D8AE0266F11122B95B93DE6 /* MSStoryContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7FE195D15129DC4D246121C08EAEF /* MSStoryContainerViewController.swift */; };
+		A2926BE6D1409E5BA7E611DADBC79BB5 /* MSProjectFileServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA840DE519F8FA86C7E5A7E176C75F7A /* MSProjectFileServiceProtocol.swift */; };
+		AAEE3E7455C97907D2CB502188CD1583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ADEE939067BD3E426B64D37714AFF583 /* _NSNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33361ECE830C92A5C94E567FBD925194 /* _NSNotification.swift */; };
+		AF06876987B7B295FD58F56EEB6AE867 /* MSPreviewStoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D83E5815D69EFDD2DF11BE281FDA15B /* MSPreviewStoryViewModel.swift */; };
+		AF60DA7D9DEAC913D1CCCC6A7FCBCA45 /* URLSession+DownloadTaskPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01013308552179AA4BD22FD266C4C18B /* URLSession+DownloadTaskPublisher.swift */; };
+		B549E0B23A8679B1A6596E8D41AE26AA /* MSServiceLocatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAA82768BCA71B2EE546ECF015C32B2 /* MSServiceLocatorProtocol.swift */; };
+		B7B0D3FF0216C8DF7AB3B8FFEBD29078 /* MSSFileFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C9811808C71B398D7239A940DD6AA6 /* MSSFileFormat.swift */; };
+		BCFAFB46D876A0B32EA2EAA70E4AE47D /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323EF2B098B5F912F7BE01E60508894A /* Configurable.swift */; };
+		BDDC4E1BE3E7C1DAE8D3D80E2F14D0DC /* FAStoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 873404740FB562847ED090D71DEF30F1 /* FAStoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE92A97F7B8BC76B080245AA90ABA55 /* FAStoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D9D342DDCBC511BF055C00CF424039 /* FAStoryKit-dummy.m */; };
+		BEB1C5A658647E7825E3868700DE066D /* FAStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A1EA3A4089E21E06915DE9979F9171 /* FAStoryCollectionViewCell.swift */; };
+		C52EC35527A3BE4DC0E9C49BE8DEA016 /* MSStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198B5C56E75AF526CA358BD7E9B2907 /* MSStoryViewController.swift */; };
+		C6D957F9AFB1012D565FF6C1FE77CF4F /* MSStoryKitProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7398D77B6A494CF0217F902E6EF0A3 /* MSStoryKitProvider.swift */; };
+		CA1B2DF526C86791B6A6A388EDAF4A55 /* MSStoryKitProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37014207A512A0CE556A67922D12EDDA /* MSStoryKitProviderProtocol.swift */; };
+		CCA5310A898209D9682FD5674DB8E559 /* URL+FileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FCE905CA9162FEDB2E4C594B845D49 /* URL+FileData.swift */; };
+		CE90878657ACDBD374141F955A1BB5B8 /* MSProviderLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8CC8649CECD1BD3762DC154767E50 /* MSProviderLocator.swift */; };
+		CFE282D4CCA4D38BC6163101E2AC6321 /* MSStoryVcStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CF79ECA531E41BFE1470983273AD41 /* MSStoryVcStack.swift */; };
+		D2ABA0B5EE746990E367AC466E296285 /* MSStoryPlayerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371BC057EC6E83C5221C6C5D52F7D8AA /* MSStoryPlayerViewDelegate.swift */; };
+		D6B838F0930C69863CFFC70FBB0066FC /* _Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B8B3451D0D3C4B773A20FF940C03E /* _Double.swift */; };
 		D6C14D86029397567B9B83DDC20B4466 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D9ED851305C5438BA77FF3B0D23A43FE /* MSRepositoryDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393ABC1129D2FFD4007C681372454B07 /* MSRepositoryDependency.swift */; };
-		DB5EBBCE7B43F9FAA649600FCECE183B /* MSStoryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397A117D49BE36374258D7C551EF8742 /* MSStoryContent.swift */; };
-		DDDA87D4BC062E1EB4F1B0BAA72746FF /* FAStoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB23B662109AC2D79A6BB74DD4B3B42B /* FAStoryController.swift */; };
-		DEDFBEAF10F4501BACA3B52FA0F40614 /* FAStoryContainer+TransitionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7FCFFB8CD728C5098707673C3DA94 /* FAStoryContainer+TransitionCoordinator.swift */; };
-		EA1AAE6F4F72F54C849021FFF289CB0F /* MSDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861DB6A9AEFBCAE6594C258AE167F22 /* MSDownloadService.swift */; };
+		D7A9477AB6E95A4CF0066A429E005BD5 /* MSPreviewStoryViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DCD1CB9CE64218946F2DC41B3C6611 /* MSPreviewStoryViewDelegate.swift */; };
+		D907C0CE2899FDB772CDF756E59D27D7 /* Publisher+FilterNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E46DD049AEBAB19525AE920E00D2EEC /* Publisher+FilterNil.swift */; };
+		D9694E43484309EB86F132D57BFEE033 /* MSStoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB77328BE7AEB156070F1162176D06 /* MSStoryProvider.swift */; };
+		DA86C5783DD29DD8E2D81A2D9FB2755B /* MSProjectFileExtensionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEEF5954CA94DB4D20FF6C8CC269EE8 /* MSProjectFileExtensionType.swift */; };
+		DC49B0D8AAAB39FC8E0FBE80F64DCADE /* FAStoryContentCacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0403C3E3B7BA1CABBEDE42D32C892D1 /* FAStoryContentCacher.swift */; };
+		DC903BBC5DD5DBB490B2DE09F5F0BAA5 /* MSServiceResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA34E1F7987E5FB9063189B398379F5 /* MSServiceResolver.swift */; };
+		DF72928F4504261400B269BF3198F618 /* _String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E13444717E4F867A908BD6ACD75224E /* _String.swift */; };
+		E5B13FD2E6567DBAB9919CF2B38FCAF0 /* MSStoryContainer+TransitionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177297939B8D71CB3AFDAB077BB8CC71 /* MSStoryContainer+TransitionCoordinator.swift */; };
+		E61879412AA7B9B8E383A51B7F1FE694 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6316124B76836284594D354B192A8CB1 /* UIView+Extensions.swift */; };
 		ECB4F9C4371F4BCD5C835D5FB1FFA958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F084B7D8111D40AC760AB11DCA59F346 /* FAStoryContentTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0FB908D7ED2CDC8854A76D51C5135E /* FAStoryContentTemplate.swift */; };
-		F482103ED8E4D04BA763B09B8E6C8A10 /* MSStoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C658961E663EC06AED3213844BB3245 /* MSStoryRepository.swift */; };
-		F49E534C38FB96643DC398C60004FDCE /* MSStoryVcStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1DEA6BDCA97C2B2CE094450E67E585 /* MSStoryVcStack.swift */; };
-		F63590B4FB9538B4AF8F48FB1AA4BE01 /* MSStoryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17442B3D0DC5FBEB97864D6DDAF56639 /* MSStoryError.swift */; };
-		F9631ECEBFA041F501D688AD9059ED35 /* _NSNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979E435C78AA3E127CF2B4038C0D1C69 /* _NSNotification.swift */; };
-		FA3FB4DBF259F74AAF9F2B165F619F1C /* StoryContentWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2221CB1064D23ED09259067BAA988 /* StoryContentWrapper.swift */; };
-		FADA5268A28EA0C2BACE2267D176B70C /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD9166EDC8B6A33DF40A099638D9B0C /* DownloadService.swift */; };
-		FE193EAE7EB50718138FE70AB0526C90 /* FAStoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91FDC22D431C4C783DC050F6DEF48983 /* FAStoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE950EB7A0CFAC3D97C8A9D4AEED6D8F /* _Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DECC3DF00EB0F3E6C165EFBC01D438 /* _Double.swift */; };
+		F0266B00DF72118920CEAFFADBEA6596 /* _UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C770DAA8621A25D587B4F167F392C /* _UINavigationController.swift */; };
+		F07431C9BF38DE6FFAED2BE7EC827EC4 /* MSBasicServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031493919F3F32CF5CA2CD2711D8976E /* MSBasicServiceFactory.swift */; };
+		F3872F25878DAE6B40F4D4A6620562DB /* FAStoryContentNature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CA8D1806F5F9196E944D7F2E24082 /* FAStoryContentNature.swift */; };
+		F8196F6576172CC2DBDB5CDCA1FF609A /* FAStoryVcStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770FF5D2738B57D84E4FA7987B04B6F4 /* FAStoryVcStack.swift */; };
+		FD4FEC38BFAB162B27B314D3F200ECB3 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A01BA54E1E3FBB89B110F141C60320 /* CGFloat+Extensions.swift */; };
+		FE2F5A4C09A19628A270ABD80C8F28B0 /* FAStoryContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7FE4A7DE3FBFCF4A0CE5643542C53F /* FAStoryContentType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D72DA63F5CD909E4FA199DC2D7B2C1EE /* PBXContainerItemProxy */ = {
+		626FD0F483064AB05F4AA55D92021FAF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -121,135 +119,133 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01013308552179AA4BD22FD266C4C18B /* URLSession+DownloadTaskPublisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSession+DownloadTaskPublisher.swift"; path = "FAStoryKit/MSStoryKit/Utilities/Extensions/Foundation/URLSession+DownloadTaskPublisher.swift"; sourceTree = "<group>"; };
 		011F6366852265D0BC4B2F261695CB1E /* Pods-FAStoryExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAStoryExample-dummy.m"; sourceTree = "<group>"; };
-		060AC0B1D73CFA6EA2921EA78AF2AF65 /* ExternalLinkControllerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExternalLinkControllerView.swift; path = "FAStoryKit/Views&Controllers/Internal/ExternalLinkControllerView.swift"; sourceTree = "<group>"; };
-		085835BE06DEE81526816D64319FEFA0 /* MSProjectFileService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSProjectFileService.swift; path = FAStoryKit/MSStoryKit/Core/Services/ProjectFileService/MSProjectFileService.swift; sourceTree = "<group>"; };
-		0C1B38E82D545161C545AFC78F9C3ED0 /* UILayoutGuide+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutGuide+SnapKit.swift"; path = "FAStoryKit/MSStoryKit/UIUtilities/Extensions/UIKit/UILayoutGuide+SnapKit.swift"; sourceTree = "<group>"; };
-		0C658961E663EC06AED3213844BB3245 /* MSStoryRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryRepository.swift; path = FAStoryKit/MSStoryKit/Core/Repositories/Story/MSStoryRepository.swift; sourceTree = "<group>"; };
-		0D75CA8FE42B9111982D3B92C3B79032 /* MSServiceResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSServiceResolver.swift; path = FAStoryKit/MSStoryKit/Core/Services/DependencyContainer/MSServiceResolver.swift; sourceTree = "<group>"; };
-		0FCBCAC7BE67EE3F23C8652736FF45A5 /* FAStoryDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryDelegate.swift; path = FAStoryKit/Protocols/FAStoryDelegate.swift; sourceTree = "<group>"; };
-		0FD2179A169337BF2186621A0A76E94A /* FAStoryVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryVC.swift; path = "FAStoryKit/Views&Controllers/FAStoryVC.swift"; sourceTree = "<group>"; };
-		115B0E6EC04A0BF31B4C82A290CB87BB /* MSSFileFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSSFileFormat.swift; path = FAStoryKit/MSStoryKit/Models/MSSFileFormat.swift; sourceTree = "<group>"; };
-		12E66EEAA0B3CD777E5FAC38CB092364 /* FAPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAPlayerView.swift; path = "FAStoryKit/Views&Controllers/Internal/FAPlayerView.swift"; sourceTree = "<group>"; };
-		15B9E86D4186A5B5C94C18FEE12EFF0B /* MSServiceLocator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSServiceLocator.swift; path = FAStoryKit/MSStoryKit/Core/Services/MSServiceLocator.swift; sourceTree = "<group>"; };
-		17442B3D0DC5FBEB97864D6DDAF56639 /* MSStoryError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryError.swift; path = FAStoryKit/MSStoryKit/Provider/MSStory/MSStoryError.swift; sourceTree = "<group>"; };
-		185B508D63DB1EAD393CF20B0450FC22 /* UIView+Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchor.swift"; path = "FAStoryKit/MSStoryKit/UIUtilities/Extensions/UIKit/UIView+Anchor.swift"; sourceTree = "<group>"; };
-		1861DB6A9AEFBCAE6594C258AE167F22 /* MSDownloadService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSDownloadService.swift; path = FAStoryKit/MSStoryKit/Core/Services/DownloadStoryService/MSDownloadService.swift; sourceTree = "<group>"; };
-		193FF7C7B0549AF9EC9F0A131A88FEF6 /* FAStory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStory.swift; path = FAStoryKit/Models/FAStory.swift; sourceTree = "<group>"; };
+		01E003CA20F4934EBE6B762BEC24BF33 /* FAStoryVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryVC.swift; path = "FAStoryKit/Views&Controllers/FAStoryVC.swift"; sourceTree = "<group>"; };
+		031493919F3F32CF5CA2CD2711D8976E /* MSBasicServiceFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSBasicServiceFactory.swift; path = FAStoryKit/MSStoryKit/Core/Services/DependencyContainer/MSBasicServiceFactory.swift; sourceTree = "<group>"; };
+		0334AC0F22CC709B7233B3ADFAE7B740 /* SwipeDismissInteractible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDismissInteractible.swift; path = FAStoryKit/Protocols/SwipeDismissInteractible.swift; sourceTree = "<group>"; };
+		0BA34E1F7987E5FB9063189B398379F5 /* MSServiceResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSServiceResolver.swift; path = FAStoryKit/MSStoryKit/Core/Services/DependencyContainer/MSServiceResolver.swift; sourceTree = "<group>"; };
+		0C3B3E0A4F74BA251093E1D06840FBB0 /* FAStoryKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAStoryKit.debug.xcconfig; sourceTree = "<group>"; };
+		0D7FE4A7DE3FBFCF4A0CE5643542C53F /* FAStoryContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContentType.swift; path = "FAStoryKit/Models/Type Definitions/FAStoryContentType.swift"; sourceTree = "<group>"; };
+		10E5D98106865345343AE2D4E664383A /* MSStoryContainerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryContainerViewController.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/MSStoryContainerViewController.swift; sourceTree = "<group>"; };
+		1224B3703A75896F6E26ED4192F147C4 /* MSDownloadService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSDownloadService.swift; path = FAStoryKit/MSStoryKit/Core/Services/DownloadStoryService/MSDownloadService.swift; sourceTree = "<group>"; };
+		177297939B8D71CB3AFDAB077BB8CC71 /* MSStoryContainer+TransitionCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MSStoryContainer+TransitionCoordinator.swift"; path = "FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/MSStoryContainer+TransitionCoordinator.swift"; sourceTree = "<group>"; };
+		18CE9AA98C8B4DD24C5242A636C6A278 /* FAStoryController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryController.swift; path = FAStoryKit/Models/Internal/FAStoryController.swift; sourceTree = "<group>"; };
 		1B5645AED382D0F1EC955859484C3EC0 /* Pods-FAStoryExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAStoryExample.release.xcconfig"; sourceTree = "<group>"; };
-		1C0FB908D7ED2CDC8854A76D51C5135E /* FAStoryContentTemplate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContentTemplate.swift; path = "FAStoryKit/Models/Story Content Models/FAStoryContentTemplate.swift"; sourceTree = "<group>"; };
-		1E6BDB624A6A97F11B9BDB59DC234A7D /* FAStoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryView.swift; path = "FAStoryKit/Views&Controllers/FAStoryView.swift"; sourceTree = "<group>"; };
-		1F9EB9FBAE3ABEFFF4ECEEA62A81AEA7 /* FAStoryKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAStoryKit.release.xcconfig; sourceTree = "<group>"; };
-		2339FCEC6B764E9B16CC5B67DDAA7502 /* MSStories.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStories.swift; path = FAStoryKit/MSStoryKit/Models/MSStories.swift; sourceTree = "<group>"; };
+		1C7398D77B6A494CF0217F902E6EF0A3 /* MSStoryKitProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryKitProvider.swift; path = FAStoryKit/MSStoryKit/Provider/MSStoryKit/MSStoryKitProvider.swift; sourceTree = "<group>"; };
+		1DAA82768BCA71B2EE546ECF015C32B2 /* MSServiceLocatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSServiceLocatorProtocol.swift; path = FAStoryKit/MSStoryKit/Core/Services/DependencyContainer/Protocols/MSServiceLocatorProtocol.swift; sourceTree = "<group>"; };
 		25AB6941EA770B542911647D3F1309FD /* Pods-FAStoryKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStoryKit-acknowledgements.plist"; sourceTree = "<group>"; };
 		25DA6E295736E9958FB2BCA83FEA804D /* Pods-FAStoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FAStoryKit.modulemap"; sourceTree = "<group>"; };
-		267D3C7F03F14996861A58D867BA13EA /* MSStoryViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryViewModel.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/MSStoryViewModel.swift; sourceTree = "<group>"; };
-		29151B7F17E350FA86478C8C9247C448 /* MSStoryKitProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryKitProvider.swift; path = FAStoryKit/MSStoryKit/Provider/MSStoryKit/MSStoryKitProvider.swift; sourceTree = "<group>"; };
-		299C07108FA1FCE770BD3F841468B7A6 /* MSResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSResolver.swift; path = FAStoryKit/MSStoryKit/Core/Services/DependencyContainer/Protocols/MSResolver.swift; sourceTree = "<group>"; };
-		2E1F6489C366200B204FE9FC7B3FAA30 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGFloat+Extensions.swift"; path = "FAStoryKit/MSStoryKit/UIUtilities/Extensions/CoreGraphics/CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		282691BF7A14AF7E3790CDC886CC523E /* StoryContentWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryContentWrapper.swift; path = FAStoryKit/Models/Internal/StoryContentWrapper.swift; sourceTree = "<group>"; };
+		28555EF0486067CAFA7146280952CB2A /* UIView+Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchor.swift"; path = "FAStoryKit/MSStoryKit/UIUtilities/Extensions/UIKit/UIView+Anchor.swift"; sourceTree = "<group>"; };
+		28805938CF59BDAAD37941231EB27872 /* MSServiceDependency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSServiceDependency.swift; path = FAStoryKit/MSStoryKit/Core/Services/MSServiceDependency.swift; sourceTree = "<group>"; };
+		2AE6CBAAA453395BF86FA2EA51F80640 /* MSServiceFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSServiceFactory.swift; path = FAStoryKit/MSStoryKit/Core/Services/DependencyContainer/Protocols/MSServiceFactory.swift; sourceTree = "<group>"; };
+		2B46AAF5B0B6BF6FE7CB896042FA66FA /* MSAnyServiceFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSAnyServiceFactory.swift; path = FAStoryKit/MSStoryKit/Core/Services/DependencyContainer/MSAnyServiceFactory.swift; sourceTree = "<group>"; };
+		2B8864CE9BA6EF2B4FA1262F014D97C2 /* FAStoryAddible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryAddible.swift; path = FAStoryKit/Protocols/FAStoryAddible.swift; sourceTree = "<group>"; };
+		2DE99924D10B5392AB8BEA2C205F0357 /* MSServiceLocator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSServiceLocator.swift; path = FAStoryKit/MSStoryKit/Core/Services/MSServiceLocator.swift; sourceTree = "<group>"; };
+		2E13444717E4F867A908BD6ACD75224E /* _String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _String.swift; path = FAStoryKit/Extensions/Internal/_String.swift; sourceTree = "<group>"; };
+		2E2BE20C8E84256586837E3DB794CDC7 /* MSProjectFileService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSProjectFileService.swift; path = FAStoryKit/MSStoryKit/Core/Services/ProjectFileService/MSProjectFileService.swift; sourceTree = "<group>"; };
+		2E46DD049AEBAB19525AE920E00D2EEC /* Publisher+FilterNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Publisher+FilterNil.swift"; path = "FAStoryKit/MSStoryKit/Utilities/Extensions/Combine/Publisher+FilterNil.swift"; sourceTree = "<group>"; };
+		2FCDD4F7A105B441F151B9900AF14DFA /* FAStoryContentTemplate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContentTemplate.swift; path = "FAStoryKit/Models/Story Content Models/FAStoryContentTemplate.swift"; sourceTree = "<group>"; };
 		30690429427849670E9E552EAC1C1A9B /* Pods-FAStoryExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAStoryExample-frameworks.sh"; sourceTree = "<group>"; };
-		3365E5C43C8FB76E9B99F508CCA9B596 /* Configurable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configurable.swift; path = FAStoryKit/MSStoryKit/UIUtilities/Helpers/Configurable.swift; sourceTree = "<group>"; };
-		34DE4F95647796AA15C01E03F76E2766 /* FAStoryVideoContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryVideoContent.swift; path = "FAStoryKit/Models/Story Content Models/SupportedContents/FAStoryVideoContent.swift"; sourceTree = "<group>"; };
+		30AA3F016CBCB244182B9EB14271C031 /* DownloadService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadService.swift; path = FAStoryKit/DownloadService/DownloadService.swift; sourceTree = "<group>"; };
+		323EF2B098B5F912F7BE01E60508894A /* Configurable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configurable.swift; path = FAStoryKit/MSStoryKit/UIUtilities/Helpers/Configurable.swift; sourceTree = "<group>"; };
+		32DCD1CB9CE64218946F2DC41B3C6611 /* MSPreviewStoryViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSPreviewStoryViewDelegate.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/PreviewStoryView/MSPreviewStoryViewDelegate.swift; sourceTree = "<group>"; };
+		33361ECE830C92A5C94E567FBD925194 /* _NSNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _NSNotification.swift; path = FAStoryKit/Extensions/Internal/_NSNotification.swift; sourceTree = "<group>"; };
 		35C9B85C4535558F4C7EFFFDA3A83EBC /* Pods-FAStoryExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAStoryExample.debug.xcconfig"; sourceTree = "<group>"; };
-		362C54C910B0862C4AA514E8D2A71A67 /* FAStoryContentCacher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContentCacher.swift; path = FAStoryKit/Protocols/FAStoryContentCacher.swift; sourceTree = "<group>"; };
-		393ABC1129D2FFD4007C681372454B07 /* MSRepositoryDependency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSRepositoryDependency.swift; path = FAStoryKit/MSStoryKit/Core/Repositories/MSRepositoryDependency.swift; sourceTree = "<group>"; };
-		397A117D49BE36374258D7C551EF8742 /* MSStoryContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryContent.swift; path = FAStoryKit/MSStoryKit/Models/MSStoryContent.swift; sourceTree = "<group>"; };
-		3AD7A7AB5FC2B9E3698FA8CD4D14B0F1 /* MSCacheStoryService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSCacheStoryService.swift; path = FAStoryKit/MSStoryKit/Core/Services/CacheStoryService/MSCacheStoryService.swift; sourceTree = "<group>"; };
-		3C1DEA6BDCA97C2B2CE094450E67E585 /* MSStoryVcStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryVcStack.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/MSStoryVcStack.swift; sourceTree = "<group>"; };
-		3C71FE0F6ECD32A69EC76396FDDFB7B3 /* _FAStory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _FAStory.swift; path = FAStoryKit/Extensions/_FAStory.swift; sourceTree = "<group>"; };
-		3DD29CE4D3F2D3DB0E23D60B9A432D70 /* FAStoryContainerVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContainerVC.swift; path = "FAStoryKit/Views&Controllers/FAStoryContainerVC.swift"; sourceTree = "<group>"; };
-		3EF2221CB1064D23ED09259067BAA988 /* StoryContentWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryContentWrapper.swift; path = FAStoryKit/Models/Internal/StoryContentWrapper.swift; sourceTree = "<group>"; };
-		426461ABEED06C7052DB6D1CA2A894ED /* UIView+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SnapKit.swift"; path = "FAStoryKit/MSStoryKit/UIUtilities/Extensions/UIKit/UIView+SnapKit.swift"; sourceTree = "<group>"; };
-		435932AC10F2A14DEE5E4C9BAF899703 /* SessionDownloadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDownloadable.swift; path = FAStoryKit/Protocols/SessionDownloadable.swift; sourceTree = "<group>"; };
+		37014207A512A0CE556A67922D12EDDA /* MSStoryKitProviderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryKitProviderProtocol.swift; path = FAStoryKit/MSStoryKit/Provider/MSStoryKit/MSStoryKitProviderProtocol.swift; sourceTree = "<group>"; };
+		371BC057EC6E83C5221C6C5D52F7D8AA /* MSStoryPlayerViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryPlayerViewDelegate.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/View/PlayerView/MSStoryPlayerViewDelegate.swift; sourceTree = "<group>"; };
+		3FE9C540AB7CD785A68AEB4C5BDA547F /* FAStory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStory.swift; path = FAStoryKit/Models/FAStory.swift; sourceTree = "<group>"; };
+		400AEB3AB62280EADADA328BB7DE6D29 /* FAStoryContainerVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContainerVC.swift; path = "FAStoryKit/Views&Controllers/FAStoryContainerVC.swift"; sourceTree = "<group>"; };
 		436E8BF03B8A82DD85CC97BCD7364D9C /* Pods-FAStoryKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAStoryKit.debug.xcconfig"; sourceTree = "<group>"; };
 		443DC700993C335F193218DB1DE2B65F /* Pods-FAStoryKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAStoryKit-acknowledgements.markdown"; sourceTree = "<group>"; };
-		476D5B75602717D9E59C46C401BE4572 /* MSCacheFileItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSCacheFileItem.swift; path = FAStoryKit/MSStoryKit/Models/MSCacheFileItem.swift; sourceTree = "<group>"; };
-		49F6F6CAB7BC24875CC22916707AB3B3 /* URLSession+DownloadTaskPublisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSession+DownloadTaskPublisher.swift"; path = "FAStoryKit/MSStoryKit/Utilities/Extensions/Foundation/URLSession+DownloadTaskPublisher.swift"; sourceTree = "<group>"; };
-		4C80B4B135BE0FB0A49337DCC2086CFD /* FAStoryCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryCollectionViewCell.swift; path = "FAStoryKit/Views&Controllers/Internal/FAStoryCollectionViewCell.swift"; sourceTree = "<group>"; };
-		4E3367FCB513B5E985E5EBEC1C4117A5 /* MSStoryPlayerViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryPlayerViewDelegate.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/View/PlayerView/MSStoryPlayerViewDelegate.swift; sourceTree = "<group>"; };
-		52B2DBD0E867EECB4F049FCC2FE4ABE1 /* SwipeDismissInteractible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDismissInteractible.swift; path = FAStoryKit/Protocols/SwipeDismissInteractible.swift; sourceTree = "<group>"; };
-		52E86BC0372AAD082C8DE9F751EE8A29 /* Margin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Margin.swift; path = FAStoryKit/MSStoryKit/UIUtilities/Helpers/Margin.swift; sourceTree = "<group>"; };
-		549459077EBFDE05D6BB3C5655176EFF /* MSStoryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryViewController.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/MSStoryViewController.swift; sourceTree = "<group>"; };
-		5649040DFC67522B44117F8FAF490D93 /* MSPreviewStoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSPreviewStoryView.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/PreviewStoryView/MSPreviewStoryView.swift; sourceTree = "<group>"; };
-		585D574768B1818122B422A95730E8D0 /* FAStoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FAStoryKit.modulemap; sourceTree = "<group>"; };
+		4496038B9A0A89286DF10892114C81E6 /* FAStoryTeller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryTeller.swift; path = FAStoryKit/Protocols/FAStoryTeller.swift; sourceTree = "<group>"; };
+		471503A0806B14265A40AB7186BE76E9 /* MSCacheFileItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSCacheFileItem.swift; path = FAStoryKit/MSStoryKit/Models/MSCacheFileItem.swift; sourceTree = "<group>"; };
+		4AE8CC8649CECD1BD3762DC154767E50 /* MSProviderLocator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSProviderLocator.swift; path = FAStoryKit/MSStoryKit/Provider/MSProviderLocator.swift; sourceTree = "<group>"; };
+		4DEBB123FB542688BB18DE2407DF14C6 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = "FAStoryKit/Views&Controllers/CustomTransition/TransitionAnimator.swift"; sourceTree = "<group>"; };
+		51A1EA3A4089E21E06915DE9979F9171 /* FAStoryCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryCollectionViewCell.swift; path = "FAStoryKit/Views&Controllers/Internal/FAStoryCollectionViewCell.swift"; sourceTree = "<group>"; };
+		52014BC73062CB44F888D8636E869DB2 /* MSStoryPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryPlayerView.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/View/PlayerView/MSStoryPlayerView.swift; sourceTree = "<group>"; };
+		525CAD3ECC858E7B29F23A778ECED0EF /* MSStoryViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryViewModel.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/MSStoryViewModel.swift; sourceTree = "<group>"; };
+		551A9AD9EF7D07DDD5EF663C61DC4FBA /* TouchProgressCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TouchProgressCalculator.swift; path = FAStoryKit/Models/Internal/TouchProgressCalculator.swift; sourceTree = "<group>"; };
+		59026E5B087B85FDCEF9B1D11DBEEF53 /* MSStoryError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryError.swift; path = FAStoryKit/MSStoryKit/Provider/MSStory/MSStoryError.swift; sourceTree = "<group>"; };
 		5B7237383331443FF6F66C3D14004028 /* Pods-FAStoryExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAStoryExample-umbrella.h"; sourceTree = "<group>"; };
-		5DAE8887FD0B9B794CB322898BA81A9E /* DefaultValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValues.swift; path = FAStoryKit/Models/Internal/DefaultValues.swift; sourceTree = "<group>"; };
-		5FCB1901BF8D28ED545C225C50249B11 /* MSServiceDependency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSServiceDependency.swift; path = FAStoryKit/MSStoryKit/Core/Services/MSServiceDependency.swift; sourceTree = "<group>"; };
-		604D548EAAC6FF7085D0FD35C617ADE5 /* _UINavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _UINavigationController.swift; path = FAStoryKit/Extensions/Internal/_UINavigationController.swift; sourceTree = "<group>"; };
-		61B7D5D57CA3A0547B5FD3F27D8A59C3 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Extensions.swift"; path = "FAStoryKit/MSStoryKit/UIUtilities/Extensions/UIKit/UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		5D83E5815D69EFDD2DF11BE281FDA15B /* MSPreviewStoryViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSPreviewStoryViewModel.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/PreviewStoryView/MSPreviewStoryViewModel.swift; sourceTree = "<group>"; };
+		6198B5C56E75AF526CA358BD7E9B2907 /* MSStoryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryViewController.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/MSStoryViewController.swift; sourceTree = "<group>"; };
 		628A56DFB9F1B98E0AE816D24DCB64F4 /* Pods-FAStoryKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FAStoryKit"; path = Pods_FAStoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6316124B76836284594D354B192A8CB1 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "FAStoryKit/MSStoryKit/UIUtilities/Extensions/UIKit/UIView+Extensions.swift"; sourceTree = "<group>"; };
 		6542898B9B54036AFB0AC5ED4F1CF9D8 /* Pods-FAStoryExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStoryExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		67E8AE7AC2DCAF96B3897C162364C690 /* _FAStory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _FAStory.swift; path = FAStoryKit/Extensions/_FAStory.swift; sourceTree = "<group>"; };
+		6CDAF79D76F52CB4A46338C401399537 /* FAStoryDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryDelegate.swift; path = FAStoryKit/Protocols/FAStoryDelegate.swift; sourceTree = "<group>"; };
 		71E3B453A3730DAF5E5045878C6E2310 /* Pods-FAStoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAStoryKit-dummy.m"; sourceTree = "<group>"; };
+		729490B14CDBE051BC5896CFD87505AB /* MSDownloadServiceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSDownloadServiceProtocol.swift; path = FAStoryKit/MSStoryKit/Core/Services/DownloadStoryService/MSDownloadServiceProtocol.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7721679BF3D38DD1EF2AF680062B5E47 /* MSStoryContainer+TransitionCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MSStoryContainer+TransitionCoordinator.swift"; path = "FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/MSStoryContainer+TransitionCoordinator.swift"; sourceTree = "<group>"; };
+		75B65538A52492DD38B12AE2689E4BB5 /* FAStoryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FAStoryView.xib; path = FAStoryKit/NibFiles/FAStoryView.xib; sourceTree = "<group>"; };
+		770FF5D2738B57D84E4FA7987B04B6F4 /* FAStoryVcStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryVcStack.swift; path = FAStoryKit/Models/FAStoryVcStack.swift; sourceTree = "<group>"; };
 		78365559767000D7222E739DE90D73F8 /* Pods-FAStoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAStoryKit-umbrella.h"; sourceTree = "<group>"; };
-		7987D1A37F953F47E237B2A82D47FAF1 /* MSDownloadServiceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSDownloadServiceProtocol.swift; path = FAStoryKit/MSStoryKit/Core/Services/DownloadStoryService/MSDownloadServiceProtocol.swift; sourceTree = "<group>"; };
-		7BC704356B2080E96AE854C961915098 /* FAStoryTeller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryTeller.swift; path = FAStoryKit/Protocols/FAStoryTeller.swift; sourceTree = "<group>"; };
-		7C82E5114D2B17CC815DA3943E6F3691 /* StoryIndicatorContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryIndicatorContainerView.swift; path = "FAStoryKit/Views&Controllers/Internal/StoryIndicatorContainerView.swift"; sourceTree = "<group>"; };
-		7D3D860A01ABC1A04FED69867A35C7C0 /* MSServiceFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSServiceFactory.swift; path = FAStoryKit/MSStoryKit/Core/Services/DependencyContainer/Protocols/MSServiceFactory.swift; sourceTree = "<group>"; };
-		7DE36E91AF183DCBD4291B356BBE676A /* MSProviderDependency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSProviderDependency.swift; path = FAStoryKit/MSStoryKit/Provider/MSProviderDependency.swift; sourceTree = "<group>"; };
-		7F2B83280764B8ECCB2BC523395E85F2 /* FAStoryContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContentType.swift; path = "FAStoryKit/Models/Type Definitions/FAStoryContentType.swift"; sourceTree = "<group>"; };
-		8062BE7F38770F1818008CB3218C1685 /* FAStoryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FAStoryView.xib; path = FAStoryKit/NibFiles/FAStoryView.xib; sourceTree = "<group>"; };
-		80895D2142E3EECA819A20B5CFA57FD1 /* FAStoryKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAStoryKit.debug.xcconfig; sourceTree = "<group>"; };
-		84BAE96AEB2E8FE06E5EBD04B8F1FED9 /* MSStoryProviderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryProviderProtocol.swift; path = FAStoryKit/MSStoryKit/Provider/MSStory/MSStoryProviderProtocol.swift; sourceTree = "<group>"; };
-		86D81494703E7F87CC8D6F279A9135F9 /* FAStoryDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryDataSource.swift; path = FAStoryKit/Protocols/FAStoryDataSource.swift; sourceTree = "<group>"; };
-		8BD9166EDC8B6A33DF40A099638D9B0C /* DownloadService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadService.swift; path = FAStoryKit/DownloadService/DownloadService.swift; sourceTree = "<group>"; };
-		8CE7FE195D15129DC4D246121C08EAEF /* MSStoryContainerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryContainerViewController.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/MSStoryContainerViewController.swift; sourceTree = "<group>"; };
-		8E6B92E4629E46234A4E886AEB1671DF /* MSStoryKitProviderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryKitProviderProtocol.swift; path = FAStoryKit/MSStoryKit/Provider/MSStoryKit/MSStoryKitProviderProtocol.swift; sourceTree = "<group>"; };
-		8EDF3E2267024D0B8CDA54618EA58335 /* MSPreviewStoryViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSPreviewStoryViewDelegate.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/PreviewStoryView/MSPreviewStoryViewDelegate.swift; sourceTree = "<group>"; };
-		8EF1C61EA52CF629BE48090102BCC5F4 /* FABadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FABadgeView.swift; path = "FAStoryKit/Views&Controllers/FABadgeView.swift"; sourceTree = "<group>"; };
-		9123F1811690D0FAE4089C4FBB25DDFC /* MSServiceLocatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSServiceLocatorProtocol.swift; path = FAStoryKit/MSStoryKit/Core/Services/DependencyContainer/Protocols/MSServiceLocatorProtocol.swift; sourceTree = "<group>"; };
-		91FDC22D431C4C783DC050F6DEF48983 /* FAStoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAStoryKit-umbrella.h"; sourceTree = "<group>"; };
-		923002FA29B731CF5F7FA0A7450DC973 /* StoryIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryIndicatorView.swift; path = "FAStoryKit/Views&Controllers/Internal/StoryIndicatorView.swift"; sourceTree = "<group>"; };
-		979E435C78AA3E127CF2B4038C0D1C69 /* _NSNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _NSNotification.swift; path = FAStoryKit/Extensions/Internal/_NSNotification.swift; sourceTree = "<group>"; };
-		98DECC3DF00EB0F3E6C165EFBC01D438 /* _Double.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _Double.swift; path = FAStoryKit/Extensions/Internal/_Double.swift; sourceTree = "<group>"; };
-		9C14C0AB19AA5D457D5EF9991FBDD62B /* FAStoryKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAStoryKit.h; path = FAStoryKit/FAStoryKit.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1E2CF5CD4CFB9821FD315DCD0BFD473 /* MSProjectFileServiceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSProjectFileServiceProtocol.swift; path = FAStoryKit/MSStoryKit/Core/Services/ProjectFileService/MSProjectFileServiceProtocol.swift; sourceTree = "<group>"; };
-		A2A328832A193C4FC75ED0FEB95D85DB /* TouchProgressCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TouchProgressCalculator.swift; path = FAStoryKit/Models/Internal/TouchProgressCalculator.swift; sourceTree = "<group>"; };
-		AB44F12D79C666860F24A9B8F0E4A083 /* MSRepositoryLocator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSRepositoryLocator.swift; path = FAStoryKit/MSStoryKit/Core/Repositories/MSRepositoryLocator.swift; sourceTree = "<group>"; };
-		ABB7FCFFB8CD728C5098707673C3DA94 /* FAStoryContainer+TransitionCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FAStoryContainer+TransitionCoordinator.swift"; path = "FAStoryKit/Views&Controllers/CustomTransition/FAStoryContainer+TransitionCoordinator.swift"; sourceTree = "<group>"; };
+		78BAAB234CEF35781DAEED38AC9A0622 /* MSProviderDependency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSProviderDependency.swift; path = FAStoryKit/MSStoryKit/Provider/MSProviderDependency.swift; sourceTree = "<group>"; };
+		7DD03FDE9162DC54B7A20662B98180C0 /* FAStoryContainer+TransitionCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FAStoryContainer+TransitionCoordinator.swift"; path = "FAStoryKit/Views&Controllers/CustomTransition/FAStoryContainer+TransitionCoordinator.swift"; sourceTree = "<group>"; };
+		7F566FF3948CAD0CE2972D0EEF2532B8 /* MSStories.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStories.swift; path = FAStoryKit/MSStoryKit/Models/MSStories.swift; sourceTree = "<group>"; };
+		81410B1F84B18905DF129183F671BF63 /* _CGFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _CGFloat.swift; path = FAStoryKit/Extensions/Internal/_CGFloat.swift; sourceTree = "<group>"; };
+		821BF757F8304BFCDFB6C3632BD928D5 /* MSStoryViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryViewControllerDelegate.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/MSStoryViewControllerDelegate.swift; sourceTree = "<group>"; };
+		873404740FB562847ED090D71DEF30F1 /* FAStoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAStoryKit-umbrella.h"; sourceTree = "<group>"; };
+		8A1585514F7730E9E4C4F091127075CB /* FAStoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FAStoryKit-Info.plist"; sourceTree = "<group>"; };
+		8E34E9242CA1C47647838CF603788D11 /* Margin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Margin.swift; path = FAStoryKit/MSStoryKit/UIUtilities/Helpers/Margin.swift; sourceTree = "<group>"; };
+		8EB0563A22457486CD49D153DC9CA220 /* MSPreviewStoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSPreviewStoryView.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/PreviewStoryView/MSPreviewStoryView.swift; sourceTree = "<group>"; };
+		8FEEF5954CA94DB4D20FF6C8CC269EE8 /* MSProjectFileExtensionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSProjectFileExtensionType.swift; path = FAStoryKit/MSStoryKit/Core/Services/ProjectFileService/MSProjectFileExtensionType.swift; sourceTree = "<group>"; };
+		93B8D8A7814CBD642C52A4343147FF63 /* FAStoryVideoContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryVideoContent.swift; path = "FAStoryKit/Models/Story Content Models/SupportedContents/FAStoryVideoContent.swift"; sourceTree = "<group>"; };
+		94D7B43ABAB3F5545179AF19FF6A1B39 /* StoryIndicatorContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryIndicatorContainerView.swift; path = "FAStoryKit/Views&Controllers/Internal/StoryIndicatorContainerView.swift"; sourceTree = "<group>"; };
+		9D87C7F94D7DF9CEF58F63E8AA28A7FC /* FAStoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryView.swift; path = "FAStoryKit/Views&Controllers/FAStoryView.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EBA2E216CCB0DBE8D746E2A47A3442F /* FAPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAPlayerView.swift; path = "FAStoryKit/Views&Controllers/Internal/FAPlayerView.swift"; sourceTree = "<group>"; };
+		A58CA8D1806F5F9196E944D7F2E24082 /* FAStoryContentNature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContentNature.swift; path = "FAStoryKit/Models/Type Definitions/FAStoryContentNature.swift"; sourceTree = "<group>"; };
+		A619EC6846E043BCDCDE604D51E361B1 /* Publisher+Decode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Publisher+Decode.swift"; path = "FAStoryKit/MSStoryKit/Utilities/Extensions/Combine/Publisher+Decode.swift"; sourceTree = "<group>"; };
+		A6A049BAB3680CA42772083D4AF8C298 /* FAStoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAStoryKit-prefix.pch"; sourceTree = "<group>"; };
+		A8CDF98D6F5046768BB48E2FE5946FDC /* FAStoryKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAStoryKit.release.xcconfig; sourceTree = "<group>"; };
+		AA5F44F776F49FDB330AE0C8279F8AE4 /* MSRepositoryLocator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSRepositoryLocator.swift; path = FAStoryKit/MSStoryKit/Core/Repositories/MSRepositoryLocator.swift; sourceTree = "<group>"; };
+		AA840DE519F8FA86C7E5A7E176C75F7A /* MSProjectFileServiceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSProjectFileServiceProtocol.swift; path = FAStoryKit/MSStoryKit/Core/Services/ProjectFileService/MSProjectFileServiceProtocol.swift; sourceTree = "<group>"; };
 		AC3CA298F27B37CA12603A26ED0A4F00 /* Pods-FAStoryExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FAStoryExample.modulemap"; sourceTree = "<group>"; };
-		AE9FF61830CF3C5073D1B7FBFE1A627A /* FAStoryContentNature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContentNature.swift; path = "FAStoryKit/Models/Type Definitions/FAStoryContentNature.swift"; sourceTree = "<group>"; };
-		B1A8AE8187885E22E12A542E06FF60E3 /* FAStoryAddible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryAddible.swift; path = FAStoryKit/Protocols/FAStoryAddible.swift; sourceTree = "<group>"; };
-		BA345780CE8FA4649744C54A9AAFCC8F /* MSBasicServiceFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSBasicServiceFactory.swift; path = FAStoryKit/MSStoryKit/Core/Services/DependencyContainer/MSBasicServiceFactory.swift; sourceTree = "<group>"; };
-		BB23B662109AC2D79A6BB74DD4B3B42B /* FAStoryController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryController.swift; path = FAStoryKit/Models/Internal/FAStoryController.swift; sourceTree = "<group>"; };
-		BB627219DC117CA81E06491523FE0747 /* MSAnyServiceFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSAnyServiceFactory.swift; path = FAStoryKit/MSStoryKit/Core/Services/DependencyContainer/MSAnyServiceFactory.swift; sourceTree = "<group>"; };
-		BBFC25A8898F982E2FE716C59D42D13D /* _CGFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _CGFloat.swift; path = FAStoryKit/Extensions/Internal/_CGFloat.swift; sourceTree = "<group>"; };
+		B607338F7A0781506AE5DDB8514555FC /* FAStoryKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAStoryKit.h; path = FAStoryKit/FAStoryKit.h; sourceTree = "<group>"; };
+		B6D9D342DDCBC511BF055C00CF424039 /* FAStoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FAStoryKit-dummy.m"; sourceTree = "<group>"; };
+		B8DC26FFDD682BC18DBC950795498171 /* MSExtractFileError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSExtractFileError.swift; path = FAStoryKit/MSStoryKit/Core/Services/ProjectFileService/MSExtractFileError.swift; sourceTree = "<group>"; };
+		BAE5D55358E3D938B90F419A6538D4A0 /* MSRepositoryDependency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSRepositoryDependency.swift; path = FAStoryKit/MSStoryKit/Core/Repositories/MSRepositoryDependency.swift; sourceTree = "<group>"; };
+		BB9C302DD7C37A0540F8E3A28D02E3BA /* MSCacheStoryService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSCacheStoryService.swift; path = FAStoryKit/MSStoryKit/Core/Services/CacheStoryService/MSCacheStoryService.swift; sourceTree = "<group>"; };
+		BCD9FB7EAB69998AB37A8944DBB0EC8C /* FABadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FABadgeView.swift; path = "FAStoryKit/Views&Controllers/FABadgeView.swift"; sourceTree = "<group>"; };
 		C2757FCBC1B1BE30E7FA0023E0EBE28A /* Pods-FAStoryExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAStoryExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C576EC1AD4A8AC956E118A72DC9BBBD2 /* URL+FileData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileData.swift"; path = "FAStoryKit/MSStoryKit/Utilities/Extensions/Foundation/URL+FileData.swift"; sourceTree = "<group>"; };
-		C614BA476D26431DFB18809393DC91A3 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = "FAStoryKit/Views&Controllers/CustomTransition/TransitionAnimator.swift"; sourceTree = "<group>"; };
-		C63CF8EC1A48175A20751A602D236DB5 /* MSStoryPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryPlayerView.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/View/PlayerView/MSStoryPlayerView.swift; sourceTree = "<group>"; };
-		C6F703995994377F77AE89D5256C2D9C /* MSExtractFileError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSExtractFileError.swift; path = FAStoryKit/MSStoryKit/Core/Services/ProjectFileService/MSExtractFileError.swift; sourceTree = "<group>"; };
-		CC868312BAE85B2E627AF96C7EE8DCDA /* MSStoryViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryViewControllerDelegate.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/MSStoryViewControllerDelegate.swift; sourceTree = "<group>"; };
-		CE9A565EE4199D633D2C287993E0E700 /* _String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _String.swift; path = FAStoryKit/Extensions/Internal/_String.swift; sourceTree = "<group>"; };
-		CEE5624423C8E5F4B515D06C7CD2606E /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "FAStoryKit/MSStoryKit/UIUtilities/Extensions/UIKit/UIView+Extensions.swift"; sourceTree = "<group>"; };
+		C69EEFFE65B8B3D469C0D8254C28F5E1 /* FAStoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FAStoryKit.modulemap; sourceTree = "<group>"; };
+		C7D39036F6560DC54A27993DCB839158 /* DefaultValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValues.swift; path = FAStoryKit/Models/Internal/DefaultValues.swift; sourceTree = "<group>"; };
+		C9DBDA57D94F4BC972BF790EED6F2371 /* MSStory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStory.swift; path = FAStoryKit/MSStoryKit/Models/MSStory.swift; sourceTree = "<group>"; };
+		CA3FAB1CA1D77BAFAA4DD598CB94B07D /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Extensions.swift"; path = "FAStoryKit/MSStoryKit/UIUtilities/Extensions/UIKit/UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		CB7A966ABD07B9B3DBBE9E12D8098C19 /* SessionDownloadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDownloadable.swift; path = FAStoryKit/Protocols/SessionDownloadable.swift; sourceTree = "<group>"; };
+		CEBFF7A03A5DE0B036809947AE8A8E19 /* MSStoryRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryRepository.swift; path = FAStoryKit/MSStoryKit/Core/Repositories/Story/MSStoryRepository.swift; sourceTree = "<group>"; };
 		CF48E6E8BD11DC3E39018A1A121A12E5 /* Pods-FAStoryExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FAStoryExample"; path = Pods_FAStoryExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D37F338C1F8D2C45B67D2F257D6E28FA /* FAStoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FAStoryKit-Info.plist"; sourceTree = "<group>"; };
-		D572497F0B3A27CA168C8D512723493E /* FAStoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FAStoryKit-dummy.m"; sourceTree = "<group>"; };
-		D648978F0C99E74C45021E8672ED44A5 /* Publisher+Decode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Publisher+Decode.swift"; path = "FAStoryKit/MSStoryKit/Utilities/Extensions/Combine/Publisher+Decode.swift"; sourceTree = "<group>"; };
-		D88F09836ABA81E561BD65A3B28D5754 /* FAStoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAStoryKit-prefix.pch"; sourceTree = "<group>"; };
+		D0403C3E3B7BA1CABBEDE42D32C892D1 /* FAStoryContentCacher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryContentCacher.swift; path = FAStoryKit/Protocols/FAStoryContentCacher.swift; sourceTree = "<group>"; };
+		D3C9811808C71B398D7239A940DD6AA6 /* MSSFileFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSSFileFormat.swift; path = FAStoryKit/MSStoryKit/Models/MSSFileFormat.swift; sourceTree = "<group>"; };
+		D77057C7950C3E2FE825F18D54762206 /* MSResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSResolver.swift; path = FAStoryKit/MSStoryKit/Core/Services/DependencyContainer/Protocols/MSResolver.swift; sourceTree = "<group>"; };
+		D8433CB62C4B9725783ED921147E55A7 /* ExternalLinkControllerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExternalLinkControllerView.swift; path = "FAStoryKit/Views&Controllers/Internal/ExternalLinkControllerView.swift"; sourceTree = "<group>"; };
 		DFF579BD17164C313219C9C12FC781F8 /* Pods-FAStoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStoryKit-Info.plist"; sourceTree = "<group>"; };
-		E0320D56A0F38CC19EECDD0F3DF14FE4 /* Publisher+FilterNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Publisher+FilterNil.swift"; path = "FAStoryKit/MSStoryKit/Utilities/Extensions/Combine/Publisher+FilterNil.swift"; sourceTree = "<group>"; };
-		E5AAAC5DFA966EB86910B647D8679C88 /* MSStory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStory.swift; path = FAStoryKit/MSStoryKit/Models/MSStory.swift; sourceTree = "<group>"; };
-		E67E1F2ACE91DAA5E868AA7BADE92928 /* MSPreviewStoryViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSPreviewStoryViewModel.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/PreviewStoryView/MSPreviewStoryViewModel.swift; sourceTree = "<group>"; };
+		E185B49B0C9E60B9388D28DA8609C964 /* FAStoryDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryDataSource.swift; path = FAStoryKit/Protocols/FAStoryDataSource.swift; sourceTree = "<group>"; };
+		E5CF79ECA531E41BFE1470983273AD41 /* MSStoryVcStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryVcStack.swift; path = FAStoryKit/MSStoryKit/UI/TemporaryUI/ViewController/MSStoryVcStack.swift; sourceTree = "<group>"; };
 		E706EA2145A897D80A88A2F5FB1768BE /* Pods-FAStoryKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAStoryKit.release.xcconfig"; sourceTree = "<group>"; };
-		E8BA7DF3696BBB7F93A96746066CCF5F /* MSProviderLocator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSProviderLocator.swift; path = FAStoryKit/MSStoryKit/Provider/MSProviderLocator.swift; sourceTree = "<group>"; };
-		EFD23C8C095EF490DFBED79F0BE15877 /* FAStoryVcStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryVcStack.swift; path = FAStoryKit/Models/FAStoryVcStack.swift; sourceTree = "<group>"; };
-		F41B1B62B8397E1BF4E2FBFF459621F6 /* MSStoryProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryProvider.swift; path = FAStoryKit/MSStoryKit/Provider/MSStory/MSStoryProvider.swift; sourceTree = "<group>"; };
+		E73518D648C56B66933BFEBB0B1FD0E5 /* StoryIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryIndicatorView.swift; path = "FAStoryKit/Views&Controllers/Internal/StoryIndicatorView.swift"; sourceTree = "<group>"; };
+		E743DA994F183DC6ED2B65F6412AF57C /* MSStoryContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryContent.swift; path = FAStoryKit/MSStoryKit/Models/MSStoryContent.swift; sourceTree = "<group>"; };
+		E7FCE905CA9162FEDB2E4C594B845D49 /* URL+FileData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileData.swift"; path = "FAStoryKit/MSStoryKit/Utilities/Extensions/Foundation/URL+FileData.swift"; sourceTree = "<group>"; };
+		ED1C770DAA8621A25D587B4F167F392C /* _UINavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _UINavigationController.swift; path = FAStoryKit/Extensions/Internal/_UINavigationController.swift; sourceTree = "<group>"; };
+		EDF71518A09CF793680215FC17E7F695 /* MSStoryProviderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryProviderProtocol.swift; path = FAStoryKit/MSStoryKit/Provider/MSStory/MSStoryProviderProtocol.swift; sourceTree = "<group>"; };
+		F4A01BA54E1E3FBB89B110F141C60320 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGFloat+Extensions.swift"; path = "FAStoryKit/MSStoryKit/UIUtilities/Extensions/CoreGraphics/CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		F7CB77328BE7AEB156070F1162176D06 /* MSStoryProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSStoryProvider.swift; path = FAStoryKit/MSStoryKit/Provider/MSStory/MSStoryProvider.swift; sourceTree = "<group>"; };
 		F8D6D638D57BBB3C2113F24887BA6CE8 /* Pods-FAStoryExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStoryExample-Info.plist"; sourceTree = "<group>"; };
-		F998C3C2967E898592404E85397826C6 /* MSCacheStoryServiceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSCacheStoryServiceProtocol.swift; path = FAStoryKit/MSStoryKit/Core/Services/CacheStoryService/MSCacheStoryServiceProtocol.swift; sourceTree = "<group>"; };
-		FA34091477E7A3947986DE64998C5D7B /* FAStoryImageContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryImageContent.swift; path = "FAStoryKit/Models/Story Content Models/SupportedContents/FAStoryImageContent.swift"; sourceTree = "<group>"; };
-		FBEB23029F5B02CD054C7323BC0AF7E9 /* MSProjectFileExtensionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSProjectFileExtensionType.swift; path = FAStoryKit/MSStoryKit/Core/Services/ProjectFileService/MSProjectFileExtensionType.swift; sourceTree = "<group>"; };
-		FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FAStoryKit; path = FAStoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DDD0C34980D2E37441369E32B443AC /* MSCacheStoryServiceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSCacheStoryServiceProtocol.swift; path = FAStoryKit/MSStoryKit/Core/Services/CacheStoryService/MSCacheStoryServiceProtocol.swift; sourceTree = "<group>"; };
+		FBD5B5CBCD57EFFCAB3CC0251B32B000 /* FAStoryImageContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAStoryImageContent.swift; path = "FAStoryKit/Models/Story Content Models/SupportedContents/FAStoryImageContent.swift"; sourceTree = "<group>"; };
+		FC3B8B3451D0D3C4B773A20FF940C03E /* _Double.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _Double.swift; path = FAStoryKit/Extensions/Internal/_Double.swift; sourceTree = "<group>"; };
+		FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FAStoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7A871ABEC0D3DF654B44B2E33AF3F991 /* Frameworks */ = {
+		3DB5AA7A611B42206FE3FCEA7C502EA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AE938667A26BEC19A93F28D38F9D7B3 /* Foundation.framework in Frameworks */,
+				AAEE3E7455C97907D2CB502188CD1583 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,21 +268,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		560FD3A22D0846F1290E64B76D8A8C47 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				585D574768B1818122B422A95730E8D0 /* FAStoryKit.modulemap */,
-				D572497F0B3A27CA168C8D512723493E /* FAStoryKit-dummy.m */,
-				D37F338C1F8D2C45B67D2F257D6E28FA /* FAStoryKit-Info.plist */,
-				D88F09836ABA81E561BD65A3B28D5754 /* FAStoryKit-prefix.pch */,
-				91FDC22D431C4C783DC050F6DEF48983 /* FAStoryKit-umbrella.h */,
-				80895D2142E3EECA819A20B5CFA57FD1 /* FAStoryKit.debug.xcconfig */,
-				1F9EB9FBAE3ABEFFF4ECEEA62A81AEA7 /* FAStoryKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FAStoryKit";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,113 +276,117 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		63E33F398D428AC81E593A47EFB008FB /* FAStoryKit */ = {
+		8A7A6BFE2639179278375A4BE750F598 /* FAStoryKit */ = {
 			isa = PBXGroup;
 			children = (
-				BBFC25A8898F982E2FE716C59D42D13D /* _CGFloat.swift */,
-				98DECC3DF00EB0F3E6C165EFBC01D438 /* _Double.swift */,
-				3C71FE0F6ECD32A69EC76396FDDFB7B3 /* _FAStory.swift */,
-				979E435C78AA3E127CF2B4038C0D1C69 /* _NSNotification.swift */,
-				CE9A565EE4199D633D2C287993E0E700 /* _String.swift */,
-				604D548EAAC6FF7085D0FD35C617ADE5 /* _UINavigationController.swift */,
-				2E1F6489C366200B204FE9FC7B3FAA30 /* CGFloat+Extensions.swift */,
-				3365E5C43C8FB76E9B99F508CCA9B596 /* Configurable.swift */,
-				5DAE8887FD0B9B794CB322898BA81A9E /* DefaultValues.swift */,
-				8BD9166EDC8B6A33DF40A099638D9B0C /* DownloadService.swift */,
-				060AC0B1D73CFA6EA2921EA78AF2AF65 /* ExternalLinkControllerView.swift */,
-				8EF1C61EA52CF629BE48090102BCC5F4 /* FABadgeView.swift */,
-				12E66EEAA0B3CD777E5FAC38CB092364 /* FAPlayerView.swift */,
-				193FF7C7B0549AF9EC9F0A131A88FEF6 /* FAStory.swift */,
-				B1A8AE8187885E22E12A542E06FF60E3 /* FAStoryAddible.swift */,
-				4C80B4B135BE0FB0A49337DCC2086CFD /* FAStoryCollectionViewCell.swift */,
-				ABB7FCFFB8CD728C5098707673C3DA94 /* FAStoryContainer+TransitionCoordinator.swift */,
-				3DD29CE4D3F2D3DB0E23D60B9A432D70 /* FAStoryContainerVC.swift */,
-				362C54C910B0862C4AA514E8D2A71A67 /* FAStoryContentCacher.swift */,
-				AE9FF61830CF3C5073D1B7FBFE1A627A /* FAStoryContentNature.swift */,
-				1C0FB908D7ED2CDC8854A76D51C5135E /* FAStoryContentTemplate.swift */,
-				7F2B83280764B8ECCB2BC523395E85F2 /* FAStoryContentType.swift */,
-				BB23B662109AC2D79A6BB74DD4B3B42B /* FAStoryController.swift */,
-				86D81494703E7F87CC8D6F279A9135F9 /* FAStoryDataSource.swift */,
-				0FCBCAC7BE67EE3F23C8652736FF45A5 /* FAStoryDelegate.swift */,
-				FA34091477E7A3947986DE64998C5D7B /* FAStoryImageContent.swift */,
-				9C14C0AB19AA5D457D5EF9991FBDD62B /* FAStoryKit.h */,
-				7BC704356B2080E96AE854C961915098 /* FAStoryTeller.swift */,
-				0FD2179A169337BF2186621A0A76E94A /* FAStoryVC.swift */,
-				EFD23C8C095EF490DFBED79F0BE15877 /* FAStoryVcStack.swift */,
-				34DE4F95647796AA15C01E03F76E2766 /* FAStoryVideoContent.swift */,
-				1E6BDB624A6A97F11B9BDB59DC234A7D /* FAStoryView.swift */,
-				8062BE7F38770F1818008CB3218C1685 /* FAStoryView.xib */,
-				52E86BC0372AAD082C8DE9F751EE8A29 /* Margin.swift */,
-				BB627219DC117CA81E06491523FE0747 /* MSAnyServiceFactory.swift */,
-				BA345780CE8FA4649744C54A9AAFCC8F /* MSBasicServiceFactory.swift */,
-				476D5B75602717D9E59C46C401BE4572 /* MSCacheFileItem.swift */,
-				3AD7A7AB5FC2B9E3698FA8CD4D14B0F1 /* MSCacheStoryService.swift */,
-				F998C3C2967E898592404E85397826C6 /* MSCacheStoryServiceProtocol.swift */,
-				1861DB6A9AEFBCAE6594C258AE167F22 /* MSDownloadService.swift */,
-				7987D1A37F953F47E237B2A82D47FAF1 /* MSDownloadServiceProtocol.swift */,
-				C6F703995994377F77AE89D5256C2D9C /* MSExtractFileError.swift */,
-				5649040DFC67522B44117F8FAF490D93 /* MSPreviewStoryView.swift */,
-				8EDF3E2267024D0B8CDA54618EA58335 /* MSPreviewStoryViewDelegate.swift */,
-				E67E1F2ACE91DAA5E868AA7BADE92928 /* MSPreviewStoryViewModel.swift */,
-				FBEB23029F5B02CD054C7323BC0AF7E9 /* MSProjectFileExtensionType.swift */,
-				085835BE06DEE81526816D64319FEFA0 /* MSProjectFileService.swift */,
-				A1E2CF5CD4CFB9821FD315DCD0BFD473 /* MSProjectFileServiceProtocol.swift */,
-				7DE36E91AF183DCBD4291B356BBE676A /* MSProviderDependency.swift */,
-				E8BA7DF3696BBB7F93A96746066CCF5F /* MSProviderLocator.swift */,
-				393ABC1129D2FFD4007C681372454B07 /* MSRepositoryDependency.swift */,
-				AB44F12D79C666860F24A9B8F0E4A083 /* MSRepositoryLocator.swift */,
-				299C07108FA1FCE770BD3F841468B7A6 /* MSResolver.swift */,
-				5FCB1901BF8D28ED545C225C50249B11 /* MSServiceDependency.swift */,
-				7D3D860A01ABC1A04FED69867A35C7C0 /* MSServiceFactory.swift */,
-				15B9E86D4186A5B5C94C18FEE12EFF0B /* MSServiceLocator.swift */,
-				9123F1811690D0FAE4089C4FBB25DDFC /* MSServiceLocatorProtocol.swift */,
-				0D75CA8FE42B9111982D3B92C3B79032 /* MSServiceResolver.swift */,
-				115B0E6EC04A0BF31B4C82A290CB87BB /* MSSFileFormat.swift */,
-				2339FCEC6B764E9B16CC5B67DDAA7502 /* MSStories.swift */,
-				E5AAAC5DFA966EB86910B647D8679C88 /* MSStory.swift */,
-				7721679BF3D38DD1EF2AF680062B5E47 /* MSStoryContainer+TransitionCoordinator.swift */,
-				8CE7FE195D15129DC4D246121C08EAEF /* MSStoryContainerViewController.swift */,
-				397A117D49BE36374258D7C551EF8742 /* MSStoryContent.swift */,
-				17442B3D0DC5FBEB97864D6DDAF56639 /* MSStoryError.swift */,
-				29151B7F17E350FA86478C8C9247C448 /* MSStoryKitProvider.swift */,
-				8E6B92E4629E46234A4E886AEB1671DF /* MSStoryKitProviderProtocol.swift */,
-				C63CF8EC1A48175A20751A602D236DB5 /* MSStoryPlayerView.swift */,
-				4E3367FCB513B5E985E5EBEC1C4117A5 /* MSStoryPlayerViewDelegate.swift */,
-				F41B1B62B8397E1BF4E2FBFF459621F6 /* MSStoryProvider.swift */,
-				84BAE96AEB2E8FE06E5EBD04B8F1FED9 /* MSStoryProviderProtocol.swift */,
-				0C658961E663EC06AED3213844BB3245 /* MSStoryRepository.swift */,
-				3C1DEA6BDCA97C2B2CE094450E67E585 /* MSStoryVcStack.swift */,
-				549459077EBFDE05D6BB3C5655176EFF /* MSStoryViewController.swift */,
-				CC868312BAE85B2E627AF96C7EE8DCDA /* MSStoryViewControllerDelegate.swift */,
-				267D3C7F03F14996861A58D867BA13EA /* MSStoryViewModel.swift */,
-				D648978F0C99E74C45021E8672ED44A5 /* Publisher+Decode.swift */,
-				E0320D56A0F38CC19EECDD0F3DF14FE4 /* Publisher+FilterNil.swift */,
-				435932AC10F2A14DEE5E4C9BAF899703 /* SessionDownloadable.swift */,
-				3EF2221CB1064D23ED09259067BAA988 /* StoryContentWrapper.swift */,
-				7C82E5114D2B17CC815DA3943E6F3691 /* StoryIndicatorContainerView.swift */,
-				923002FA29B731CF5F7FA0A7450DC973 /* StoryIndicatorView.swift */,
-				52B2DBD0E867EECB4F049FCC2FE4ABE1 /* SwipeDismissInteractible.swift */,
-				A2A328832A193C4FC75ED0FEB95D85DB /* TouchProgressCalculator.swift */,
-				C614BA476D26431DFB18809393DC91A3 /* TransitionAnimator.swift */,
-				61B7D5D57CA3A0547B5FD3F27D8A59C3 /* UICollectionView+Extensions.swift */,
-				0C1B38E82D545161C545AFC78F9C3ED0 /* UILayoutGuide+SnapKit.swift */,
-				185B508D63DB1EAD393CF20B0450FC22 /* UIView+Anchor.swift */,
-				CEE5624423C8E5F4B515D06C7CD2606E /* UIView+Extensions.swift */,
-				426461ABEED06C7052DB6D1CA2A894ED /* UIView+SnapKit.swift */,
-				C576EC1AD4A8AC956E118A72DC9BBBD2 /* URL+FileData.swift */,
-				49F6F6CAB7BC24875CC22916707AB3B3 /* URLSession+DownloadTaskPublisher.swift */,
-				560FD3A22D0846F1290E64B76D8A8C47 /* Support Files */,
+				81410B1F84B18905DF129183F671BF63 /* _CGFloat.swift */,
+				FC3B8B3451D0D3C4B773A20FF940C03E /* _Double.swift */,
+				67E8AE7AC2DCAF96B3897C162364C690 /* _FAStory.swift */,
+				33361ECE830C92A5C94E567FBD925194 /* _NSNotification.swift */,
+				2E13444717E4F867A908BD6ACD75224E /* _String.swift */,
+				ED1C770DAA8621A25D587B4F167F392C /* _UINavigationController.swift */,
+				F4A01BA54E1E3FBB89B110F141C60320 /* CGFloat+Extensions.swift */,
+				323EF2B098B5F912F7BE01E60508894A /* Configurable.swift */,
+				C7D39036F6560DC54A27993DCB839158 /* DefaultValues.swift */,
+				30AA3F016CBCB244182B9EB14271C031 /* DownloadService.swift */,
+				D8433CB62C4B9725783ED921147E55A7 /* ExternalLinkControllerView.swift */,
+				BCD9FB7EAB69998AB37A8944DBB0EC8C /* FABadgeView.swift */,
+				9EBA2E216CCB0DBE8D746E2A47A3442F /* FAPlayerView.swift */,
+				3FE9C540AB7CD785A68AEB4C5BDA547F /* FAStory.swift */,
+				2B8864CE9BA6EF2B4FA1262F014D97C2 /* FAStoryAddible.swift */,
+				51A1EA3A4089E21E06915DE9979F9171 /* FAStoryCollectionViewCell.swift */,
+				7DD03FDE9162DC54B7A20662B98180C0 /* FAStoryContainer+TransitionCoordinator.swift */,
+				400AEB3AB62280EADADA328BB7DE6D29 /* FAStoryContainerVC.swift */,
+				D0403C3E3B7BA1CABBEDE42D32C892D1 /* FAStoryContentCacher.swift */,
+				A58CA8D1806F5F9196E944D7F2E24082 /* FAStoryContentNature.swift */,
+				2FCDD4F7A105B441F151B9900AF14DFA /* FAStoryContentTemplate.swift */,
+				0D7FE4A7DE3FBFCF4A0CE5643542C53F /* FAStoryContentType.swift */,
+				18CE9AA98C8B4DD24C5242A636C6A278 /* FAStoryController.swift */,
+				E185B49B0C9E60B9388D28DA8609C964 /* FAStoryDataSource.swift */,
+				6CDAF79D76F52CB4A46338C401399537 /* FAStoryDelegate.swift */,
+				FBD5B5CBCD57EFFCAB3CC0251B32B000 /* FAStoryImageContent.swift */,
+				B607338F7A0781506AE5DDB8514555FC /* FAStoryKit.h */,
+				4496038B9A0A89286DF10892114C81E6 /* FAStoryTeller.swift */,
+				01E003CA20F4934EBE6B762BEC24BF33 /* FAStoryVC.swift */,
+				770FF5D2738B57D84E4FA7987B04B6F4 /* FAStoryVcStack.swift */,
+				93B8D8A7814CBD642C52A4343147FF63 /* FAStoryVideoContent.swift */,
+				9D87C7F94D7DF9CEF58F63E8AA28A7FC /* FAStoryView.swift */,
+				75B65538A52492DD38B12AE2689E4BB5 /* FAStoryView.xib */,
+				8E34E9242CA1C47647838CF603788D11 /* Margin.swift */,
+				2B46AAF5B0B6BF6FE7CB896042FA66FA /* MSAnyServiceFactory.swift */,
+				031493919F3F32CF5CA2CD2711D8976E /* MSBasicServiceFactory.swift */,
+				471503A0806B14265A40AB7186BE76E9 /* MSCacheFileItem.swift */,
+				BB9C302DD7C37A0540F8E3A28D02E3BA /* MSCacheStoryService.swift */,
+				F8DDD0C34980D2E37441369E32B443AC /* MSCacheStoryServiceProtocol.swift */,
+				1224B3703A75896F6E26ED4192F147C4 /* MSDownloadService.swift */,
+				729490B14CDBE051BC5896CFD87505AB /* MSDownloadServiceProtocol.swift */,
+				B8DC26FFDD682BC18DBC950795498171 /* MSExtractFileError.swift */,
+				8EB0563A22457486CD49D153DC9CA220 /* MSPreviewStoryView.swift */,
+				32DCD1CB9CE64218946F2DC41B3C6611 /* MSPreviewStoryViewDelegate.swift */,
+				5D83E5815D69EFDD2DF11BE281FDA15B /* MSPreviewStoryViewModel.swift */,
+				8FEEF5954CA94DB4D20FF6C8CC269EE8 /* MSProjectFileExtensionType.swift */,
+				2E2BE20C8E84256586837E3DB794CDC7 /* MSProjectFileService.swift */,
+				AA840DE519F8FA86C7E5A7E176C75F7A /* MSProjectFileServiceProtocol.swift */,
+				78BAAB234CEF35781DAEED38AC9A0622 /* MSProviderDependency.swift */,
+				4AE8CC8649CECD1BD3762DC154767E50 /* MSProviderLocator.swift */,
+				BAE5D55358E3D938B90F419A6538D4A0 /* MSRepositoryDependency.swift */,
+				AA5F44F776F49FDB330AE0C8279F8AE4 /* MSRepositoryLocator.swift */,
+				D77057C7950C3E2FE825F18D54762206 /* MSResolver.swift */,
+				28805938CF59BDAAD37941231EB27872 /* MSServiceDependency.swift */,
+				2AE6CBAAA453395BF86FA2EA51F80640 /* MSServiceFactory.swift */,
+				2DE99924D10B5392AB8BEA2C205F0357 /* MSServiceLocator.swift */,
+				1DAA82768BCA71B2EE546ECF015C32B2 /* MSServiceLocatorProtocol.swift */,
+				0BA34E1F7987E5FB9063189B398379F5 /* MSServiceResolver.swift */,
+				D3C9811808C71B398D7239A940DD6AA6 /* MSSFileFormat.swift */,
+				7F566FF3948CAD0CE2972D0EEF2532B8 /* MSStories.swift */,
+				C9DBDA57D94F4BC972BF790EED6F2371 /* MSStory.swift */,
+				177297939B8D71CB3AFDAB077BB8CC71 /* MSStoryContainer+TransitionCoordinator.swift */,
+				10E5D98106865345343AE2D4E664383A /* MSStoryContainerViewController.swift */,
+				E743DA994F183DC6ED2B65F6412AF57C /* MSStoryContent.swift */,
+				59026E5B087B85FDCEF9B1D11DBEEF53 /* MSStoryError.swift */,
+				1C7398D77B6A494CF0217F902E6EF0A3 /* MSStoryKitProvider.swift */,
+				37014207A512A0CE556A67922D12EDDA /* MSStoryKitProviderProtocol.swift */,
+				52014BC73062CB44F888D8636E869DB2 /* MSStoryPlayerView.swift */,
+				371BC057EC6E83C5221C6C5D52F7D8AA /* MSStoryPlayerViewDelegate.swift */,
+				F7CB77328BE7AEB156070F1162176D06 /* MSStoryProvider.swift */,
+				EDF71518A09CF793680215FC17E7F695 /* MSStoryProviderProtocol.swift */,
+				CEBFF7A03A5DE0B036809947AE8A8E19 /* MSStoryRepository.swift */,
+				E5CF79ECA531E41BFE1470983273AD41 /* MSStoryVcStack.swift */,
+				6198B5C56E75AF526CA358BD7E9B2907 /* MSStoryViewController.swift */,
+				821BF757F8304BFCDFB6C3632BD928D5 /* MSStoryViewControllerDelegate.swift */,
+				525CAD3ECC858E7B29F23A778ECED0EF /* MSStoryViewModel.swift */,
+				A619EC6846E043BCDCDE604D51E361B1 /* Publisher+Decode.swift */,
+				2E46DD049AEBAB19525AE920E00D2EEC /* Publisher+FilterNil.swift */,
+				CB7A966ABD07B9B3DBBE9E12D8098C19 /* SessionDownloadable.swift */,
+				282691BF7A14AF7E3790CDC886CC523E /* StoryContentWrapper.swift */,
+				94D7B43ABAB3F5545179AF19FF6A1B39 /* StoryIndicatorContainerView.swift */,
+				E73518D648C56B66933BFEBB0B1FD0E5 /* StoryIndicatorView.swift */,
+				0334AC0F22CC709B7233B3ADFAE7B740 /* SwipeDismissInteractible.swift */,
+				551A9AD9EF7D07DDD5EF663C61DC4FBA /* TouchProgressCalculator.swift */,
+				4DEBB123FB542688BB18DE2407DF14C6 /* TransitionAnimator.swift */,
+				CA3FAB1CA1D77BAFAA4DD598CB94B07D /* UICollectionView+Extensions.swift */,
+				28555EF0486067CAFA7146280952CB2A /* UIView+Anchor.swift */,
+				6316124B76836284594D354B192A8CB1 /* UIView+Extensions.swift */,
+				E7FCE905CA9162FEDB2E4C594B845D49 /* URL+FileData.swift */,
+				01013308552179AA4BD22FD266C4C18B /* URLSession+DownloadTaskPublisher.swift */,
+				CA6A2C6220E7709475E32460E29A2EA8 /* Support Files */,
 			);
-			name = FAStoryKit;
 			path = FAStoryKit;
 			sourceTree = "<group>";
 		};
-		7232310092D0C7304B9D1155314B800C /* Pods */ = {
+		CA6A2C6220E7709475E32460E29A2EA8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				63E33F398D428AC81E593A47EFB008FB /* FAStoryKit */,
+				C69EEFFE65B8B3D469C0D8254C28F5E1 /* FAStoryKit.modulemap */,
+				B6D9D342DDCBC511BF055C00CF424039 /* FAStoryKit-dummy.m */,
+				8A1585514F7730E9E4C4F091127075CB /* FAStoryKit-Info.plist */,
+				A6A049BAB3680CA42772083D4AF8C298 /* FAStoryKit-prefix.pch */,
+				873404740FB562847ED090D71DEF30F1 /* FAStoryKit-umbrella.h */,
+				0C3B3E0A4F74BA251093E1D06840FBB0 /* FAStoryKit.debug.xcconfig */,
+				A8CDF98D6F5046768BB48E2FE5946FDC /* FAStoryKit.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/FAStoryKit";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -409,7 +394,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				7232310092D0C7304B9D1155314B800C /* Pods */,
+				E11006EDD66FD7A6ADCF1C13553F7E8A /* Pods */,
 				DCF3841F424C2B8FBF383657AB4A5CB5 /* Products */,
 				E25FA798CD5004D675D683EC5799D9A0 /* Targets Support Files */,
 			);
@@ -426,7 +411,7 @@
 		DCF3841F424C2B8FBF383657AB4A5CB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit */,
+				FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit.framework */,
 				CF48E6E8BD11DC3E39018A1A121A12E5 /* Pods-FAStoryExample */,
 				628A56DFB9F1B98E0AE816D24DCB64F4 /* Pods-FAStoryKit */,
 			);
@@ -448,6 +433,14 @@
 			);
 			name = "Pods-FAStoryExample";
 			path = "Target Support Files/Pods-FAStoryExample";
+			sourceTree = "<group>";
+		};
+		E11006EDD66FD7A6ADCF1C13553F7E8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A7A6BFE2639179278375A4BE750F598 /* FAStoryKit */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		E25FA798CD5004D675D683EC5799D9A0 /* Targets Support Files */ = {
@@ -486,12 +479,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDAB5EE9B8271030490468008F8AF532 /* Headers */ = {
+		62A1321CB04991DCBF04FBFE1C5071C2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				975129E9AD3AE8C843610B0BA8DDEC29 /* FAStoryKit.h in Headers */,
-				FE193EAE7EB50718138FE70AB0526C90 /* FAStoryKit-umbrella.h in Headers */,
+				7E9D3E24C775C1C1ABE76F05B1719DEE /* FAStoryKit.h in Headers */,
+				BDDC4E1BE3E7C1DAE8D3D80E2F14D0DC /* FAStoryKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,7 +511,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EA812D42459F51E585A6B93DE4619B6D /* PBXTargetDependency */,
+				3E27E509377DE580A3C4176B42F5AC14 /* PBXTargetDependency */,
 			);
 			name = "Pods-FAStoryExample";
 			productName = Pods_FAStoryExample;
@@ -545,12 +538,12 @@
 		};
 		D18C2F0609CB9EB960525D501428931E /* FAStoryKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30C282FF565AADBE53AF9E0C9C6906BA /* Build configuration list for PBXNativeTarget "FAStoryKit" */;
+			buildConfigurationList = EF448AE22DC6BED199B2F79EBBBC23C0 /* Build configuration list for PBXNativeTarget "FAStoryKit" */;
 			buildPhases = (
-				EDAB5EE9B8271030490468008F8AF532 /* Headers */,
-				5FC8C64094BDFE7010BBE383852A08A8 /* Sources */,
-				7A871ABEC0D3DF654B44B2E33AF3F991 /* Frameworks */,
-				E18CF4F1CDBBA77864AC05C0D34B4796 /* Resources */,
+				62A1321CB04991DCBF04FBFE1C5071C2 /* Headers */,
+				F63C377E59676579E19CD6D587DF31AD /* Sources */,
+				3DB5AA7A611B42206FE3FCEA7C502EA8 /* Frameworks */,
+				26D2BA0BC390DE09D6C192ABAD39218B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -558,7 +551,7 @@
 			);
 			name = FAStoryKit;
 			productName = FAStoryKit;
-			productReference = FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit */;
+			productReference = FCB1838D5E475EDD03F14E61DB18E70C /* FAStoryKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -591,6 +584,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		26D2BA0BC390DE09D6C192ABAD39218B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39626E11E16B658490AFD2AF56F49A7C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -605,115 +605,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E18CF4F1CDBBA77864AC05C0D34B4796 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5FC8C64094BDFE7010BBE383852A08A8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				116B5CC7AC05807ED9544CEC326CFF73 /* _CGFloat.swift in Sources */,
-				FE950EB7A0CFAC3D97C8A9D4AEED6D8F /* _Double.swift in Sources */,
-				8C7223A4B317203E6DBB2975D214160C /* _FAStory.swift in Sources */,
-				F9631ECEBFA041F501D688AD9059ED35 /* _NSNotification.swift in Sources */,
-				5E8027A0DAA77D05B4A32031B2D57EEB /* _String.swift in Sources */,
-				32CF8C4F29F36F666B83A39055742DD1 /* _UINavigationController.swift in Sources */,
-				073096019F4B5993706D444F79B114E7 /* CGFloat+Extensions.swift in Sources */,
-				AEF80DBE78EEA8D56CBDC7A256FD9CF9 /* Configurable.swift in Sources */,
-				A68BBEE7BB8E30FC717C8A9246DF0087 /* DefaultValues.swift in Sources */,
-				FADA5268A28EA0C2BACE2267D176B70C /* DownloadService.swift in Sources */,
-				38C714D94F1A7E0B25E71399752145F6 /* ExternalLinkControllerView.swift in Sources */,
-				B3291E2A0531B9DA83615E8E5B99EC3F /* FABadgeView.swift in Sources */,
-				9CADAB2571DFC758D9636D07543153C5 /* FAPlayerView.swift in Sources */,
-				636DA55B81196A68461E187F2250F0CE /* FAStory.swift in Sources */,
-				772F1F79B92FF30AA6E1777248E31E24 /* FAStoryAddible.swift in Sources */,
-				1044BE99909E1A87DEFE5FFB1A1C404F /* FAStoryCollectionViewCell.swift in Sources */,
-				DEDFBEAF10F4501BACA3B52FA0F40614 /* FAStoryContainer+TransitionCoordinator.swift in Sources */,
-				44381AE4AD12295ED011F4807F153806 /* FAStoryContainerVC.swift in Sources */,
-				C96ECAE0F4E23672FD7F86B9498D3DE7 /* FAStoryContentCacher.swift in Sources */,
-				16EF03F8BAA47CA913FE7996963C9194 /* FAStoryContentNature.swift in Sources */,
-				F084B7D8111D40AC760AB11DCA59F346 /* FAStoryContentTemplate.swift in Sources */,
-				A32966F599A294BE1123B5ADCFFF826F /* FAStoryContentType.swift in Sources */,
-				DDDA87D4BC062E1EB4F1B0BAA72746FF /* FAStoryController.swift in Sources */,
-				0F4BC9ECB911C7DAE819858AC0755498 /* FAStoryDataSource.swift in Sources */,
-				8CB630703332D5BD32966AE79C7FEF11 /* FAStoryDelegate.swift in Sources */,
-				B9207CCA1B102461B159BF2BF0EE6E50 /* FAStoryImageContent.swift in Sources */,
-				9EF4D4C130ADDD33112D54743CB997F5 /* FAStoryKit-dummy.m in Sources */,
-				8F4A19EE89C36D9146BCFEC883A50080 /* FAStoryTeller.swift in Sources */,
-				4AB92F41F2720BBF412D6923D9F7925E /* FAStoryVC.swift in Sources */,
-				70D09DEB261C7BE55384CC349297F881 /* FAStoryVcStack.swift in Sources */,
-				A05ACE2EBDA8BBCC84EA6073732E53AC /* FAStoryVideoContent.swift in Sources */,
-				81A62177FA256E17F314D576B1669A6A /* FAStoryView.swift in Sources */,
-				CBC79DA02914DD9538F27E4D3296AEBC /* FAStoryView.xib in Sources */,
-				24F283A21D55F2AD10EDDDC74E78D48F /* Margin.swift in Sources */,
-				34F30CFF9C05BED91B864E6973BF75A8 /* MSAnyServiceFactory.swift in Sources */,
-				3B506A90F7836AE031BB5DAF2C7C1872 /* MSBasicServiceFactory.swift in Sources */,
-				9FE931DE74AF1794FF087E350AA33276 /* MSCacheFileItem.swift in Sources */,
-				B7A35F5B4B2F929CA6D88A141FA55178 /* MSCacheStoryService.swift in Sources */,
-				4C5CD3B1D52BE1C6D2A30352F10CBEA0 /* MSCacheStoryServiceProtocol.swift in Sources */,
-				EA1AAE6F4F72F54C849021FFF289CB0F /* MSDownloadService.swift in Sources */,
-				417675EE3E3B6C6452C2C6F2BFD77652 /* MSDownloadServiceProtocol.swift in Sources */,
-				AF31FEE3BB438B13DBD794A15EF5C9F9 /* MSExtractFileError.swift in Sources */,
-				D0147658C8232DBFA872F81A9C82CF88 /* MSPreviewStoryView.swift in Sources */,
-				74F418F70DF24D1B29ADDC80A6D52F1A /* MSPreviewStoryViewDelegate.swift in Sources */,
-				942EF9CE7FDAD64D1A72F1ACCAFC6873 /* MSPreviewStoryViewModel.swift in Sources */,
-				76E0ABABCB8BC3018C017938C67043B9 /* MSProjectFileExtensionType.swift in Sources */,
-				18569C36381AB6C3B2C86A0387C28E74 /* MSProjectFileService.swift in Sources */,
-				CBD106331C6FB0F40AA15F3648DD0FFA /* MSProjectFileServiceProtocol.swift in Sources */,
-				82350C1C427D260AAF9AFF8B6404DECB /* MSProviderDependency.swift in Sources */,
-				880C9934DEACA235F867ED14AD92AD4D /* MSProviderLocator.swift in Sources */,
-				D9ED851305C5438BA77FF3B0D23A43FE /* MSRepositoryDependency.swift in Sources */,
-				188FA1945A0F4D9679A7EA990ECD95D5 /* MSRepositoryLocator.swift in Sources */,
-				89B52E621D8A59D96E5D0661A384CAAC /* MSResolver.swift in Sources */,
-				393F251775D0590110CEF303E4939DBD /* MSServiceDependency.swift in Sources */,
-				5BB651BE7F60570FE4785681F532ABCE /* MSServiceFactory.swift in Sources */,
-				8B8225CFA9E792DCE3A9799D908C02DD /* MSServiceLocator.swift in Sources */,
-				0190A6662D1C7D3633F5FFD56F44C38E /* MSServiceLocatorProtocol.swift in Sources */,
-				3908A3717FAEC17DF12000EA326BC06A /* MSServiceResolver.swift in Sources */,
-				967C60A856DDA7C758B3BB05CBEA172A /* MSSFileFormat.swift in Sources */,
-				05F06AAE7EDD7A6536CD77570977CAF4 /* MSStories.swift in Sources */,
-				03DFC6310A2FFA99BF67974CE8EE1826 /* MSStory.swift in Sources */,
-				CFBAB3D163FF8D5DF22D30D93E83EF5C /* MSStoryContainer+TransitionCoordinator.swift in Sources */,
-				D412E3AE7D8AE0266F11122B95B93DE6 /* MSStoryContainerViewController.swift in Sources */,
-				DB5EBBCE7B43F9FAA649600FCECE183B /* MSStoryContent.swift in Sources */,
-				F63590B4FB9538B4AF8F48FB1AA4BE01 /* MSStoryError.swift in Sources */,
-				00696ADB2B9D543859B94711FB85B8ED /* MSStoryKitProvider.swift in Sources */,
-				8CC05AEB3369F67025BA6BAED178B36F /* MSStoryKitProviderProtocol.swift in Sources */,
-				9ACC40D4D6A83A0B0F30D2170C56899A /* MSStoryPlayerView.swift in Sources */,
-				ABBDADEFE71BB7792C2CE6DDEDBE04AD /* MSStoryPlayerViewDelegate.swift in Sources */,
-				54E4DD50EB363FC70E3CB95085541B52 /* MSStoryProvider.swift in Sources */,
-				7BB919152223C11D7EB83431F149770F /* MSStoryProviderProtocol.swift in Sources */,
-				F482103ED8E4D04BA763B09B8E6C8A10 /* MSStoryRepository.swift in Sources */,
-				F49E534C38FB96643DC398C60004FDCE /* MSStoryVcStack.swift in Sources */,
-				A526E7750F44D000D6D47409A6423158 /* MSStoryViewController.swift in Sources */,
-				1716D9A4AC6399011B8520A0AE36039B /* MSStoryViewControllerDelegate.swift in Sources */,
-				71DA2BA9DB9EB14CEF5F02A35BFE8684 /* MSStoryViewModel.swift in Sources */,
-				B44FB20BBA9AD058E1A27A3846091115 /* Publisher+Decode.swift in Sources */,
-				C91655FCAFCAC456BBD5C2EA82C058D3 /* Publisher+FilterNil.swift in Sources */,
-				A94C9492A52BDF1262CB5678B7060095 /* SessionDownloadable.swift in Sources */,
-				FA3FB4DBF259F74AAF9F2B165F619F1C /* StoryContentWrapper.swift in Sources */,
-				6C8B05EF394FE0FCCA42366D1A0E95CC /* StoryIndicatorContainerView.swift in Sources */,
-				B854F35B55475CCD833CFAB668D633C1 /* StoryIndicatorView.swift in Sources */,
-				2339E177F77958AFAEB0B5331E211700 /* SwipeDismissInteractible.swift in Sources */,
-				42985247DAF1C06461731B09DCA36A7F /* TouchProgressCalculator.swift in Sources */,
-				8DF62AAE26563666B96F2A2769130277 /* TransitionAnimator.swift in Sources */,
-				9CA5C3E12A770C5E91741D7465810BB0 /* UICollectionView+Extensions.swift in Sources */,
-				6C5769E8A275E420CFC922EB708C8F60 /* UILayoutGuide+SnapKit.swift in Sources */,
-				2EC2F590AFB4944DCA3770FF15904CEF /* UIView+Anchor.swift in Sources */,
-				881DA6991136B8582047F2C0820D5D46 /* UIView+Extensions.swift in Sources */,
-				3C4F915764944A5431B74136D4FD1CCF /* UIView+SnapKit.swift in Sources */,
-				69A239C95489EB70653282710885620F /* URL+FileData.swift in Sources */,
-				8B4D8A4C6948BA289FC532F44A93B338 /* URLSession+DownloadTaskPublisher.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		98DDA196B30D6B5F1A526429CCB1B566 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -730,18 +624,151 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F63C377E59676579E19CD6D587DF31AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E77B7D19FFEB1434491FF7ED6618CBE /* _CGFloat.swift in Sources */,
+				D6B838F0930C69863CFFC70FBB0066FC /* _Double.swift in Sources */,
+				56608C6E4F908869EA190128E7FC8A66 /* _FAStory.swift in Sources */,
+				ADEE939067BD3E426B64D37714AFF583 /* _NSNotification.swift in Sources */,
+				DF72928F4504261400B269BF3198F618 /* _String.swift in Sources */,
+				F0266B00DF72118920CEAFFADBEA6596 /* _UINavigationController.swift in Sources */,
+				FD4FEC38BFAB162B27B314D3F200ECB3 /* CGFloat+Extensions.swift in Sources */,
+				BCFAFB46D876A0B32EA2EAA70E4AE47D /* Configurable.swift in Sources */,
+				7DF73E4C2755C97B14A81B1DDB243DBA /* DefaultValues.swift in Sources */,
+				6AA74BBB38D239604A6ACB72EFBB494B /* DownloadService.swift in Sources */,
+				A13B6E7BC02A6616107A6F35F6EA9942 /* ExternalLinkControllerView.swift in Sources */,
+				5F08E0D5D6835FD62BC69D847009AFA2 /* FABadgeView.swift in Sources */,
+				2A0025F45EED9C2AFADD94C85200E797 /* FAPlayerView.swift in Sources */,
+				7A7D563D8BBF00866F86A7FE8AF1FAA4 /* FAStory.swift in Sources */,
+				61846DDDB0071F4F43E0578DD7F8C9DC /* FAStoryAddible.swift in Sources */,
+				BEB1C5A658647E7825E3868700DE066D /* FAStoryCollectionViewCell.swift in Sources */,
+				043C16BADA243DA712C58ADDA52DC5EB /* FAStoryContainer+TransitionCoordinator.swift in Sources */,
+				072E35BED5205432419A32597BC702E8 /* FAStoryContainerVC.swift in Sources */,
+				DC49B0D8AAAB39FC8E0FBE80F64DCADE /* FAStoryContentCacher.swift in Sources */,
+				F3872F25878DAE6B40F4D4A6620562DB /* FAStoryContentNature.swift in Sources */,
+				88EA7C07D67C0D462340DC7DD6098FA4 /* FAStoryContentTemplate.swift in Sources */,
+				FE2F5A4C09A19628A270ABD80C8F28B0 /* FAStoryContentType.swift in Sources */,
+				6B1CB5B8565F4C3EC4059ECD7F073FDB /* FAStoryController.swift in Sources */,
+				144FF8E246FED77A52D72F11C982B1B4 /* FAStoryDataSource.swift in Sources */,
+				5301669A1202A1C0140693998DEF7D15 /* FAStoryDelegate.swift in Sources */,
+				2F2CDB48CC65D116DD08AAC16F982459 /* FAStoryImageContent.swift in Sources */,
+				BDE92A97F7B8BC76B080245AA90ABA55 /* FAStoryKit-dummy.m in Sources */,
+				9E01D0B52AF6C9E5F269FE674177F590 /* FAStoryTeller.swift in Sources */,
+				8CCB43987BDC0DE1AC4370088F9FC476 /* FAStoryVC.swift in Sources */,
+				F8196F6576172CC2DBDB5CDCA1FF609A /* FAStoryVcStack.swift in Sources */,
+				642CB5D1998242CCE914539DFDA4CE97 /* FAStoryVideoContent.swift in Sources */,
+				10286F2787C96821D9CAE37336011564 /* FAStoryView.swift in Sources */,
+				21BEA7BDAA8F2386BE0458A59E1EBF4E /* FAStoryView.xib in Sources */,
+				6B2D8DB5E6001C9AA8875FE8300A7B07 /* Margin.swift in Sources */,
+				00EE523B3EB9748DDDE35C0AE1A12546 /* MSAnyServiceFactory.swift in Sources */,
+				F07431C9BF38DE6FFAED2BE7EC827EC4 /* MSBasicServiceFactory.swift in Sources */,
+				7F51BCD73934E570326BF4B08FD5D8B0 /* MSCacheFileItem.swift in Sources */,
+				06E66F8960D864DE2CBAEA80D26B4213 /* MSCacheStoryService.swift in Sources */,
+				726575B676B53754E585563B79504454 /* MSCacheStoryServiceProtocol.swift in Sources */,
+				7892B27CB01BE914E22C9A9CA085CF93 /* MSDownloadService.swift in Sources */,
+				12C2252E15867FE4608BD0273AB3515C /* MSDownloadServiceProtocol.swift in Sources */,
+				53A3909ED68CA5A932D7C7FFDCB3BBA7 /* MSExtractFileError.swift in Sources */,
+				91D2E965B3A3A588B02E0997F52BFFDF /* MSPreviewStoryView.swift in Sources */,
+				D7A9477AB6E95A4CF0066A429E005BD5 /* MSPreviewStoryViewDelegate.swift in Sources */,
+				AF06876987B7B295FD58F56EEB6AE867 /* MSPreviewStoryViewModel.swift in Sources */,
+				DA86C5783DD29DD8E2D81A2D9FB2755B /* MSProjectFileExtensionType.swift in Sources */,
+				51B073C5EF2C56ED32872D3623E349E9 /* MSProjectFileService.swift in Sources */,
+				A2926BE6D1409E5BA7E611DADBC79BB5 /* MSProjectFileServiceProtocol.swift in Sources */,
+				4C38A265B0AB284CE79B2C2F71164269 /* MSProviderDependency.swift in Sources */,
+				CE90878657ACDBD374141F955A1BB5B8 /* MSProviderLocator.swift in Sources */,
+				0A7EB4440C9D602B49E0E68E72FD91B1 /* MSRepositoryDependency.swift in Sources */,
+				786AADEAE275D8CC05F3007B68B97FE5 /* MSRepositoryLocator.swift in Sources */,
+				615E5C6DF2640CB6EFED32EA0708BA1E /* MSResolver.swift in Sources */,
+				707DE66785E3E51EF0108D627CF04758 /* MSServiceDependency.swift in Sources */,
+				41257F03320B5F5E7134E35BEC686771 /* MSServiceFactory.swift in Sources */,
+				6865C5F45665FFBC6C8767B9B0751352 /* MSServiceLocator.swift in Sources */,
+				B549E0B23A8679B1A6596E8D41AE26AA /* MSServiceLocatorProtocol.swift in Sources */,
+				DC903BBC5DD5DBB490B2DE09F5F0BAA5 /* MSServiceResolver.swift in Sources */,
+				B7B0D3FF0216C8DF7AB3B8FFEBD29078 /* MSSFileFormat.swift in Sources */,
+				43402FC6B3C46E059C7A0D3B7EE3ECCB /* MSStories.swift in Sources */,
+				6D5599889855D37F314CF635A7DB8189 /* MSStory.swift in Sources */,
+				E5B13FD2E6567DBAB9919CF2B38FCAF0 /* MSStoryContainer+TransitionCoordinator.swift in Sources */,
+				5C187C924FE19125711AA00093659CE3 /* MSStoryContainerViewController.swift in Sources */,
+				16E3C5EACA61B8436C7B68FD6597CAC3 /* MSStoryContent.swift in Sources */,
+				1CF8834ACA5D441F7C46C0B97F66AEA8 /* MSStoryError.swift in Sources */,
+				C6D957F9AFB1012D565FF6C1FE77CF4F /* MSStoryKitProvider.swift in Sources */,
+				CA1B2DF526C86791B6A6A388EDAF4A55 /* MSStoryKitProviderProtocol.swift in Sources */,
+				511670449FAFDA34CAFC7BA1746782E6 /* MSStoryPlayerView.swift in Sources */,
+				D2ABA0B5EE746990E367AC466E296285 /* MSStoryPlayerViewDelegate.swift in Sources */,
+				D9694E43484309EB86F132D57BFEE033 /* MSStoryProvider.swift in Sources */,
+				7B0FF30DC2BA895B48DF5924DD8FC59F /* MSStoryProviderProtocol.swift in Sources */,
+				1C77142C2ED50C5D698AE54DFC3F05D3 /* MSStoryRepository.swift in Sources */,
+				CFE282D4CCA4D38BC6163101E2AC6321 /* MSStoryVcStack.swift in Sources */,
+				C52EC35527A3BE4DC0E9C49BE8DEA016 /* MSStoryViewController.swift in Sources */,
+				49AEDDFE48A2C778FD2C0EC8592DFE4C /* MSStoryViewControllerDelegate.swift in Sources */,
+				101E1877A2DD02EB9F99EDA693D6D020 /* MSStoryViewModel.swift in Sources */,
+				511266BF215A2FEDD601C45D2032413F /* Publisher+Decode.swift in Sources */,
+				D907C0CE2899FDB772CDF756E59D27D7 /* Publisher+FilterNil.swift in Sources */,
+				882E6C8DD015D2611D35C6CA01557A28 /* SessionDownloadable.swift in Sources */,
+				83E99927999A9CD3F1481BE09EE4273E /* StoryContentWrapper.swift in Sources */,
+				61436E5F9A196DE5CB4357A51A5F767C /* StoryIndicatorContainerView.swift in Sources */,
+				245D683D237AB77CE906F71AF9D045FF /* StoryIndicatorView.swift in Sources */,
+				4A3D83DADE9AAC7B8E4996C84849B839 /* SwipeDismissInteractible.swift in Sources */,
+				60AEE87A9C11A550EB8067055F3149F7 /* TouchProgressCalculator.swift in Sources */,
+				7D856A482458C8BBCA8E0C0EAEDB3F14 /* TransitionAnimator.swift in Sources */,
+				42B048D11707FD5397328E152792F42C /* UICollectionView+Extensions.swift in Sources */,
+				555F7ABDA080419A7847EDFC42286E33 /* UIView+Anchor.swift in Sources */,
+				E61879412AA7B9B8E383A51B7F1FE694 /* UIView+Extensions.swift in Sources */,
+				CCA5310A898209D9682FD5674DB8E559 /* URL+FileData.swift in Sources */,
+				AF60DA7D9DEAC913D1CCCC6A7FCBCA45 /* URLSession+DownloadTaskPublisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EA812D42459F51E585A6B93DE4619B6D /* PBXTargetDependency */ = {
+		3E27E509377DE580A3C4176B42F5AC14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FAStoryKit;
 			target = D18C2F0609CB9EB960525D501428931E /* FAStoryKit */;
-			targetProxy = D72DA63F5CD909E4FA199DC2D7B2C1EE /* PBXContainerItemProxy */;
+			targetProxy = 626FD0F483064AB05F4AA55D92021FAF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		154B640D13CD75348441E33874553253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8CDF98D6F5046768BB48E2FE5946FDC /* FAStoryKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FAStoryKit/FAStoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FAStoryKit/FAStoryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FAStoryKit/FAStoryKit.modulemap";
+				PRODUCT_MODULE_NAME = FAStoryKit;
+				PRODUCT_NAME = FAStoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		42309A65B2248F45AFB3925EE0D98F1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 436E8BF03B8A82DD85CC97BCD7364D9C /* Pods-FAStoryKit.debug.xcconfig */;
@@ -773,41 +800,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4A1D1CA326587FCB57F0FF6B3A07EC53 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80895D2142E3EECA819A20B5CFA57FD1 /* FAStoryKit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FAStoryKit/FAStoryKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FAStoryKit/FAStoryKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/FAStoryKit/FAStoryKit.modulemap";
-				PRODUCT_MODULE_NAME = FAStoryKit;
-				PRODUCT_NAME = FAStoryKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -980,42 +972,6 @@
 			};
 			name = Release;
 		};
-		B2D09CA8A07C13410B2C9D5861C22D71 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F9EB9FBAE3ABEFFF4ECEEA62A81AEA7 /* FAStoryKit.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FAStoryKit/FAStoryKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FAStoryKit/FAStoryKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/FAStoryKit/FAStoryKit.modulemap";
-				PRODUCT_MODULE_NAME = FAStoryKit;
-				PRODUCT_NAME = FAStoryKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		C5D1A2F32DFA32742616D0C17F7E254F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35C9B85C4535558F4C7EFFFDA3A83EBC /* Pods-FAStoryExample.debug.xcconfig */;
@@ -1047,6 +1003,41 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C903CB1BC5F911387B6E465386446E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C3B3E0A4F74BA251093E1D06840FBB0 /* FAStoryKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FAStoryKit/FAStoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FAStoryKit/FAStoryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FAStoryKit/FAStoryKit.modulemap";
+				PRODUCT_MODULE_NAME = FAStoryKit;
+				PRODUCT_NAME = FAStoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1103,15 +1094,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30C282FF565AADBE53AF9E0C9C6906BA /* Build configuration list for PBXNativeTarget "FAStoryKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4A1D1CA326587FCB57F0FF6B3A07EC53 /* Debug */,
-				B2D09CA8A07C13410B2C9D5861C22D71 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1126,6 +1108,15 @@
 			buildConfigurations = (
 				C5D1A2F32DFA32742616D0C17F7E254F /* Debug */,
 				F7C6B5071DE8CA98594538CEF176C62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF448AE22DC6BED199B2F79EBBBC23C0 /* Build configuration list for PBXNativeTarget "FAStoryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C903CB1BC5F911387B6E465386446E75 /* Debug */,
+				154B640D13CD75348441E33874553253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
