@@ -396,7 +396,7 @@ final public class MSStoryViewController: UIViewController {
 
     @objc
     private func _nextTap(_ sender: UITapGestureRecognizer) {
-        showNext()
+        showNext(isNextTap: true)
     }
 
     @objc
@@ -473,22 +473,27 @@ final public class MSStoryViewController: UIViewController {
         activityView?.removeFromSuperview()
     }
 
-    private func showNext() {
-        playerView.pause()
+    private func showNext(isNextTap: Bool = false) {
         if viewModel.shouldShowNext() {
+            playerView.pause()
             viewModel.showNext()
             _ = currentStoryIndicator.next()
         } else if let containerVC = parent as? MSStoryContainerViewController, containerVC.canShowNext {
+            playerView.pause()
             containerVC.jumpForward()
+        } else if !isBeingDismissed && !(parent?.isBeingDismissed ?? false) && !isNextTap {
+            presentingViewController?.dismiss(animated: true)
         }
     }
 
     private func showPrevious() {
         playerView.pause()
         if viewModel.shouldShowPrevious() {
+            playerView.pause()
             viewModel.showPrevious()
             _ = currentStoryIndicator.previous()
         } else if let containerVC = parent as? MSStoryContainerViewController, containerVC.canShowPrevious {
+            playerView.pause()
             containerVC.jumpBackward()
         }
     }
@@ -532,10 +537,10 @@ extension MSStoryViewController: MSStoryPlayerViewDelegate {
     
     func didCompletePlay(from url: URL) {
         showNext()
+
     }
 
     func didTrack(from url: URL, progress: Float) {
-        print("progress", progress)
         currentStoryIndicator?.setProgress(CGFloat(progress))
     }
     
