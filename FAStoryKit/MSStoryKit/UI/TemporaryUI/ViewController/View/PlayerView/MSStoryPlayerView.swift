@@ -15,11 +15,6 @@ final class MSStoryPlayerView: UIView {
     private var currentURL: URL?
 
     // MARK: - Subviews
-    private var activityIndicator = UIActivityIndicatorView {
-        $0.style = .large
-        $0.color = .white
-        $0.hidesWhenStopped = true
-    }
 
     // MARK: - Computed properies
     var playerStatus: PlayerStatus {
@@ -82,7 +77,6 @@ final class MSStoryPlayerView: UIView {
                      guard player.timeControlStatus == .playing,  let url = (player.currentItem?.asset as? AVURLAsset)?.url  else {
                          return
                      }
-                     self.activityIndicator.stopAnimating()
                      self.delegate?.didStartPlaying(from: url)
                  }
             )
@@ -94,8 +88,6 @@ final class MSStoryPlayerView: UIView {
         super.init(frame: frame)
 
         configure()
-        addSubviews()
-        layout()
     }
 
     @available(*, unavailable)
@@ -122,28 +114,10 @@ final class MSStoryPlayerView: UIView {
         backgroundColor = .black
     }
 
-    private func addSubviews() {
-        addSubviews(activityIndicator)
-    }
-
-    private func layout() {
-        activityIndicator.layout.makeConstraints { make in
-            make.center.equalToSuperview()
-        }
-    }
-
     private func unload() {
         playerLayer?.removeFromSuperlayer()
         playerLayer = nil
         player = nil
-    }
-
-    private func startAnimating() {
-        activityIndicator.isHidden = false
-        activityIndicator.startAnimating()
-    }
-    private func stopAnimating() {
-        activityIndicator.stopAnimating()
     }
 
     private func prepareVideo(_ videoURL: URL) {

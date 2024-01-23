@@ -174,13 +174,15 @@ final public class MSStoryViewController: UIViewController {
         imgView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor).isActive = true
 
         playerView = MSStoryPlayerView()
+        playerView.translatesAutoresizingMaskIntoConstraints = false
         playerView.delegate = self
 
         contentView.addSubview(playerView)
 
-        playerView.layout.makeConstraints { make in
-            make.edges.equalToSuperview()
-        }
+        playerView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor).isActive = true
+        playerView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor).isActive = true
+        playerView.topAnchor.constraint(equalTo: contentView.topAnchor).isActive = true
+        playerView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor).isActive = true
     }
 
     private func _containerView() {

@@ -1,14 +1,8 @@
 PODS:
   - FAStoryKit (1.0.8)
-  - SnapKit (5.6.0)
 
 DEPENDENCIES:
   - FAStoryKit (from `https://github.com/Magic-Solutions-DMCC/FAStoryKit`)
-  - SnapKit (~> 5.6.0)
-
-SPEC REPOS:
-  trunk:
-    - SnapKit
 
 EXTERNAL SOURCES:
   FAStoryKit:
@@ -16,13 +10,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   FAStoryKit:
-    :commit: 4d29c34da108080c058b8deb09b387d4a2487e4e
+    :commit: 0a59448981d703d76017109e72736162b1c6dd0b
     :git: https://github.com/Magic-Solutions-DMCC/FAStoryKit
 
 SPEC CHECKSUMS:
   FAStoryKit: 70d4c5550ed172fb1ab2e00f8dbc2ae9c67ab463
-  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
-PODFILE CHECKSUM: d909bc5dab189d79067cb1ce60f75dd77b716768
+PODFILE CHECKSUM: dc888ba2e394cb4a6c14eb2a350e6a902534f1de
 
 COCOAPODS: 1.14.3
