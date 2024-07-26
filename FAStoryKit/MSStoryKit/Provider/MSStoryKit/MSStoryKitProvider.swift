@@ -9,8 +9,8 @@ class MSStoryKitProvider {
     @MSServiceDependency private var cacheService: MSCacheStoryServiceProtocol
     @MSServiceDependency private var projectFileService: MSProjectFileServiceProtocol
     @MSRepositoryDependency private var storyRepository: MSStoryRepository
-    private var subscription: AnyCancellable?
     private let decoder = JSONDecoder() 
+    private var cancellables = Set<AnyCancellable>()
 
 
     func downloadStoryContent(content: MSStoryContent, storyName: String) -> AnyPublisher<URL, DecodingError> {
@@ -51,27 +51,31 @@ class MSStoryKitProvider {
                    .eraseToAnyPublisher()
     }
 
+    private func preloadStories(_ stories: MSStories) {
+        downloadStories(stories)
+            .sink(receiveValue: { _ in })
+            .store(in: &cancellables)
+    }
+
 }
 
 extension MSStoryKitProvider: MSStoryKitProviderProtocol {
 
     func prepareStories(storiesJSONFileName: String, shouldPreload: Bool) {
-        subscription = projectFileService.extractData(from: storiesJSONFileName, type: .json)
+        projectFileService.extractData(from: storiesJSONFileName, type: .json)
             .mapError({ _ in DecodingError.decodingFailed })
             .decode(to: MSStories.self, with: decoder)
             .replaceError(with: MSStories(stories: []))
-            .flatMap({ [unowned self] stories in
-                guard shouldPreload else {
-                    return Just((stories))
-                        .eraseToAnyPublisher()
+            .handleEvents(receiveOutput: { [weak self] stories in
+                guard let self, shouldPreload else {
+                    return
                 }
-                return self.downloadStories(stories)
-                    .map { _ in stories }
-                    .eraseToAnyPublisher()
+                self.preloadStories(stories)
             })
             .sink(receiveValue: { [unowned self] in
                 self.storyRepository.stories.value = $0
             })
+            .store(in: &cancellables)
     }
 
 }
